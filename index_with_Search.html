@@ -1,0 +1,243 @@
+<html>
+<head>
+  <title>Model comparison</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="filenamesAndModels.js"></script>
+</head>
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: center;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+<script>
+
+
+
+var currentCount = 0;
+var currentFile = fileNames[currentCount];
+
+console.log(currentCount);
+console.log(currentFile);
+
+var modelsCount = baseUrls.length;
+var filesCount = fileNames.length;
+
+var modifiedFiles = []
+
+</script>
+<div class="navbar">
+  <button class="btn btn-primary btn-lg" onclick="loadMsRecordings()">MS Recordings</button>
+  <button class="btn btn-primary btn-lg" onclick="loadAudiosetRecordings()">Audioset Recordings</button>
+  <button class="btn btn-primary btn-lg" onclick="loadReverbRecordings()">Synthetic Reverb Recordings</button>
+  <button class="btn btn-primary btn-lg" onclick="loadNoReverbRecordings()">Synthetic NoReverb Recordings</button>
+  Enter the noise type to filter on<input type="text" name="noiseType"></input><button class="btn btn-info btn-lb" onclick="searchNoiseType()">Search noise type</button>
+</div>
+<div class="container">
+  <h2>Audio Clips</h2>
+	
+	<table class="table" id="table2">
+	  <tbody>
+		<tr><td>Index</td><td id="index"></td></tr>
+		<tr><td>Progress</td><td><div class="progress"><div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div></div></td></tr>
+		<tr><td>Clipname</td><td id="clipname"></td></tr>
+		</tbody>
+	</table>
+	
+	 <div class="row">
+		  <button class="btn btn-success btn-lg" onclick="previous()" style="margin: 10px"> Previous</button>
+		  <button class="btn btn-primary btn-lg" onclick="next()" style="margin: 10px"> Next</button>
+		  <button class="btn btn-primary btn-lg" onclick="skip10()" style="margin: 10px"> Skip 10</button>
+		  <button class="btn btn-primary btn-lg" onclick="skip100()" style="margin: 10px"> Skip 100</button>
+  </div>
+
+</div>
+
+<script>
+
+// setup
+
+function setupIndexAndClip(){
+	let current = ((currentCount+1)*100/filesCount)+"%";
+	$("#index").html((currentCount+1)+" / "+filesCount);
+
+	if(modifiedFiles.length > 0) {
+		current = ((currentCount+1)*100/modifiedFiles.length)+"%";
+		$("#index").html((currentCount+1)+" / "+modifiedFiles.length);
+	} 
+	$(".progress-bar").css("width", current);
+	$(".progress-bar").html(current);
+	$("#clipname").html(currentFile);
+}
+	
+function setupSrcs(){
+	setupIndexAndClip();
+	
+	for(let i=0; i<modelsCount; i++)
+             $("#clip"+i).attr("src", baseUrls[i]+currentFile);
+}
+
+function changeFileSet(prefix) {
+        modifiedFiles = [];
+
+	for(let i=0; i<filesCount; i++) {
+                if(fileNames[i].startsWith(prefix)) {
+			modifiedFiles.push(fileNames[i]);
+		}
+	}
+        currentCount = 0;
+	currentFile = modifiedFiles[currentCount];
+
+	setupSrcs();
+}
+
+function loadMsRecordings() {
+	changeFileSet("ms_");
+}
+
+function loadAudiosetRecordings() {
+	changeFileSet("audioset_");
+}
+
+function loadReverbRecordings() {
+	changeFileSet("reverb_");
+}
+
+function loadNoReverbRecordings() {
+	changeFileSet("noreverb_");
+}
+
+function searchNoiseType() {
+	modifiedFiles = [];
+
+	for(let i=0; i<filesCount; i++) {
+		console.log(document.getElementsByName('noiseType')[0].value);
+                if(fileNames[i].includes(document.getElementsByName('noiseType')[0].value)) {
+			modifiedFiles.push(fileNames[i]);
+		}
+	}
+
+	currentCount = 0;
+	if(modifiedFiles.length > 0) {
+		currentFile = modifiedFiles[currentCount];
+	} else {
+		currentFile = fileNames[currentCount];
+	}
+
+	setupSrcs();
+}
+
+function moveNextOrPrev(valueToAdd) {
+	if(modifiedFiles.length == 0) {
+		if(currentCount == (filesCount - valueToAdd))
+			alert("This is the last Clip. Hit 'Previous' to load the previous clip, or you may close the browser. ");
+		else{
+			currentCount = currentCount + valueToAdd;
+			currentFile = fileNames[currentCount];
+			setupSrcs();
+		}
+	} else {
+		if(currentCount == (modifiedFiles.length - valueToAdd))
+			alert("This is the last Clip. Hit 'Previous' to load the previous clip, or you may close the browser. ");
+		else{
+			currentCount = currentCount + valueToAdd;
+			currentFile = modifiedFiles[currentCount];
+			setupSrcs();
+		}
+	}
+}
+
+// set the scr to the next values on clicking next
+function next(){
+	moveNextOrPrev(1);		
+}
+
+function skip10(){
+	moveNextOrPrev(10);	
+}
+
+function skip100(){
+	moveNextOrPrev(100);
+}
+
+function previous(){
+
+	if(currentCount == 0)
+		alert("This is the very first Clip. Hit 'Next' to load the next clip. ");
+	else{
+		currentCount--;
+		currentFile = fileNames[currentCount];
+		if(modifiedFiles.length > 0)
+			currentFile = modifiedFiles[currentCount];
+		setupSrcs();
+	}	
+}
+
+setupIndexAndClip();
+
+var tbody = $("#table2>tbody");
+for(let i=0; i<modelsCount; i++)
+	tbody.append("<tr><td>"+modelsUsed[i]+"</td><td><audio controls id=clip"+i+" src='"+baseUrls[0]+currentFile+"' type='audio/wav'></audio></td></tr>");
+
+</script>
+	
+</html>
