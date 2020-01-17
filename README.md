@@ -38,7 +38,7 @@ The datasets are provided under the original terms that Microsoft received such 
 
 The datasets used in this project are licensed as follows:
 1. Clean speech: 
-* https://librivox.org/; License:
+* https://librivox.org/; License: https://librivox.org/pages/public-domain/
 * PTDB-TUG: Pitch Tracking Database from Graz University of Technology https://www.spsc.tugraz.at/databases-and-tools/ptdb-tug-pitch-tracking-database-from-graz-university-of-technology.html; License: http://opendatacommons.org/licenses/odbl/1.0/ 
 * Edinburgh 56 speaker dataset: https://datashare.is.ed.ac.uk/handle/10283/2791; License: https://datashare.is.ed.ac.uk/bitstream/handle/10283/2791/license_text?sequence=11&isAllowed=y 
 2. Noise:
