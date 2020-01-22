@@ -7,6 +7,9 @@ This repository contains the datasets and scripts required for the DNS challenge
 * The **NSNet-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancer called **Noise Suppression Net (NSNet)** 
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters.
+* **audiolib.py** - contains modules required to synthesize datasets
+* **utils.py** - contains some utility functions required to synthesize the data
+* **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data
 
 
 
