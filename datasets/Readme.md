@@ -10,7 +10,7 @@
 * We sampled 10 random clips from each book chapter, each 10 seconds in duration. For each clip we had 3 ratings, and the Mean Opinion Score (MOS) across the all clips was used as the book chapter MOS.
 * The upper quartile with respect to MOS was chosen as our clean speech dataset, which are top 25% of the clips with MOS as a metric.
 * The upper quartile comprised of audio chapters with 4.3 ≤ MOS ≤ 5. We removed clips from speakers with less than 15 minutes of speech. The resulting dataset has 500 hours of speech from 2150 speakers. 
-*All the filtered clips are then split into segments of 10 seconds.   In total, we use approx. 441 hours of clean speech for generating the upper quartile subset.
+* All the filtered clips are then split into segments of 31 seconds. 
 
 ## Noise
 * The noise clips were selected from Audioset and Freesound.
