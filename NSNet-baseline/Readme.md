@@ -9,6 +9,12 @@
 - pysoundfile (pip install pysoundfile)
 - onnxruntime (pip install onnxruntime)
 
+## Files:
+- nsnet_eval_local.py - Main script that calls onnx.py
+- onnx.py - Frame based inference
+- audiolib.py - Required audio libraries for inference
+- nsnet-baseline-dnschallenge.onnx - Trained NSNet ONNX model used for inference
+
 ## Usage:
 From the NSNet-baseline directory, run nsnet_eval_local.py with the following required arguments:
 - --noisyspeechdir "Specify the path to noisy speech files that you want to enhance"
