@@ -4,11 +4,7 @@
 
 # Note: This single process audio synthesizer will attempt to use each clean
 # speech sourcefile once, as it does not randomly sample from these files
-'''
-TO DO: 
-    1. Take care of some corner cases like if 'is_adsp'==True, then it requires the exe in the cfg
-    2. Make sure that for the test set, 
-'''
+
 
 import os
 import glob
@@ -18,7 +14,8 @@ import configparser as CP
 from random import shuffle
 import librosa
 import numpy as np
-from audiolib import audioread, audiowrite, segmental_snr_mixer, activitydetector, is_clipped, add_clipping
+from audiolib import audioread, audiowrite, segmental_snr_mixer, \
+                    activitydetector, is_clipped, add_clipping
 import utils
 import pandas as pd
 
@@ -52,7 +49,8 @@ def build_audio(is_clean, params, index, audio_samples_length=-1):
             noisedirs = params['noisedirs']
             # pick a noise category randomly
             idx_n_dir = np.random.randint(0, np.size(noisedirs))
-            source_files = glob.glob(os.path.join(noisedirs[idx_n_dir], params['audioformat']))
+            source_files = glob.glob(os.path.join(noisedirs[idx_n_dir], 
+                                                  params['audioformat']))
             shuffle(source_files)
             # pick a noise source file index randomly
             idx = np.random.randint(0, np.size(source_files))
@@ -170,7 +168,10 @@ def main_gen(params):
         else:
             snr = np.random.randint(params['snr_lower'], params['snr_upper'])
 
-        clean_snr, noise_snr, noisy_snr, target_level = segmental_snr_mixer(params=params, clean=clean, noise=noise, snr=snr)
+        clean_snr, noise_snr, noisy_snr, target_level = segmental_snr_mixer(params=params, 
+                                                                            clean=clean, 
+                                                                            noise=noise, 
+                                                                            snr=snr)
     
         # unexpected clipping
         if is_clipped(clean_snr) or is_clipped(noise_snr) or is_clipped(noisy_snr):
