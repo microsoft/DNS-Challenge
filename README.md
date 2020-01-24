@@ -1,6 +1,6 @@
 # Deep Noise Suppression (DNS) Challenge - Interspeech 2020
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ and refer to our (paper)[https://arxiv.org/ftp/arxiv/papers/2001/2001.08662.pdf].
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ and refer to our [paper](https://arxiv.org/ftp/arxiv/papers/2001/2001.08662.pdf).
 
 ## Repo details:
 * The **datasets** directory contains the clean speech and noise clips.
