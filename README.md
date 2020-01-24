@@ -16,6 +16,16 @@ This repository contains the datasets and scripts required for the DNS challenge
 * Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
 * Run python **noisyspeech_synthesizer_singleprocess.py** to synthesize the data.
 
+## Citation:
+@misc{ch2020interspeech,
+    title={The INTERSPEECH 2020 Deep Noise Suppression Challenge: Datasets, Subjective Speech Quality and Testing Framework},
+    author={Chandan K. A. Reddy and Ebrahim Beyrami and Harishchandra Dubey and Vishak Gopal and Roger Cheng and Ross Cutler and Sergiy Matusevych and Robert Aichner and Ashkan Aazami and Sebastian Braun and Puneet Rana and Sriram Srinivasan and Johannes Gehrke},
+    year={2020},
+    eprint={2001.08662},
+    archivePrefix={arXiv},
+    primaryClass={cs.SD}
+}
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
