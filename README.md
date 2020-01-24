@@ -1,6 +1,6 @@
 # Deep Noise Suppression (DNS) Challenge - Interspeech 2020
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/.
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ and refer to our (paper)[https://arxiv.org/ftp/arxiv/papers/2001/2001.08662.pdf].
 
 ## Repo details:
 * The **datasets** directory contains the clean speech and noise clips.
@@ -11,7 +11,10 @@ This repository contains the datasets and scripts required for the DNS challenge
 * **utils.py** - contains some utility functions required to synthesize the data
 * **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data
 
-
+## Usage:
+* Clone the repository
+* Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
+* Run python **noisyspeech_synthesizer_singleprocess.py** to synthesize the data.
 
 # Contributing
 
