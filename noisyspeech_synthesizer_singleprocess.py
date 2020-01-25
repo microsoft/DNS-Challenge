@@ -14,7 +14,7 @@ import configparser as CP
 from random import shuffle
 import librosa
 import numpy as np
-from audiolib import audioread, audiowrite, segmental_snr_mixer, \
+from audiolib import audioread, audiowrite, segmental_snr_mixer, snr_mixer, \
                     activitydetector, is_clipped, add_clipping
 import utils
 import pandas as pd
@@ -168,11 +168,15 @@ def main_gen(params):
         else:
             snr = np.random.randint(params['snr_lower'], params['snr_upper'])
 
-        clean_snr, noise_snr, noisy_snr, target_level = segmental_snr_mixer(params=params, 
-                                                                            clean=clean, 
-                                                                            noise=noise, 
-                                                                            snr=snr)
-    
+        clean_snr, noise_snr, noisy_snr, target_level = snr_mixer(params=params, 
+                                                                  clean=clean, 
+                                                                  noise=noise, 
+                                                                  snr=snr)
+        # Uncomment the below lines if you need segmental SNR and comment the above lines using snr_mixer
+        #clean_snr, noise_snr, noisy_snr, target_level = segmental_snr_mixer(params=params, 
+        #                                                         clean=clean, 
+        #                                                          noise=noise, 
+        #                                                         snr=snr)
         # unexpected clipping
         if is_clipped(clean_snr) or is_clipped(noise_snr) or is_clipped(noisy_snr):
             print("Warning: File #" + str(file_num) + " has unexpected clipping, " + \
