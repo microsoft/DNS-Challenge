@@ -11,6 +11,10 @@ This repository contains the datasets and scripts required for the DNS challenge
 * **utils.py** - contains some utility functions required to synthesize the data
 * **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data
 
+## Prerequisites
+- Python 3.0 and above
+- Soundfile (pip install pysoundfile), librosa
+
 ## Usage:
 * Clone the repository
 * Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
