@@ -23,6 +23,7 @@ MAXTRIES = 50
 MAXFILELEN = 100
 
 np.random.seed(2)
+random.seed(3)
 
 def build_audio(is_clean, params, index, audio_samples_length=-1):
     '''Construct an audio signal from source files'''
@@ -268,8 +269,8 @@ def main_body():
     params['noise_activity_threshold'] = float(cfg['noise_activity_threshold'])
     params['snr_lower'] = int(cfg['snr_lower'])
     params['snr_upper'] = int(cfg['snr_upper'])
-    params['fileindex_start'] = int(cfg['fileindex_start'])
-    params['fileindex_end'] = int(cfg['fileindex_end'])
+    #params['fileindex_start'] = int(cfg['fileindex_start'])
+    #params['fileindex_end'] = int(cfg['fileindex_end'])
     params['randomize_snr'] = utils.str2bool(cfg['randomize_snr'])
     params['target_level_lower'] = int(cfg['target_level_lower'])
     params['target_level_upper'] = int(cfg['target_level_upper'])
