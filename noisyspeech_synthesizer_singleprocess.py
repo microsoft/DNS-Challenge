@@ -260,17 +260,21 @@ def main_body():
     
     if cfg['fileindex_start'] != 'None' and cfg['fileindex_start'] != 'None':
         params['num_files'] = int(cfg['fileindex_end'])-int(cfg['fileindex_start'])
+        params['fileindex_start'] = int(cfg['fileindex_start'])
+        params['fileindex_end'] = int(cfg['fileindex_end'])
     else:
         params['num_files'] = int((params['total_hours']*60*60)/params['audio_length'])
+        params['fileindex_start'] = 0
+        params['fileindex_end'] = params['num_files']
 
     print('Number of files to be synthesized:', params['num_files'])
+    
     params['is_test_set'] = utils.str2bool(cfg['is_test_set'])
     params['clean_activity_threshold'] = float(cfg['clean_activity_threshold'])
     params['noise_activity_threshold'] = float(cfg['noise_activity_threshold'])
     params['snr_lower'] = int(cfg['snr_lower'])
     params['snr_upper'] = int(cfg['snr_upper'])
-    #params['fileindex_start'] = int(cfg['fileindex_start'])
-    #params['fileindex_end'] = int(cfg['fileindex_end'])
+    
     params['randomize_snr'] = utils.str2bool(cfg['randomize_snr'])
     params['target_level_lower'] = int(cfg['target_level_lower'])
     params['target_level_upper'] = int(cfg['target_level_upper'])
