@@ -25,7 +25,7 @@ Use default values for the rest. Run to enhance the clips.
 
 ## Citation:
 The baseline NSNet noise suppression:<br />  
-@misc{xia2020weighted,<br />  
+@misc{xia2020weighted,<br />
     title={Weighted Speech Distortion Losses for Neural-network-based Real-time Speech Enhancement},<br />
     author={Yangyang Xia and Sebastian Braun and Chandan K. A. Reddy and Harishchandra Dubey and Ross Cutler and Ivan Tashev},<br />
     year={2020},<br />
