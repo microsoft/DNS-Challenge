@@ -16,7 +16,8 @@ This repository contains the datasets and scripts required for the DNS challenge
 - Soundfile (pip install pysoundfile), librosa
 
 ## Usage:
-* Clone the repository
+* Clone the repository. 
+* Install Git Large File Storage for faster download of the datasets. Run **git lfs install** followed by **git lfs track "*.wav"** and **git add .gitattributes**
 * Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
 * Run python **noisyspeech_synthesizer_singleprocess.py** to synthesize the data.
 
