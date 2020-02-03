@@ -1,5 +1,5 @@
 # Datasets for training
-
+Datasets will be downloaded when you clone the repository. Run **git lfs install** for faster download.   
 ## Clean Speech
 * The clean speech dataset is derived from the public audio books dataset called Librivox.
 * Librivox has recordings of volunteers reading over 10,000 public domain audio books in various languages, with majority of which are in English. In total, there are 11,350 speakers.
