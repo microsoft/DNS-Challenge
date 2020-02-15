@@ -149,7 +149,7 @@ def snr_mixer(params, clean, noise, snr, target_level=-25, clipping_threshold=0.
         noisenewlevel = noisenewlevel/noisyspeech_maxamplevel
         noisy_rms_level = int(20*np.log10(scalarnoisy/noisyspeech_maxamplevel*(rmsnoisy+EPS)))
 
-    return clean, noise, noisyspeech, noisy_rms_level
+    return clean, noisenewlevel, noisyspeech, noisy_rms_level
 
 
 def segmental_snr_mixer(params, clean, noise, snr, target_level=-25, clipping_threshold=0.99):
