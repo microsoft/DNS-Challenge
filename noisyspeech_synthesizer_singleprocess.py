@@ -23,6 +23,7 @@ MAXTRIES = 50
 MAXFILELEN = 100
 
 np.random.seed(2)
+random.seed(3)
 
 def build_audio(is_clean, params, index, audio_samples_length=-1):
     '''Construct an audio signal from source files'''

@@ -100,7 +100,7 @@ class NSNetInference:
             mask = model_outputs[0].squeeze()
             x_enh = audiolib.istft(
                 (xmag * mask) * xphs, sample_rate, self.wind, self.dft_size, zphase=False)
-
+            
             sout[frame_sampleindex:frame_sampleindex + hsize] = x_old + x_enh[0:hsize]
             x_old = x_enh[hsize:fsize]
 

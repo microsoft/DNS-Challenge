@@ -62,10 +62,10 @@ def _main():
 
     logging.debug("NSNet local workers start with %d input files", len(input_filelist))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=args.num_workers) as executor:
-        executor.map(worker, input_filelist, chunksize=args.chunksize)
-#    for fname in input_filelist:
-#        worker(fname)
+#    with concurrent.futures.ThreadPoolExecutor(max_workers=args.num_workers) as executor:
+#        executor.map(worker, input_filelist, chunksize=args.chunksize)
+    for fname in input_filelist:
+        worker(fname)
         
     logging.info("NSNet local workers complete")
 
