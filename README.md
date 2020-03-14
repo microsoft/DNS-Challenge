@@ -16,31 +16,31 @@ This repository contains the datasets and scripts required for the DNS challenge
 - Soundfile (pip install pysoundfile), librosa
 
 ## Usage:
-* Clone the repository
+* Clone the repository. 
+* Install Git Large File Storage for faster download of the datasets. Run **git lfs install** followed by **git lfs track "*.wav"** and **git add .gitattributes**
 * Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
 * Run python **noisyspeech_synthesizer_singleprocess.py** to synthesize the data.
 
 ## Citation:
 For the datasets and the DNS challenge:<br />  
 
-@misc{ch2020interspeech,<br />
-    title={The INTERSPEECH 2020 Deep Noise Suppression Challenge: Datasets, Subjective Speech Quality and Testing Framework},<br />
-    author={Chandan K. A. Reddy and Ebrahim Beyrami and Harishchandra Dubey and Vishak Gopal and Roger Cheng and Ross Cutler and Sergiy Matusevych and Robert Aichner and Ashkan Aazami and Sebastian Braun and Puneet Rana and Sriram Srinivasan and Johannes Gehrke},
-    year={2020},<br />
-    eprint={2001.08662},<br />
-    archivePrefix={arXiv},<br />
-    primaryClass={cs.SD}<br />
+```BibTex
+@misc{DNSChallenge2020,
+title={The INTERSPEECH 2020 Deep Noise Suppression Challenge: Datasets, Subjective Speech Quality and Testing Framework},
+author={Chandan K. A. Reddy and Ebrahim Beyrami and Harishchandra Dubey and Vishak Gopal and Roger Cheng and Ross Cutler and Sergiy Matusevych and Robert Aichner and Ashkan Aazami and Sebastian Braun and Puneet Rana and Sriram Srinivasan and Johannes Gehrke}, year={2020},
+eprint={2001.08662},
 }
+```
 
 The baseline NSNet noise suppression:<br />
-@misc{xia2020weighted,<br />
-    title={Weighted Speech Distortion Losses for Neural-network-based Real-time Speech Enhancement},<br />
-    author={Yangyang Xia and Sebastian Braun and Chandan K. A. Reddy and Harishchandra Dubey and Ross Cutler and Ivan Tashev},<br />
-    year={2020},<br />
-    eprint={2001.10601},<br />
-    archivePrefix={arXiv},<br />
-    primaryClass={eess.AS}<br />
+```BibTex
+@misc{xia2020weighted,
+title={Weighted Speech Distortion Losses for Neural-network-based Real-time Speech Enhancement},
+author={Yangyang Xia and Sebastian Braun and Chandan K. A. Reddy and Harishchandra Dubey and Ross Cutler and Ivan Tashev},
+year={2020},
+eprint={2001.10601},
 }
+```
 
 
 # Contributing
