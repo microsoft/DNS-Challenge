@@ -17,8 +17,8 @@ def get_dir(cfg, param_name, new_dir_name):
         dir_name = cfg[param_name]
     else:
         dir_name = os.path.join(os.path.dirname(__file__), new_dir_name)
-        if not os.path.exists(dir_name):
-            os.makedirs(dir_name)
+    if not os.path.exists(dir_name):
+        os.makedirs(dir_name)
     return dir_name
 
 
