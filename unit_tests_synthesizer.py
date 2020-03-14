@@ -43,7 +43,11 @@ def test_zeros_beg_end(audio, num_zeros=16000, low_energy_thresh=LOW_ENERGY_THRE
     end_segment_energy = 20*np.log10(audio[-num_zeros:]**2).mean()**0.5
     return beg_segment_energy < low_energy_thresh or end_segment_energy < low_energy_thresh
 
-
+def adsp_filtering_test(adsp, without_adsp):
+    diff = adsp - without_adsp
+    if any(val >0.0001 for val in diff):
+        
+    
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--cfg', default='noisyspeech_synthesizer.cfg')

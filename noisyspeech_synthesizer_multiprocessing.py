@@ -143,36 +143,48 @@ def main_gen(params, filenum):
     '''Calls gen_audio() to generate the audio signals, verifies that they meet
        the requirements, and writes the files to storage'''
 
-    # generate clean speech
-    clean, clean_source_files, clean_clipped_files, clean_low_activity_files = \
-        gen_audio(True, params, filenum)
-    # generate noise
-    noise, noise_source_files, noise_clipped_files, noise_low_activity_files = \
-        gen_audio(False, params, filenum, len(clean))
+    print("Generating file #" + str(filenum))
 
-    # mix clean speech and noise
-    # if specified, use specified SNR value
-    if not params['randomize_snr']:
-        snr = params['snr']
-    # use a randomly sampled SNR value between the specified bounds
-    else:
-        snr = np.random.randint(params['snr_lower'], params['snr_upper'])
-        
-    clean_snr, noise_snr, noisy_snr, target_level = snr_mixer(params=params, 
-                                                              clean=clean, 
-                                                              noise=noise, 
-                                                              snr=snr)
-    # Uncomment the below lines if you need segmental SNR and comment the above lines using snr_mixer
-    #clean_snr, noise_snr, noisy_snr, target_level = segmental_snr_mixer(params=params, 
-    #                                                                    clean=clean, 
-    #                                                                    noise=noise, 
-    #                                                                    snr=snr)
-    # unexpected clipping
-    if is_clipped(clean_snr) or is_clipped(noise_snr) or is_clipped(noisy_snr):
-        print("Warning: File #" + str(filenum) + " has unexpected clipping, " + \
-              "returning without writing audio to disk")            
-        return [], clean_clipped_files, clean_low_activity_files, \
-               [], noise_clipped_files, noise_low_activity_files
+    clean_clipped_files = []
+    clean_low_activity_files = []
+    noise_clipped_files = []
+    noise_low_activity_files = []
+
+    while True:
+        # generate clean speech
+        clean, clean_source_files, clean_cf, clean_laf = \
+            gen_audio(True, params, filenum)
+        # generate noise
+        noise, noise_source_files, noise_cf, noise_laf = \
+            gen_audio(False, params, filenum, len(clean))
+
+        clean_clipped_files += clean_cf
+        clean_low_activity_files += clean_laf
+        noise_clipped_files += noise_cf
+        noise_low_activity_files += noise_laf
+
+        # mix clean speech and noise
+        # if specified, use specified SNR value
+        if not params['randomize_snr']:
+            snr = params['snr']
+        # use a randomly sampled SNR value between the specified bounds
+        else:
+            snr = np.random.randint(params['snr_lower'], params['snr_upper'])
+            
+        clean_snr, noise_snr, noisy_snr, target_level = snr_mixer(params=params, 
+                                                                  clean=clean, 
+                                                                  noise=noise, 
+                                                                  snr=snr)
+        # Uncomment the below lines if you need segmental SNR and comment the above lines using snr_mixer
+        #clean_snr, noise_snr, noisy_snr, target_level = segmental_snr_mixer(params=params, 
+        #                                                                    clean=clean, 
+        #                                                                    noise=noise, 
+        #                                                                    snr=snr)
+        # unexpected clipping
+        if is_clipped(clean_snr) or is_clipped(noise_snr) or is_clipped(noisy_snr):       
+            continue
+        else:
+            break
 
     # write resultant audio streams to files
     hyphen = '-'
@@ -252,7 +264,9 @@ def main_body():
     params['total_hours'] = float(cfg['total_hours'])
     
     if cfg['fileindex_start'] != 'None' and cfg['fileindex_start'] != 'None':
-        params['num_files'] = int(cfg['fileindex_end'])-int(cfg['fileindex_start'])
+        params['fileindex_start'] = int(cfg['fileindex_start'])
+        params['fileindex_end'] = int(cfg['fileindex_end'])    
+        params['num_files'] = int(params['fileindex_end'])-int(params['fileindex_start'])
     else:
         params['num_files'] = int((params['total_hours']*60*60)/params['audio_length'])
 
@@ -262,8 +276,11 @@ def main_body():
     params['noise_activity_threshold'] = float(cfg['noise_activity_threshold'])
     params['snr_lower'] = int(cfg['snr_lower'])
     params['snr_upper'] = int(cfg['snr_upper'])
+<<<<<<< HEAD
 #    params['fileindex_start'] = int(cfg['fileindex_start'])
 #    params['fileindex_end'] = int(cfg['fileindex_end'])
+=======
+>>>>>>> f9fdbd480c5c3f8cc5fbaad00028ffecc3e5ea61
     params['randomize_snr'] = utils.str2bool(cfg['randomize_snr'])
     params['target_level_lower'] = int(cfg['target_level_lower'])
     params['target_level_upper'] = int(cfg['target_level_upper'])
