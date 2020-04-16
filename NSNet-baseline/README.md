@@ -33,3 +33,5 @@ Speech and Signal Processing (ICASSP)},
 title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
 year={2020}, volume={}, number={}, pages={871-875},}
 ```
+
+Y. Xia, S. Braun, C. K. A. Reddy, H. Dubey, R. Cutler and I. Tashev, "Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2020, pp. 871-875.
