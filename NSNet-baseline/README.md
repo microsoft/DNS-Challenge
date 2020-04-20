@@ -25,11 +25,13 @@ Use default values for the rest. Run to enhance the clips.
 
 ## Citation:
 The baseline NSNet noise suppression:<br />  
-@misc{xia2020weighted,<br />
-    title={Weighted Speech Distortion Losses for Neural-network-based Real-time Speech Enhancement},<br />
-    author={Yangyang Xia and Sebastian Braun and Chandan K. A. Reddy and Harishchandra Dubey and Ross Cutler and Ivan Tashev},<br />
-    year={2020},<br />
-    eprint={2001.10601},<br />
-    archivePrefix={arXiv},<br />
-    primaryClass={eess.AS}<br />
-}
+```BibTex
+@INPROCEEDINGS{9054254, author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} 
+and H. {Dubey} and R. {Cutler} and I. {Tashev}}, 
+booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, 
+Speech and Signal Processing (ICASSP)}, 
+title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
+year={2020}, volume={}, number={}, pages={871-875},}
+```
+
+Y. Xia, S. Braun, C. K. A. Reddy, H. Dubey, R. Cutler and I. Tashev, "Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2020, pp. 871-875.
