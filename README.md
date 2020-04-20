@@ -16,10 +16,25 @@ This repository contains the datasets and scripts required for the DNS challenge
 - Soundfile (pip install pysoundfile), librosa
 
 ## Usage:
-* Clone the repository. 
-* Install Git Large File Storage for faster download of the datasets. Run **git lfs install** followed by **git lfs track "*.wav"** and **git add .gitattributes**
-* Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
-* Run python **noisyspeech_synthesizer_singleprocess.py** to synthesize the data.
+1. Install librosa 
+```
+pip install librosa
+```
+2. Install Git Large File Storage for faster download of the datasets.
+```
+git lfs install
+git lfs track "*.wav"
+git add .gitattributes
+```
+3. Clone the repository. 
+```
+git clone https://github.com/microsoft/DNS-Challenge DNS-Challenge
+```
+4. Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
+5. Create dataset 
+```
+python noisyspeech_synthesizer_multiprocessing.py
+```
 
 ## Citation:
 For the datasets and the DNS challenge:<br />  
@@ -32,14 +47,14 @@ eprint={2001.08662},
 }
 ```
 
-The baseline NSNet noise suppression:<br />
+The baseline NSNet noise suppression:<br />  
 ```BibTex
-@misc{xia2020weighted,
-title={Weighted Speech Distortion Losses for Neural-network-based Real-time Speech Enhancement},
-author={Yangyang Xia and Sebastian Braun and Chandan K. A. Reddy and Harishchandra Dubey and Ross Cutler and Ivan Tashev},
-year={2020},
-eprint={2001.10601},
-}
+@INPROCEEDINGS{9054254, author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} 
+and H. {Dubey} and R. {Cutler} and I. {Tashev}}, 
+booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, 
+Speech and Signal Processing (ICASSP)}, 
+title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
+year={2020}, volume={}, number={}, pages={871-875},}
 ```
 
 
