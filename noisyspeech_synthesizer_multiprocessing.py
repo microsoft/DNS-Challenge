@@ -276,11 +276,6 @@ def main_body():
     params['noise_activity_threshold'] = float(cfg['noise_activity_threshold'])
     params['snr_lower'] = int(cfg['snr_lower'])
     params['snr_upper'] = int(cfg['snr_upper'])
-<<<<<<< HEAD
-#    params['fileindex_start'] = int(cfg['fileindex_start'])
-#    params['fileindex_end'] = int(cfg['fileindex_end'])
-=======
->>>>>>> f9fdbd480c5c3f8cc5fbaad00028ffecc3e5ea61
     params['randomize_snr'] = utils.str2bool(cfg['randomize_snr'])
     params['target_level_lower'] = int(cfg['target_level_lower'])
     params['target_level_upper'] = int(cfg['target_level_upper'])
