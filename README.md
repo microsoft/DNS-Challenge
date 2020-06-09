@@ -40,10 +40,11 @@ python noisyspeech_synthesizer_multiprocessing.py
 For the datasets and the DNS challenge:<br />  
 
 ```BibTex
-@misc{DNSChallenge2020,
-title={The INTERSPEECH 2020 Deep Noise Suppression Challenge: Datasets, Subjective Speech Quality and Testing Framework},
-author={Chandan K. A. Reddy and Ebrahim Beyrami and Harishchandra Dubey and Vishak Gopal and Roger Cheng and Ross Cutler and Sergiy Matusevych and Robert Aichner and Ashkan Aazami and Sebastian Braun and Puneet Rana and Sriram Srinivasan and Johannes Gehrke}, year={2020},
-eprint={2001.08662},
+@article{reddy2020interspeech,
+  title={The INTERSPEECH 2020 Deep Noise Suppression Challenge: Datasets, Subjective Testing Framework, and Challenge Results},
+  author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross and Beyrami, Ebrahim and Cheng, Roger and Dubey, Harishchandra and Matusevych, Sergiy and Aichner, Robert and Aazami, Ashkan and Braun, Sebastian and others},
+  journal={arXiv preprint arXiv:2005.13981},
+  year={2020}
 }
 ```
 
