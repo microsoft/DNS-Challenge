@@ -248,13 +248,13 @@ def main_body():
     clean_dir = os.path.join(os.path.dirname(__file__), 'CleanSpeech')
     if cfg['speech_dir'] != 'None':
         clean_dir = cfg['speech_dir']
-    if not os.path.exists:
+    if not os.path.exists(clean_dir):
         assert False, ('Clean speech data is required')
 
     noise_dir = os.path.join(os.path.dirname(__file__), 'Noise')
     if cfg['noise_dir'] != 'None':
         noise_dir = cfg['noise_dir']
-    if not os.path.exists:
+    if not os.path.exists(noise_dir):
         assert False, ('Noise data is required')
 
     params['fs'] = int(cfg['sampling_rate'])
