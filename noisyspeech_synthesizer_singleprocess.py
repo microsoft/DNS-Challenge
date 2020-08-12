@@ -5,26 +5,35 @@
 # Note: This single process audio synthesizer will attempt to use each clean
 # speech sourcefile once, as it does not randomly sample from these files
 
-
 import os
 import glob
 import argparse
 import ast
 import configparser as CP
-import random
 from random import shuffle
+import random
+
 import librosa
 import numpy as np
-from audiolib import audioread, audiowrite, segmental_snr_mixer, snr_mixer, \
-                    activitydetector, is_clipped, add_clipping
+from scipy import signal
+from audiolib import audioread, audiowrite, segmental_snr_mixer, activitydetector, is_clipped, add_clipping
 import utils
 import pandas as pd
 
 MAXTRIES = 50
 MAXFILELEN = 100
 
-np.random.seed(2)
-random.seed(3)
+np.random.seed(5)
+random.seed(5)
+
+def add_pyreverb(clean_speech, rir):
+    #
+    reverb_speech = signal.fftconvolve(clean_speech, rir, mode="full")
+    
+    # make reverb_speech same length as clean_speech
+    reverb_speech = reverb_speech[0 : clean_speech.shape[0]]
+
+    return reverb_speech
 
 def build_audio(is_clean, params, index, audio_samples_length=-1):
     '''Construct an audio signal from source files'''
@@ -153,6 +162,25 @@ def main_gen(params):
         # generate clean speech
         clean, clean_sf, clean_cf, clean_laf, clean_index = \
             gen_audio(True, params, clean_index)
+
+        # add reverb with selected RIR
+        rir_index = random.randint(0,len(params['myrir'])-1)
+
+        my_rir = os.path.join('datasets/impulse_responses', params['myrir'][rir_index])
+
+        (samples_rir,fs_rir) = librosa.load(my_rir,sr=16000)
+
+        my_channel = int(params['mychannel'][rir_index])
+        
+        if samples_rir.shape[1]==1:
+            samples_rir_ch = samples_rir
+        else:
+            samples_rir_ch = samples_rir[:, my_channel -1]
+    
+        #my_t60= float(params['myt60'][rir_index])
+
+        clean = add_pyreverb(clean, samples_rir_ch)
+
         # generate noise
         noise, noise_sf, noise_cf, noise_laf, noise_index = \
             gen_audio(False, params, noise_index, len(clean))
@@ -161,6 +189,8 @@ def main_gen(params):
         clean_low_activity_files += clean_laf
         noise_clipped_files += noise_cf
         noise_low_activity_files += noise_laf
+
+        # get rir files and config
 
         # mix clean speech and noise
         # if specified, use specified SNR value
@@ -241,13 +271,15 @@ def main_body():
     params['cfg'] = cfg._sections[args.cfg_str]
     cfg = params['cfg']
 
-    clean_dir = os.path.join(os.path.dirname(__file__), 'CleanSpeech')
+    clean_dir = os.path.join(os.path.dirname(__file__), 'datasets/clean')
+
     if cfg['speech_dir'] != 'None':
         clean_dir = cfg['speech_dir']
     if not os.path.exists(clean_dir):
         assert False, ('Clean speech data is required')
 
-    noise_dir = os.path.join(os.path.dirname(__file__), 'Noise')
+    noise_dir = os.path.join(os.path.dirname(__file__), 'datasets/noise')
+
     if cfg['noise_dir'] != 'None':
         noise_dir = cfg['noise_dir']
     if not os.path.exists:
@@ -259,6 +291,13 @@ def main_body():
     params['silence_length'] = float(cfg['silence_length'])
     params['total_hours'] = float(cfg['total_hours'])
     
+    # rir
+    params['rir_choice'] = int(cfg['rir_choice'])
+    params['lower_t60'] = float(cfg['lower_t60'])
+    params['upper_t60'] = float(cfg['upper_t60'])
+    params['rir_table_csv'] = str(cfg['rir_table_csv'])
+    params['clean_speech_t60_csv'] = str(cfg['clean_speech_t60_csv'])
+
     if cfg['fileindex_start'] != 'None' and cfg['fileindex_start'] != 'None':
         params['num_files'] = int(cfg['fileindex_end'])-int(cfg['fileindex_start'])
         params['fileindex_start'] = int(cfg['fileindex_start'])
@@ -294,6 +333,7 @@ def main_body():
         cleanfilenames = cleanfilenames['filename']
     else:
         cleanfilenames = glob.glob(os.path.join(clean_dir, params['audioformat']))
+
     params['cleanfilenames'] = cleanfilenames
     shuffle(params['cleanfilenames'])
     params['num_cleanfiles'] = len(params['cleanfilenames'])
@@ -317,6 +357,81 @@ def main_body():
                 noisedirs.remove(dirs)
         shuffle(noisedirs)
         params['noisedirs'] = noisedirs
+
+    # rir 
+    temp = pd.read_csv(params['rir_table_csv'], skiprows=[1], sep=',', header=None,  names=['wavfile','channel','T60_WB','C50_WB','isRealRIR'])
+    temp.keys()
+    #temp.wavfile
+
+    rir_wav = temp['wavfile'][1:] # 115413
+    rir_channel = temp['channel'][1:] 
+    rir_t60 = temp['T60_WB'][1:] 
+    rir_isreal= temp['isRealRIR'][1:]  
+
+    rir_wav2 = [w.replace('\\', '/') for w in rir_wav]
+    rir_channel2 = [w for w in rir_channel]
+    rir_t60_2 = [w for w in rir_t60]
+    rir_isreal2= [w for w in rir_isreal]
+    
+    myrir =[]
+    mychannel=[]
+    myt60=[]
+
+    lower_t60=  params['lower_t60']
+    upper_t60=  params['upper_t60']
+
+    if params['rir_choice']==1: # real 3076 IRs
+        real_indices= [i for i, x in enumerate(rir_isreal2) if x == "1"]
+
+        chosen_i = []
+        for i in real_indices:
+            if (float(rir_t60_2[i]) >= lower_t60) and (float(rir_t60_2[i]) <= upper_t60):
+                chosen_i.append(i)
+
+        myrir= [rir_wav2[i] for i in chosen_i]
+        mychannel = [rir_channel2[i] for i in chosen_i]
+        myt60 = [rir_t60_2[i] for i in chosen_i]
+
+
+    elif params['rir_choice']==2: # synthetic 112337 IRs
+        synthetic_indices= [i for i, x in enumerate(rir_isreal2) if x == "0"]
+
+        chosen_i = []
+        for i in synthetic_indices:
+            if (float(rir_t60_2[i]) >= lower_t60) and (float(rir_t60_2[i]) <= upper_t60):
+                chosen_i.append(i)
+
+        myrir= [rir_wav2[i] for i in chosen_i]
+        mychannel = [rir_channel2[i] for i in chosen_i]
+        myt60 = [rir_t60_2[i] for i in chosen_i]
+
+    elif params['rir_choice']==3: # both real and synthetic
+        all_indices= [i for i, x in enumerate(rir_isreal2)]
+
+        chosen_i = []
+        for i in all_indices:
+            if (float(rir_t60_2[i]) >= lower_t60) and (float(rir_t60_2[i]) <= upper_t60):
+                chosen_i.append(i)
+
+        myrir= [rir_wav2[i] for i in chosen_i]
+        mychannel = [rir_channel2[i] for i in chosen_i]
+        myt60 = [rir_t60_2[i] for i in chosen_i]
+
+    else:  # default both real and synthetic
+        all_indices= [i for i, x in enumerate(rir_isreal2)]
+
+        chosen_i = []
+        for i in all_indices:
+            if (float(rir_t60_2[i]) >= lower_t60) and (float(rir_t60_2[i]) <= upper_t60):
+                chosen_i.append(i)
+
+        myrir= [rir_wav2[i] for i in chosen_i]
+        mychannel = [rir_channel2[i] for i in chosen_i]
+        myt60 = [rir_t60_2[i] for i in chosen_i]
+
+    params['myrir'] = myrir
+    params['mychannel'] = mychannel
+    params['myt60'] = myt60
 
     # Call main_gen() to generate audio
     clean_source_files, clean_clipped_files, clean_low_activity_files, \
