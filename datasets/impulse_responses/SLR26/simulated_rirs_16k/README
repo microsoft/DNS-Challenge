@@ -1,0 +1,42 @@
+This data includes simulated room impulse responses (RIRs) with various room configs.
+The RIRs in this data are all generated in 16k sampling rate and 16-bit precision.
+
+The simulated RIRs were divided into three sets based on the
+ranges from which width and length of the room are sampled.
+These are
+
+small room set : uniformly sampled from the range 1m to 10m.
+medium room set : uniformly sampled from the 10m to 30m.
+large room set : uniformly sampled from the 30m to 50m.
+
+In all the three sets, room height is sampled uniformly
+from 2m to 5m; and absorption coefficient is sampled uniformly
+from [0:2; 0:8]. In each set, 200 rooms are sampled
+and 100 RIRs are sampled in each room based on speaker and
+receiver position. The distance between the speaker and 
+the receiver is not greater than 5m.
+
+Two information files, rir_list and room_info are associated with each RIR set.
+rir_list contains the information of each RIR file, it will probably be needed by the Kaldi reverberation script.
+room_info contains the configs of each room where its data format is:
+#Room_name #Room_length #Room_width #Room_height #Receiver_position_x #Receiver_position_y #Receiver_position_z #Absorption_coefficient
+
+The script for simulating the room impulse responses (RIRs) can be downloaded at
+https://github.com/tomkocse/sim-rir-preparation/
+
+The script uses the image method [1] based on an implementation
+by Habets et al [2] to simulate the RIRs.
+It samples the room parameters and receiver position in the room 
+and then randomly generate a number of RIRs according to different speaker positions.
+
+To use the script you need to have MATLAB installed and 
+download the RIR generator from
+https://github.com/ehabets/RIR-Generator/blob/master/rir_generator.cpp
+
+
+[1] J. Allen and D. Berkley, "Image method for efficiently
+simulating small-room acoustics," Journal Acoustic Society
+of America, 1979.
+
+[2] E. Habets, Room Impulse Response Generator, 2010.
+https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator
