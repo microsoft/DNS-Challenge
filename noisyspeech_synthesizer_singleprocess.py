@@ -18,7 +18,10 @@ import numpy as np
 from scipy import signal
 from audiolib import audioread, audiowrite, segmental_snr_mixer, activitydetector, is_clipped, add_clipping
 import utils
+
 import pandas as pd
+from pathlib import Path
+from scipy.io import wavfile
 
 MAXTRIES = 50
 MAXFILELEN = 100
@@ -28,6 +31,8 @@ random.seed(5)
 
 def add_pyreverb(clean_speech, rir):
     #
+    #print(len(clean_speech))
+    #print(len(rir))
     reverb_speech = signal.fftconvolve(clean_speech, rir, mode="full")
     
     # make reverb_speech same length as clean_speech
@@ -165,18 +170,25 @@ def main_gen(params):
 
         # add reverb with selected RIR
         rir_index = random.randint(0,len(params['myrir'])-1)
-
-        my_rir = os.path.join('datasets/impulse_responses', params['myrir'][rir_index])
-
-        (samples_rir,fs_rir) = librosa.load(my_rir,sr=16000)
+        
+        my_rir = os.path.normpath(os.path.join('datasets\impulse_responses', params['myrir'][rir_index]))
+        (fs_rir,samples_rir) = wavfile.read(my_rir)
 
         my_channel = int(params['mychannel'][rir_index])
         
-        if samples_rir.shape[1]==1:
-            samples_rir_ch = samples_rir
-        else:
+        if samples_rir.ndim==1:
+            samples_rir_ch = np.array(samples_rir)
+            
+        elif my_channel > 1:
             samples_rir_ch = samples_rir[:, my_channel -1]
+        else:
+            print("something is wrong")
     
+        
+        
+#        if samples_rir.shape[1]==1:
+#            samples_rir_ch = samples_rir
+#        else:
         #my_t60= float(params['myt60'][rir_index])
 
         clean = add_pyreverb(clean, samples_rir_ch)
@@ -200,7 +212,7 @@ def main_gen(params):
         else:
             snr = np.random.randint(params['snr_lower'], params['snr_upper'])
 
-        clean_snr, noise_snr, noisy_snr, target_level = snr_mixer(params=params, 
+        clean_snr, noise_snr, noisy_snr, target_level = segmental_snr_mixer(params=params, 
                                                                   clean=clean, 
                                                                   noise=noise, 
                                                                   snr=snr)
@@ -291,6 +303,10 @@ def main_body():
     params['silence_length'] = float(cfg['silence_length'])
     params['total_hours'] = float(cfg['total_hours'])
     
+    # clean singing speech
+    params['clean_singing'] = str(cfg['clean_singing'])
+    params['singing_choice'] = int(cfg['singing_choice'])
+
     # rir
     params['rir_choice'] = int(cfg['rir_choice'])
     params['lower_t60'] = float(cfg['lower_t60'])
@@ -334,7 +350,27 @@ def main_body():
     else:
         cleanfilenames = glob.glob(os.path.join(clean_dir, params['audioformat']))
 
-    params['cleanfilenames'] = cleanfilenames
+
+#   add singing voice to clean speech
+    all_singing= []
+    for path in Path(params['clean_singing']).rglob('*.wav'):
+        all_singing.append(str(path.resolve()))
+        
+    if params['singing_choice']==1: # male speakers
+        mysinging = [s for s in all_singing if ("male" in s and "female" not in s)]
+
+    elif params['singing_choice']==2: # female speakers
+        mysinging = [s for s in all_singing if "female" in s]
+
+    elif params['singing_choice']==3: # both male and female
+        mysinging = all_singing
+    else: # default both male and female
+        mysinging = all_singing
+        
+    if mysinging is not None:
+        all_cleanfiles= cleanfilenames + mysinging
+
+    params['cleanfilenames'] = all_cleanfiles
     shuffle(params['cleanfilenames'])
     params['num_cleanfiles'] = len(params['cleanfilenames'])
     # If there are .wav files in noise_dir directory, use those
@@ -463,4 +499,5 @@ def main_body():
 
 
 if __name__ == '__main__':
+
     main_body()
