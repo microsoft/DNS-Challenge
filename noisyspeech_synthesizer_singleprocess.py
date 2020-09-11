@@ -268,8 +268,7 @@ def main_body():
     parser = argparse.ArgumentParser()
 
     # Configurations: read noisyspeech_synthesizer.cfg and gather inputs
-    parser.add_argument('--cfg', default='noisyspeech_synthesizer_singing.cfg',
-                        #default='noisyspeech_synthesizer.cfg',
+    parser.add_argument('--cfg', default='noisyspeech_synthesizer.cfg',
                         help='Read noisyspeech_synthesizer.cfg for all the details')
     parser.add_argument('--cfg_str', type=str, default='noisy_speech')
     args = parser.parse_args()
@@ -306,16 +305,24 @@ def main_body():
     params['total_hours'] = float(cfg['total_hours'])
     
     # clean singing speech
+    params['use_singing_data'] = int(cfg['use_singing_data'])
     params['clean_singing'] = str(cfg['clean_singing'])
     params['singing_choice'] = int(cfg['singing_choice'])
 
+    # clean emotional speech
+    params['use_emotion_data'] = int(cfg['use_emotion_data'])
+    params['clean_emotion'] = str(cfg['clean_emotion'])
+    
+    # clean mandarin speech
+    params['use_mandarin_data'] = int(cfg['use_mandarin_data'])
+    params['clean_mandarin'] = str(cfg['clean_mandarin'])
+    
     # rir
     params['rir_choice'] = int(cfg['rir_choice'])
     params['lower_t60'] = float(cfg['lower_t60'])
     params['upper_t60'] = float(cfg['upper_t60'])
     params['rir_table_csv'] = str(cfg['rir_table_csv'])
     params['clean_speech_t60_csv'] = str(cfg['clean_speech_t60_csv'])
-    params['use_singing_data'] = str(cfg['use_singing_data'])
 
     if cfg['fileindex_start'] != 'None' and cfg['fileindex_start'] != 'None':
         params['num_files'] = int(cfg['fileindex_end'])-int(cfg['fileindex_start'])
@@ -356,6 +363,7 @@ def main_body():
         for path in Path(clean_dir).rglob('*.wav'):
             cleanfilenames.append(str(path.resolve()))
 
+    shuffle(cleanfilenames)
 #   add singing voice to clean speech
     if params['use_singing_data'] ==1:
         all_singing= []
@@ -373,13 +381,38 @@ def main_body():
         else: # default both male and female
             mysinging = all_singing
             
+        shuffle(mysinging)
         if mysinging is not None:
             all_cleanfiles= cleanfilenames + mysinging
     else: 
         all_cleanfiles= cleanfilenames
+        
+#   add emotion data to clean speech
+    if params['use_emotion_data'] ==1:
+        all_emotion= []
+        for path in Path(params['clean_emotion']).rglob('*.wav'):
+            all_emotion.append(str(path.resolve()))
+
+        shuffle(all_emotion)
+        if all_emotion is not None:
+            all_cleanfiles = all_cleanfiles + all_emotion
+    else: 
+        print('NOT using emotion data for training!')    
+        
+#   add mandarin data to clean speech
+    if params['use_mandarin_data'] ==1:
+        all_mandarin= []
+        for path in Path(params['clean_mandarin']).rglob('*.wav'):
+            all_mandarin.append(str(path.resolve()))
+
+        shuffle(all_mandarin)
+        if all_mandarin is not None:
+            all_cleanfiles = all_cleanfiles + all_mandarin
+    else: 
+        print('NOT using non-english (Mandarin) data for training!')           
+        
 
     params['cleanfilenames'] = all_cleanfiles
-    shuffle(params['cleanfilenames'])
     params['num_cleanfiles'] = len(params['cleanfilenames'])
     # If there are .wav files in noise_dir directory, use those
     # If not, that implies that the noise files are organized into subdirectories by type,
