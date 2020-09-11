@@ -79,6 +79,7 @@ def build_audio(is_clean, params, index, audio_samples_length=-1):
     while remaining_length > 0 and tries_left > 0:
 
         # read next audio file and resample if necessary
+        print(source_files)
         idx = (idx + 1) % np.size(source_files)
         input_audio, fs_input = audioread(source_files[idx])
         if fs_input != fs_output:
@@ -267,7 +268,8 @@ def main_body():
     parser = argparse.ArgumentParser()
 
     # Configurations: read noisyspeech_synthesizer.cfg and gather inputs
-    parser.add_argument('--cfg', default='noisyspeech_synthesizer.cfg',
+    parser.add_argument('--cfg', default='noisyspeech_synthesizer_singing.cfg',
+                        #default='noisyspeech_synthesizer.cfg',
                         help='Read noisyspeech_synthesizer.cfg for all the details')
     parser.add_argument('--cfg_str', type=str, default='noisy_speech')
     args = parser.parse_args()
@@ -313,6 +315,7 @@ def main_body():
     params['upper_t60'] = float(cfg['upper_t60'])
     params['rir_table_csv'] = str(cfg['rir_table_csv'])
     params['clean_speech_t60_csv'] = str(cfg['clean_speech_t60_csv'])
+    params['use_singing_data'] = str(cfg['use_singing_data'])
 
     if cfg['fileindex_start'] != 'None' and cfg['fileindex_start'] != 'None':
         params['num_files'] = int(cfg['fileindex_end'])-int(cfg['fileindex_start'])
@@ -348,27 +351,32 @@ def main_body():
         cleanfilenames = pd.read_csv(cfg['speech_csv'])
         cleanfilenames = cleanfilenames['filename']
     else:
-        cleanfilenames = glob.glob(os.path.join(clean_dir, params['audioformat']))
-
+        #cleanfilenames = glob.glob(os.path.join(clean_dir, params['audioformat']))
+        cleanfilenames= []
+        for path in Path(clean_dir).rglob('*.wav'):
+            cleanfilenames.append(str(path.resolve()))
 
 #   add singing voice to clean speech
-    all_singing= []
-    for path in Path(params['clean_singing']).rglob('*.wav'):
-        all_singing.append(str(path.resolve()))
-        
-    if params['singing_choice']==1: # male speakers
-        mysinging = [s for s in all_singing if ("male" in s and "female" not in s)]
-
-    elif params['singing_choice']==2: # female speakers
-        mysinging = [s for s in all_singing if "female" in s]
-
-    elif params['singing_choice']==3: # both male and female
-        mysinging = all_singing
-    else: # default both male and female
-        mysinging = all_singing
-        
-    if mysinging is not None:
-        all_cleanfiles= cleanfilenames + mysinging
+    if params['use_singing_data'] ==1:
+        all_singing= []
+        for path in Path(params['clean_singing']).rglob('*.wav'):
+            all_singing.append(str(path.resolve()))
+            
+        if params['singing_choice']==1: # male speakers
+            mysinging = [s for s in all_singing if ("male" in s and "female" not in s)]
+    
+        elif params['singing_choice']==2: # female speakers
+            mysinging = [s for s in all_singing if "female" in s]
+    
+        elif params['singing_choice']==3: # both male and female
+            mysinging = all_singing
+        else: # default both male and female
+            mysinging = all_singing
+            
+        if mysinging is not None:
+            all_cleanfiles= cleanfilenames + mysinging
+    else: 
+        all_cleanfiles= cleanfilenames
 
     params['cleanfilenames'] = all_cleanfiles
     shuffle(params['cleanfilenames'])
