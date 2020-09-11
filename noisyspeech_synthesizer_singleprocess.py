@@ -30,9 +30,7 @@ np.random.seed(5)
 random.seed(5)
 
 def add_pyreverb(clean_speech, rir):
-    #
-    #print(len(clean_speech))
-    #print(len(rir))
+    
     reverb_speech = signal.fftconvolve(clean_speech, rir, mode="full")
     
     # make reverb_speech same length as clean_speech
@@ -79,7 +77,7 @@ def build_audio(is_clean, params, index, audio_samples_length=-1):
     while remaining_length > 0 and tries_left > 0:
 
         # read next audio file and resample if necessary
-        print(source_files)
+
         idx = (idx + 1) % np.size(source_files)
         input_audio, fs_input = audioread(source_files[idx])
         if fs_input != fs_output:
@@ -183,14 +181,9 @@ def main_gen(params):
         elif my_channel > 1:
             samples_rir_ch = samples_rir[:, my_channel -1]
         else:
-            print("something is wrong")
-    
-        
-        
-#        if samples_rir.shape[1]==1:
-#            samples_rir_ch = samples_rir
-#        else:
-        #my_t60= float(params['myt60'][rir_index])
+            samples_rir_ch = samples_rir[:, my_channel -1]
+            #print(samples_rir.shape)
+            #print(my_channel)
 
         clean = add_pyreverb(clean, samples_rir_ch)
 
