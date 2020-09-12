@@ -1,15 +1,16 @@
-# Deep Noise Suppression (DNS) Challenge - Interspeech 2020
+# IEEE ICASSP 2021 Deep Noise Suppression (DNS) Challenge
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/.
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ICASSP2021.
 
 ## Repo details:
-* The **datasets** directory contains the clean speech and noise clips.
-* The **NSNet-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancer called **Noise Suppression Net (NSNet)** 
+* The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data. It also contains the test set that participants can use during the development stages.
+* The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancement method. 
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for training purposes.
-* **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters.
-* **audiolib.py** - contains modules required to synthesize datasets
-* **utils.py** - contains some utility functions required to synthesize the data
-* **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data
+* **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters and provide the right paths to the datasets required to synthesize noisy speech.
+* **audiolib.py** - contains modules required to synthesize datasets.
+* **utils.py** - contains some utility functions required to synthesize the data.
+* **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data.
+* **requirements.txt** - contains all the libraries required for synthesizing the data.
 
 ## Prerequisites
 - Python 3.0 and above
@@ -30,10 +31,10 @@ git add .gitattributes
 ```
 git clone https://github.com/microsoft/DNS-Challenge DNS-Challenge
 ```
-4. Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
+4. Edit **noisyspeech_synthesizer.cfg** to specify the required parameters described in the file and include the paths to clean speech, noise and impulse response related csv files. Also, specify the paths to the destination directories and store the logs.
 5. Create dataset 
 ```
-python noisyspeech_synthesizer_multiprocessing.py
+python noisyspeech_synthesizer_singleprocess.py
 ```
 
 ## Citation:
