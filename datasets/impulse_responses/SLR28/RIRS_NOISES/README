@@ -1,0 +1,42 @@
+This data includes all the room impulse responses (RIRs) and noises
+we used in our paper "A Study on Data Augmentation of Reverberant Speech for Robust Speech Recognition"
+submitted to ICASSP 2017.
+The RIRs and noises in this data are all in 16k sampling rate and 16-bit precision.
+
+Here are the descriptions for each folder in this data:
+
+pointsource_noises: 
+
+The point-source noises
+are sampled from the Freesound portion of the MUSAN corpus.
+This portion of the corpus contains 843 noise
+recordings and each of them is manually classified as either
+a foreground or a background noise.
+The MUSAN corpus can be downloaded by
+wget http://www.openslr.org/resources/17/musan.tar.gz
+
+
+real_rirs_isotropic_noises:
+
+The set of real RIRs is composed of three databases:
+the RWCP sound scene database, the 2014 REVERB challenge
+database and the Aachen impulse response database (AIR).
+Overall there are 325 real RIRs.
+The isotropic noises available in the real RIR databases are
+used along with the associated RIRs.
+Here are the links to download the individual databases:
+AIR,
+wget http://www.openslr.org/resources/20/air_database_release_1_4.zip
+RWCP,
+wget http://www.openslr.org/resources/13/RWCP.tar.gz
+2014 REVERB challenge,
+wget http://reverb2014.dereverberation.com/tools/reverb_tools_for_Generate_mcTrainData.tgz || exit 1;
+wget http://reverb2014.dereverberation.com/tools/reverb_tools_for_Generate_SimData.tgz || exit 1;
+
+
+simulated_rirs
+
+This folder contains the simulated RIRs.
+Please go to simulated_rirs/README for the details of the data.
+This simulated RIR data set can also be downloaded from
+wget http://www.openslr.org/resources/26/sim_rir.zip

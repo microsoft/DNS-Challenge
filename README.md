@@ -1,15 +1,16 @@
-# Deep Noise Suppression (DNS) Challenge - Interspeech 2020
+# IEEE ICASSP 2021 Deep Noise Suppression (DNS) Challenge
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ and refer to our [paper](https://arxiv.org/ftp/arxiv/papers/2001/2001.08662.pdf).
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ICASSP2021.
 
 ## Repo details:
-* The **datasets** directory contains the clean speech and noise clips.
-* The **NSNet-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancer called **Noise Suppression Net (NSNet)** 
+* The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data. It also contains the test set that participants can use during the development stages.
+* The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancement method. 
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for training purposes.
-* **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters.
-* **audiolib.py** - contains modules required to synthesize datasets
-* **utils.py** - contains some utility functions required to synthesize the data
-* **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data
+* **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters and provide the right paths to the datasets required to synthesize noisy speech.
+* **audiolib.py** - contains modules required to synthesize datasets.
+* **utils.py** - contains some utility functions required to synthesize the data.
+* **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data.
+* **requirements.txt** - contains all the libraries required for synthesizing the data.
 
 ## Prerequisites
 - Python 3.0 and above
@@ -30,10 +31,10 @@ git add .gitattributes
 ```
 git clone https://github.com/microsoft/DNS-Challenge DNS-Challenge
 ```
-4. Edit **noisyspeech_synthesizer.cfg** to include the paths to clean speech and noise directories. Also, specify the paths to the destination directories and store logs.
+4. Edit **noisyspeech_synthesizer.cfg** to specify the required parameters described in the file and include the paths to clean speech, noise and impulse response related csv files. Also, specify the paths to the destination directories and store the logs.
 5. Create dataset 
 ```
-python noisyspeech_synthesizer_multiprocessing.py
+python noisyspeech_synthesizer_singleprocess.py
 ```
 
 ## Citation:
@@ -101,10 +102,23 @@ The datasets used in this project are licensed as follows:
 * https://librivox.org/; License: https://librivox.org/pages/public-domain/
 * PTDB-TUG: Pitch Tracking Database from Graz University of Technology https://www.spsc.tugraz.at/databases-and-tools/ptdb-tug-pitch-tracking-database-from-graz-university-of-technology.html; License: http://opendatacommons.org/licenses/odbl/1.0/ 
 * Edinburgh 56 speaker dataset: https://datashare.is.ed.ac.uk/handle/10283/2791; License: https://datashare.is.ed.ac.uk/bitstream/handle/10283/2791/license_text?sequence=11&isAllowed=y 
+* VocalSet: A Singing Voice Dataset https://zenodo.org/record/1193957#.X1hkxYtlCHs; License: Creative Commons Attribution 4.0 International
+* Emotion data corpus: CREMA-D (Crowd-sourced Emotional Multimodal Actors Dataset)
+https://github.com/CheyneyComputerScience/CREMA-D; License: http://opendatacommons.org/licenses/dbcl/1.0/
+* The VoxCeleb2 Dataset http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html; License: http://www.robots.ox.ac.uk/~vgg/data/voxceleb/
+The VoxCeleb dataset is available to download for commercial/research purposes under a Creative Commons Attribution 4.0 International License. The copyright remains with the original owners of the video. A complete version of the license can be found here. 
+* VCTK Dataset: https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html; License: This corpus is licensed under Open Data Commons Attribution License (ODC-By) v1.0.
+http://opendatacommons.org/licenses/by/1.0/ 
+
 2. Noise:
 * Audioset: https://research.google.com/audioset/index.html; License: https://creativecommons.org/licenses/by/4.0/
 * Freesound: https://freesound.org/ Only files with CC0 licenses were selected; License: https://creativecommons.org/publicdomain/zero/1.0/
 * Demand: https://zenodo.org/record/1227121#.XRKKxYhKiUk; License: https://creativecommons.org/licenses/by-sa/3.0/deed.en_CA
+
+3. RIR datasets: OpenSLR26 and OpenSLR28:
+* http://www.openslr.org/26/
+* http://www.openslr.org/28/
+* License: Apache 2.0
 
 ## Code license
 MIT License
