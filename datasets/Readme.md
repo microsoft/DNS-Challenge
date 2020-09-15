@@ -1,5 +1,11 @@
 # Datasets for training
-Datasets will be downloaded when you clone the repository. Run **git lfs install** for faster download.   
+Datasets will be downloaded when you clone the repository. Run **git lfs install** for faster download. The [base paper](https://github.com/microsoft/DNS-Challenge/blob/master/docs/ICASSP_2021_DNS_challenge.pdf) describes the training and the test data sets in detail.
+
+## ICASSP development stage test set
+* The <b>ICASSP_dev_test_set</b> directory contains the test set that the participants can use during their development phase.
+* The <i>track 1</i> directory contains both synthetic and real recordings of the test set.
+* The <i>track 2</i> directory contains both synthetic and real recordings for the personalized DNS track. The <i>adaptation_data</i> directory contains the utterances from each speaker that can be used adapt the noise suppressor to work better for that particular speaker.
+
 ## Clean Speech
 * The clean speech dataset is derived from the public audio books dataset called Librivox.
 * Librivox has recordings of volunteers reading over 10,000 public domain audio books in various languages, with majority of which are in English. In total, there are 11,350 speakers.
