@@ -1,6 +1,6 @@
 # IEEE ICASSP 2021 Deep Noise Suppression (DNS) Challenge
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ICASSP2021.
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ICASSP2021. For more details on the testing framework, please visit [P.808](https://github.com/microsoft/P.808).
 
 ## Repo details:
 * The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data. It also contains the test set that participants can use during the development stages.
@@ -51,14 +51,23 @@ For the datasets and the DNS challenge:<br />
 
 The baseline NSNet noise suppression:<br />  
 ```BibTex
-@INPROCEEDINGS{9054254, author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} 
-and H. {Dubey} and R. {Cutler} and I. {Tashev}}, 
+@INPROCEEDINGS{9054254, 
+author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} and H. {Dubey} and R. {Cutler} and I. {Tashev}}, 
 booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, 
 Speech and Signal Processing (ICASSP)}, 
 title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
 year={2020}, volume={}, number={}, pages={871-875},}
 ```
 
+The P.808 test framework:<br />
+```BibTex
+@article{naderi2020open,
+  title={An Open source Implementation of ITU-T Recommendation P. 808 with Validation},
+  author={Naderi, Babak and Cutler, Ross},
+  journal={arXiv preprint arXiv:2005.08138},
+  year={2020}
+}
+```
 
 # Contributing
 
