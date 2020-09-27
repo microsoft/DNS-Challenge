@@ -1,0 +1,4 @@
+Source:	  LibriVox (https://librivox.org)
+Language: French (France)
+Speaker:  Nadine Eckert-Boulet
+Duration: 53:56:15
