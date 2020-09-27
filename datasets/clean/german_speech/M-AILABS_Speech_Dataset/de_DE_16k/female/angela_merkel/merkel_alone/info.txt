@@ -1,0 +1,15 @@
+Speeches of German Chancellor Angela Merkel
+- Just Speeches
+- Her part from interviews
+
+'original_wavs':
+- The original, non-normalized wavs.
+
+'wavs':
+- Normalized (for amplitude using EBU) wav-files
+
+Sample-Rate: 16000 Hz
+
+Duration: 22h 21m
+
+
