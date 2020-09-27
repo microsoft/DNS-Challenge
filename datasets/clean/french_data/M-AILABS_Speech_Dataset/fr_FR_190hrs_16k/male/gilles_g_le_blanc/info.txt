@@ -1,0 +1,5 @@
+Source:	  LibriVox (https://librivox.org)
+Language: French (France)
+Speaker:  Gilles G. LeBlanc
+Duration: 18:52:12
+

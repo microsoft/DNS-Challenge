@@ -1,0 +1,47 @@
+Training Data for Speech Recognition and Speech Sythesis
+
+Language:    French (France)
+Source:      LibriVox (http://www.librivox.org/)
+Sample rate: 16000 Hz
+Total durations: 190h 30m
+	
+	Female: 104h 08m 
+		Ezwa:    50h 12m 
+		Nadine:  53h 56m
+	
+	Male:	71h 00m
+
+		Bernard:  28h 45m
+		Gilles:   18h 52m		
+		Zeckou:   23h 23m
+	
+	Mixed:  15h 22m
+
+
+This training data was created by THE TEAM @ MUNICH ARTIFICIAL INTELLIGENCE LABORATORIES GmbH
+
+Munich, Germany
+
+If you have any questions, please contact us at info@m-ailabs.bayern
+
+----------------------------------------------------------------------------------------
+                                       LICENSE
+
+Copyright (c) 2017-2018 MUNICH ARTIFICIAL INTELLIGENCE LABORATORIES GmbH
+
+Redistribution and use in any form, including any commercial use, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source data must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this downloaded data, source-code or binary-code without specific prior written permission.
+
+3. ANY USE BY ANY UNIVERSITY, COLLEGE, RESEARCH INSTITUTE OR SIMILAR HIGHER EDUCATION INSTITUTION IN GERMANY, SWITZERLAND or AUSTRIA, INCLUDING BY MEMBERS OF SUCH INSTITUTIONS (including but not limited to the students, tutors and teachers at those institutions), REQUIRES A SEPARATE LICENSE AND IS NOT COVERED BY THIS LICENSE AGREEMENT. PLEASE CONTACT US FOR DETAILS AT info@m-ailabs.bayern.
+
+THIS DATA IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE and/or DATA, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------------------------
+
+The Copyright of the original speakers is held by the respective speakers or by LibriVox. LibriVox data is in the Public Domain.
+
+We would highly appreciate if you would let us know of your use of this data or mention us or our company if you have used this data in a succesfull project - but you don't have to :-)
+
+Have fun
