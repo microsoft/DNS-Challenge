@@ -1,0 +1,7 @@
+Dataset name: zamia-speech forschergeist corpora
+This data was downloaded from https://goofy.zamia.org/zamia-speech/corpora/forschergeist/
+
+Contains information from approx. 2 hours audio recorded by 2 speakers, which is made available
+here under the Creative Commons  Attribution 4.0 International (CC BY 4.0)
+
+License: Creative Commons  Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/

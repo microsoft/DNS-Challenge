@@ -1,0 +1,8 @@
+Dataset name: The Spoken Wikipedia Corpora
+This data was downloaded from https://nats.gitlab.io/swc/
+
+Contains information from The Spoken Wikipedia Corpora, which is made available
+here under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/
+

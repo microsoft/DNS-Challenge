@@ -1,0 +1,596 @@
+spiegel_kaetzchen_01_f000001.wav|Wenn ein Seldwyler einen schlechten Handel gemacht hat oder angeführt worden ist, so sagt man zu Seldwyla: Er hat der Katze den Schmer abgekauft!
+spiegel_kaetzchen_01_f000002.wav|Dies Sprichwort ist zwar auch anderwärts gebräuchlich, aber nirgends hört man es so oft wie dort, was vielleicht daher rühren mag, daß es in dieser Stadt eine alte Sage gibt über den Ursprung und die Bedeutung dieses Sprichwortes.
+spiegel_kaetzchen_01_f000003.wav|Vor mehreren hundert Jahren, heißt es, wohnte zu Seldwyla eine ältliche Person allein mit einem schönen, grau und schwarzen Kätzchen, welches in aller Vergnügtheit und Klugheit mit ihr lebte und niemandem, der es ruhig ließ, etwas zuleide tat.
+spiegel_kaetzchen_01_f000004.wav|Seine einzige Leidenschaft war die Jagd, welche es jedoch mit Vernunft und Mäßigung befriedigte, ohne sich durch den Umstand, daß diese Leidenschaft zugleich einen nützlichen Zweck hatte und seiner Herrin wohlgefiel,
+spiegel_kaetzchen_01_f000005.wav|beschönigen zu wollen und allzusehr zur Grausamkeit hinreißen zu lassen.
+spiegel_kaetzchen_01_f000006.wav|Es fing und tötete daher nur die zudringlichsten und frechsten Mäuse, welche sich in einem gewissen Umkreise des Hauses betreten ließen, aber diese dann mit zuverlässiger Geschicklichkeit;
+spiegel_kaetzchen_01_f000007.wav|nur selten verfolgte es eine besonders pfiffige Maus, welche seinen Zorn gereizt hatte, über diesen Umkreis hinaus und erbat sich in diesem Falle mit vieler Höflichkeit von den Herren Nachbaren die Erlaubnis,
+spiegel_kaetzchen_01_f000008.wav|in ihren Häusern ein wenig mausen zu dürfen, was ihm gerne gewährt wurde, da es die Milchtöpfe stehen ließ, nicht an die Schinken hinaufsprang, welche etwa an den Wänden hingen,
+spiegel_kaetzchen_01_f000009.wav|sondern seinem Geschäfte still und aufmerksam oblag und, nachdem es dieses verrichtet, sich mit dem Mäuslein im Maule anständig entfernte.
+spiegel_kaetzchen_01_f000010.wav|Auch war das Kätzchen gar nicht scheu und unartig, sondern zutraulich gegen jedermann und floh nicht vor vernünftigen Leuten; vielmehr ließ es sich von solchen einen guten Spaß gefallen und selbst ein bißchen an den Ohren zupfen, ohne zu kratzen;
+spiegel_kaetzchen_01_f000011.wav|dagegen ließ es sich von einer Art dummer Menschen, von welchen es behauptete, daß die Dummheit aus einem unreifen und nichtsnutzigen Herzen käme,
+spiegel_kaetzchen_01_f000012.wav|nicht das mindeste gefallen und ging ihnen entweder aus dem Wege oder versetzte ihnen einen ausreichenden Hieb über die Hand, wenn sie es mit einer Plumpheit molestierten.
+spiegel_kaetzchen_01_f000013.wav|Spiegel, so war der Name des Kätzchens wegen seines glatten und glänzenden Pelzes, lebte so seine Tage heiter, zierlich und beschaulich dahin, in anständiger Wohlhabenheit und ohne Überhebung.
+spiegel_kaetzchen_01_f000014.wav|Er saß nicht zu oft auf der Schulter seiner freundlichen Gebieterin, um ihr die Bissen von der Gabel wegzufangen, sondern nur, wenn er merkte, daß ihr dieser Spaß angenehm war;
+spiegel_kaetzchen_01_f000015.wav|auch lag und schlief er den Tag über selten auf seinem warmen Kissen hinter dem Ofen, sondern hielt sich munter und liebte es eher,
+spiegel_kaetzchen_01_f000016.wav|auf einem schmalen Treppengeländer oder in der Dachrinne zu liegen und sich philosophischen Betrachtungen und der Beobachtung der Welt zu überlassen.
+spiegel_kaetzchen_01_f000017.wav|Nur jeden Frühling und Herbst einmal wurde dies ruhige Leben eine Woche lang unterbrochen, wenn die Veilchen blühten oder die milde Wärme des Alteweibersommers die Veilchenzeit nachäffte.
+spiegel_kaetzchen_01_f000018.wav|Alsdann ging Spiegel seine eigenen Wege, streifte in verliebter Begeisterung über die fernsten Dächer und sang die allerschönsten Lieder.
+spiegel_kaetzchen_01_f000019.wav|Als ein rechter Don Juan bestand er bei Tag und Nacht die bedenklichsten Abenteuer, und wenn er sich zur Seltenheit einmal im Hause sehen ließ, so erschien er mit einem so verwegenen,
+spiegel_kaetzchen_01_f000020.wav|burschikosen, ja liederlichen und zerzausten Aussehen, daß die stille Person, seine Gebieterin, fast unwillig ausrief.
+spiegel_kaetzchen_01_f000021.wav|Aber Spiegel! Schämst du dich denn nicht, ein solches Leben zu führen?
+spiegel_kaetzchen_01_f000022.wav|Wer sich aber nicht schämte, war Spiegel; als ein Mann von Grundsätzen, der wohl wußte, was er sich zur wohltätigen Abwechslung erlauben durfte, beschäftigte er sich ganz ruhig damit,
+spiegel_kaetzchen_01_f000023.wav|die Glätte seines Pelzes und die unschuldige Munterkeit seines Aussehens wiederherzustellen, und er fuhr sich so unbefangen mit dem feuchten Pfötchen über die Nase, als ob gar nichts geschehen wäre.
+spiegel_kaetzchen_01_f000024.wav|Allein dies gleichmäßige Leben nahm plötzlich ein trauriges Ende.
+spiegel_kaetzchen_01_f000025.wav|Als das Kätzchen Spiegel eben in der Blüte seiner Jahre stand, starb die Herrin unversehens an Altersschwäche und ließ das schöne Kätzchen herrenlos und verwaist zurück.
+spiegel_kaetzchen_01_f000026.wav|Es war das erste Unglück, welches ihm widerfuhr, und mit jenen Klagetönen, welche so schneidend den bangen Zweifel an der wirklichen und rechtmäßigen Ursache eines großen Schmerzes ausdrücken,
+spiegel_kaetzchen_01_f000027.wav|begleitete es die Leiche bis auf die Straße und strich den ganzen übrigen Tag ratlos im Hause und rings um dasselbe her.
+spiegel_kaetzchen_01_f000028.wav|Doch seine gute Natur, seine Vernunft und Philosophie geboten ihm bald, sich zu fassen, das Unabänderliche zu tragen und seine dankbare Anhänglichkeit an das Haus seiner toten Gebieterin dadurch zu beweisen,
+spiegel_kaetzchen_01_f000029.wav|daß er ihren lachenden Erben seine Dienste anbot und sich bereit machte, denselben mit Rat und Tat beizustehen, die Mäuse ferner im Zaume zu halten und überdies ihnen manche gute Mitteilung zu machen,
+spiegel_kaetzchen_01_f000030.wav|welche die Törichten nicht verschmäht hätten, wenn sie eben nicht unvernünftige Menschen gewesen wären.
+spiegel_kaetzchen_01_f000031.wav|Aber diese Leute ließen Spiegel gar nicht zu Worte kommen, sondern warfen ihm die Pantoffeln und das artige Fußschemelchen der Seligen an den Kopf, sooft er sich blicken ließ,
+spiegel_kaetzchen_01_f000032.wav|zankten sich acht Tage lang untereinander, begannen endlich einen Prozeß und schlossen das Haus bis auf weiteres zu, so daß nun gar niemand darin wohnte.
+spiegel_kaetzchen_01_f000033.wav|Da saß nun der arme Spiegel traurig und verlassen auf der steinernen Stufe vor der Haustüre und hatte niemand, der ihn hineinließ.
+spiegel_kaetzchen_01_f000034.wav|Des Nachts begab er sich wohl auf Umwegen unter das Dach des Hauses, und im Anfang hielt er sich einen großen Teil des Tages dort verborgen und suchte seinen Kummer zu verschlafen;
+spiegel_kaetzchen_01_f000035.wav|doch der Hunger trieb ihn bald an das Licht und nötigte ihn, an der warmen Sonne und unter den Leuten zu erscheinen, um bei der Hand zu sein und zu gewärtigen, wo sich etwa ein Maulvoll geringer Nahrung zeigen möchte.
+spiegel_kaetzchen_01_f000036.wav|Je seltener dies geschah, desto aufmerksamer wurde der gute Spiegel, und alle seine moralischen Eigenschaften gingen in dieser Aufmerksamkeit auf, so daß er sehr bald sich selber nicht mehr gleichsah.
+spiegel_kaetzchen_01_f000037.wav|Er machte zahlreiche Ausflüge von seiner Haustüre aus und stahl sich scheu und flüchtig über die Straße, um manchmal mit einem schlechten unappetitlichen Bissen, dergleichen er früher nie angesehen, manchmal mit gar nichts zurückzukehren.
+spiegel_kaetzchen_01_f000038.wav|Er wurde von Tag zu Tag magerer und zerzauster, dabei gierig, kriechend und feig; all sein Mut, seine zierliche Katzenwürde, seine Vernunft und Philosophie waren dahin.
+spiegel_kaetzchen_01_f000039.wav|Wenn die Buben aus der Schule kamen, so kroch er in einen verborgenen Winkel, sobald er sie kommen hörte, und guckte nur hervor, um aufzupassen, welcher von ihnen etwa eine Brotrinde wegwürfe, und merkte sich den Ort, wo sie hinfiel.
+spiegel_kaetzchen_01_f000040.wav|Wenn der schlechteste Köter von weitem ankam, so sprang er hastig fort, während er früher gelassen der Gefahr ins Auge geschaut und böse Hunde oft tapfer gezüchtigt hatte.
+spiegel_kaetzchen_01_f000041.wav|Nur wenn ein grober und einfältiger Mensch daherkam, dergleichen er sonst klüglich gemieden, blieb er sitzen, obgleich das arme Kätzchen mit dem Reste seiner Menschenkenntnis den Lümmel recht gut erkannte;
+spiegel_kaetzchen_01_f000042.wav|allein die Not zwang Spiegelchen, sich zu täuschen und zu hoffen, daß der Schlimme ausnahmsweise einmal es freundlich streicheln und ihm einen Bissen darreichen werde.
+spiegel_kaetzchen_01_f000043.wav|Und selbst wenn er statt dessen nun doch geschlagen oder in den Schwanz gekneift wurde, so kratzte er nicht, sondern duckte sich lautlos zur Seite und sah dann noch verlangend nach der Hand,
+spiegel_kaetzchen_01_f000044.wav|die es geschlagen und gekneift und welche nach Wurst oder Hering roch.
+spiegel_kaetzchen_01_f000045.wav|Als der edle und kluge Spiegel so heruntergekommen war, saß er eines Tages ganz mager und traurig auf seinem Steine und blinzelte in der Sonne.
+spiegel_kaetzchen_01_f000046.wav|Da kam der Stadthexenmeister Pineiß des Weges, sah das Kätzchen und stand vor ihm still.
+spiegel_kaetzchen_01_f000047.wav|Etwas Gutes hoffend, obgleich es den Unheimlichen wohl kannte, saß Spiegelchen demütig auf dem Stein und erwartete, was der Herr Pineiß etwa tun oder sagen würde.
+spiegel_kaetzchen_01_f000048.wav|Als dieser aber begann und sagte: Na Katze!
+spiegel_kaetzchen_01_f000049.wav|Soll ich dir deinen Schmer abkaufen? da verlor es die Hoffnung, denn es glaubte, der Stadthexenmeister wolle es seiner Magerkeit wegen verhöhnen.
+spiegel_kaetzchen_01_f000050.wav|Doch erwiderte er bescheiden und lächelnd, um es mit niemand zu verderben: Ach, der Herr Pineiß belieben zu scherzen!
+spiegel_kaetzchen_01_f000051.wav|Mit nichten! rief Pineiß, es ist mir voller Ernst!
+spiegel_kaetzchen_01_f000052.wav|Ich brauche Katzenschmer vorzüglich zur Hexerei; aber er muß mir vertragsmäßig und freiwillig von den werten Herren Katzen abgetreten werden, sonst ist er unwirksam.
+spiegel_kaetzchen_01_f000053.wav|Ich denke, wenn je ein wackeres Kätzlein in der Lage war, einen vorteilhaften Handel abzuschließen, so bist es du!
+spiegel_kaetzchen_01_f000054.wav|Begib dich in meinen Dienst; ich füttere dich herrlich heraus, mache dich fett und kugelrund mit Würstchen und gebratenen Wachteln.
+spiegel_kaetzchen_01_f000055.wav|Auf dem ungeheuer hohen alten Dache meines Hauses, welches nebenbei gesagt das köstlichste Dach von der Welt ist für eine Katze, voll interessanter Gegenden und Winkel,
+spiegel_kaetzchen_01_f000056.wav|wächst auf den sonnigsten Höhen treffliches Spitzgras, grün wie Smaragd, schlank und fein in den Lüften schwankend, dich einladend, die zartesten Spitzen abzureißen und zu genießen,
+spiegel_kaetzchen_01_f000057.wav|wenn du dir an meinen Leckerbissen eine leichte Unverdaulichkeit zugezogen hast.
+spiegel_kaetzchen_01_f000058.wav|So wirst du bei trefflicher Gesundheit bleiben und mir dereinst einen kräftigen brauchbaren Schmer liefern!
+spiegel_kaetzchen_01_f000059.wav|Spiegel hatte schon längst die Ohren gespitzt und mit wässerndem Mäulchen gelauscht; doch war seinem geschwächten Verstande die Sache noch nicht klar und er versetzte daher: Das ist so weit nicht übel, Herr Pineiß!
+spiegel_kaetzchen_01_f000060.wav|Wenn ich nur wüßte, wie ich alsdann, wenn ich doch, um Euch meinen Schmer abzutreten, mein Leben lassen muß, des verabredeten Preises habhaft werden und ihn genießen soll, da ich nicht mehr bin?
+spiegel_kaetzchen_01_f000061.wav|Des Preises habhaft werden? sagte der Hexenmeister verwundert, den Preis genießest du ja eben in den reichlichen und üppigen Speisen, womit ich dich fett mache, das versteht sich von selber!
+spiegel_kaetzchen_01_f000062.wav|Doch will ich dich zu dem Handel nicht zwingen!
+spiegel_kaetzchen_01_f000063.wav|Und er machte Miene, sich von dannen begeben zu wollen.
+spiegel_kaetzchen_01_f000064.wav|Aber Spiegel sagte hastig und ängstlich: Ihr müßt mir wenigstens eine mäßige Frist gewähren über die Zeit meiner höchsten erreichten Rundheit und Fettigkeit hinaus, daß ich nicht so jählings von hinnen gehen muß, wenn jener angenehme und ach!
+spiegel_kaetzchen_01_f000065.wav|so traurige Zeitpunkt herangekommen und entdeckt ist!
+spiegel_kaetzchen_01_f000066.wav|Es sei! sagte Herr Pineiß mit anscheinender Gutmütigkeit, bis zum nächsten Vollmond sollst du dich alsdann deines angenehmen Zustandes erfreuen dürfen, aber nicht länger!
+spiegel_kaetzchen_01_f000067.wav|Denn in den abnehmenden Mond hinein darf es nicht gehen, weil dieser einen vermindernden Einfluß auf mein wohlerworbenes Eigentum ausüben würde.
+spiegel_kaetzchen_01_f000068.wav|Das Kätzchen beeilte sich zuzuschlagen und unterzeichnete einen Vertrag, welchen der Hexenmeister im Vorrat bei sich führte, mit seiner scharfen Handschrift, welche sein letztes Besitztum und Zeichen besserer Tage war.
+spiegel_kaetzchen_01_f000069.wav|Du kannst dich nun zum Mittagessen bei mir einfinden, Kater!
+spiegel_kaetzchen_01_f000070.wav|sagte der Hexer, Punkt zwölf Uhr wird gegessen!
+spiegel_kaetzchen_01_f000071.wav|Ich werde so frei sein, wenn Ihr's erlaubt! sagte Spiegel und fand sich pünktlich um die Mittagsstunde bei Herrn Pineiß ein.
+spiegel_kaetzchen_01_f000072.wav|Dort begann nun während einiger Monate ein höchst angenehmes Leben für das Kätzchen; denn es hatte auf der Welt weiter nichts zu tun als die guten Dinge zu verzehren,
+spiegel_kaetzchen_01_f000073.wav|die man ihm vorsetzte, dem Meister bei der Hexerei zuzuschauen, wenn es mochte, und auf dem Dache spazieren zu gehen.
+spiegel_kaetzchen_01_f000074.wav|Dies Dach glich einem ungeheuren schwarzen Nebelspalter oder Dreiröhrenhut, wie man die großen Hüte der schwäbischen Bauern nennt, und wie ein solcher Hut ein Gehirn voller Nücken und Finten überschattet,
+spiegel_kaetzchen_01_f000075.wav|so bedeckte dies Dach ein großes, dunkles und winkliges Haus voll Hexenwerk und Tausendsgeschichten.
+spiegel_kaetzchen_01_f000076.wav|Herr Pineiß war ein Kann-Alles, welcher hundert Ämtchen versah, Leute kurierte, Wanzen vertilgte, Zähne auszog und Geld auf Zinsen lieh; er war der Vormünder aller Waisen und Witwen, schnitt in seinen Mußestunden Federn, das Dutzend für einen Pfennig, und machte schöne schwarze Dinte;
+spiegel_kaetzchen_01_f000077.wav|er handelte mit Ingwer und Pfeffer, mit Wagenschmiere und Rosoli, mit Häftlein und Schuhnägeln, er renovierte die Turmuhr und machte jährlich den Kalender mit der Witterung, den Bauernregeln und dem Aderlaßmännchen;
+spiegel_kaetzchen_01_f000078.wav|er verrichtete zehntausend rechtliche Dinge am hellen Tag um mäßigen Lohn und einige unrechtliche nur in der Finsternis und aus Privatleidenschaft, oder hing auch den rechtlichen,
+spiegel_kaetzchen_01_f000079.wav|ehe er sie aus seiner Hand entließ, schnell noch ein unrechtliches Schwänzchen an, so klein wie die Schwänzchen der jungen Frösche, gleichsam nur der Possierlichkeit wegen.
+spiegel_kaetzchen_01_f000080.wav|Überdies machte er das Wetter in schwierigen Zeiten, überwachte mit seiner Kunst die Hexen, und wenn sie reif waren, ließ er sie verbrennen; für sich trieb er die Hexerei nur als wissenschaftlichen Versuch und zum Hausgebrauch,
+spiegel_kaetzchen_01_f000081.wav|so wie er auch die Stadtgesetze, die er redigierte und ins reine schrieb, unter der Hand probierte und verdrehte, um ihre Dauerhaftigkeit zu ergründen.
+spiegel_kaetzchen_01_f000082.wav|Da die Seldwyler stets einen solchen Bürger brauchten, der alle unlustigen kleinen und großen Dinge für sie tat,
+spiegel_kaetzchen_01_f000083.wav|so war er zum Stadthexenmeister ernannt worden und bekleidete dies Amt schon seit vielen Jahren mit unermüdlicher Hingebung und Geschicklichkeit, früh und spät.
+spiegel_kaetzchen_01_f000084.wav|Daher war sein Haus von unten bis oben vollgestopft mit allen erdenklichen Dingen, und Spiegel hatte viel Kurzweil, alles zu besehen und zu beriechen.
+spiegel_kaetzchen_01_f000085.wav|Doch im Anfang gewann er keine Aufmerksamkeit für andere Dinge als für das Essen.
+spiegel_kaetzchen_01_f000086.wav|Er schlang gierig alles hinunter, was Pineiß ihm darreichte, und mochte kaum von einer Zeit zur anderen warten.
+spiegel_kaetzchen_01_f000087.wav|Dabei überlud er sich den Magen und mußte wirklich auf das Dach gehen, um dort von den grünen Gräsern abzureißen und sich von allerhand Unwohlsein zu kurieren.
+spiegel_kaetzchen_01_f000088.wav|Als der Meister diesen Heißhunger bemerkte, freute er sich und dachte, das Kätzchen würde solcherweise recht bald fett werden, und je besser er daran wende, desto klüger verfahre und spare er im ganzen.
+spiegel_kaetzchen_01_f000089.wav|Er baute daher für Spiegel eine ordentliche Landschaft in seiner Stube, indem er ein Wäldchen von Tannenbäumchen aufstellte, kleine Hügel von Steinen und Moos errichtete und einen kleinen See anlegte.
+spiegel_kaetzchen_01_f000090.wav|Auf die Bäumchen setzte er duftig gebratene Lerchen, Finken, Meisen und Sperlinge, je nach der Jahreszeit, so daß da Spiegel immer etwas herunterzuholen und zu knabbern vorfand.
+spiegel_kaetzchen_01_f000091.wav|In die kleinen Berge versteckte er in künstlichen Mauslöchern herrliche Mäuse, welche er sorgfältig mit Weizenmehl gemästet, dann ausgeweidet, mit zarten Speckriemchen gespickt und gebraten hatte.
+spiegel_kaetzchen_01_f000092.wav|Einige dieser Mäuse konnte Spiegel mit der Hand hervorholen, andere waren zur Erhöhung des Vergnügens tiefer verborgen, aber an einen Faden gebunden, an welchem Spiegel sie behutsam hervorziehen mußte,
+spiegel_kaetzchen_01_f000093.wav|wenn er diese Lustbarkeit einer nachgeahmten Jagd genießen wollte.
+spiegel_kaetzchen_01_f000094.wav|Das Becken des Sees aber füllte Pineiß alle Tage mit frischer Milch, damit Spiegel in der süßen seinen Durst lösche, und ließ gebratene Gründlinge darin schwimmen, da er wußte, daß Katzen zuweilen auch die Fischerei lieben.
+spiegel_kaetzchen_01_f000095.wav|Aber da nun Spiegel ein so herrliches Leben führte, tun und lassen, essen und trinken konnte, was ihm beliebte und wann es ihm einfiel, so gedieh er allerdings zusehends an seinem Leibe;
+spiegel_kaetzchen_01_f000096.wav|sein Pelz wurde wieder glatt und glänzend und sein Auge munter; aber zugleich nahm er, da sich seine Geisteskräfte in gleichem Maße wieder ansammelten, bessere Sitten an;
+spiegel_kaetzchen_01_f000097.wav|die wilde Gier legte sich, und weil er jetzt eine traurige Erfahrung hinter sich hatte, so wurde er nun klüger als zuvor.
+spiegel_kaetzchen_01_f000098.wav|Er mäßigte sich in seinen Gelüsten und fraß nicht mehr als ihm zuträglich war, indem er zugleich wieder vernünftigen und tiefsinnigen Betrachtungen nachging und die Dinge wieder durchschaute.
+spiegel_kaetzchen_01_f000099.wav|So holte er eines Tages einen hübschen Krammetsvogel von den Ästen herunter, und als er denselben nachdenklich zerlegte, fand er dessen kleinen Magen ganz kugelrund angefüllt mit frischer unversehrter Speise.
+spiegel_kaetzchen_01_f000100.wav|Grüne Kräutchen, artig zusammengerollt, schwarze und weiße Samenkörner und eine glänzend rote Beere waren da so niedlich und dicht ineinander gepfropft, als ob ein Mütterchen für ihren Sohn das Ränzchen zur Reise gepackt hätte.
+spiegel_kaetzchen_01_f000101.wav|Als Spiegel den Vogel langsam verzehrt und das so vergnüglich gefüllte Mäglein an seine Klaue hing und philosophisch betrachtete, rührte ihn das Schicksal des armen Vogels,
+spiegel_kaetzchen_01_f000102.wav|welcher nach so friedlich verbrachtem Geschäft so schnell sein Leben lassen gemußt, daß er nicht einmal die eingepackten Sachen verdauen konnte.
+spiegel_kaetzchen_01_f000103.wav|Was hat er nun davon gehabt, der arme Kerl, sagte Spiegel, daß er sich so fleißig und eifrig genährt hat, daß dies kleine Säckchen aussieht wie ein wohl vollbrachtes Tagewerk?
+spiegel_kaetzchen_01_f000104.wav|Diese rote Beere ist es, die ihn aus dem freien Walde in die Schlinge des Vogelstellers gelockt hat.
+spiegel_kaetzchen_01_f000105.wav|Aber er dachte doch, seine Sache noch besser zu machen und sein Leben an solchen Beeren zu fristen, während ich, der ich soeben den unglücklichen Vogel gegessen, daran mich nur um einen Schritt näher zum Tode gegessen habe!
+spiegel_kaetzchen_01_f000106.wav|Kann man einen elendern und feigern Vertrag abschließen als sein Leben noch ein Weilchen fristen zu lassen, um es dann um diesen Preis doch zu verlieren?
+spiegel_kaetzchen_01_f000107.wav|Wäre nicht ein freiwilliger und schneller Tod vorzuziehen gewesen für einen entschlossenen Kater?
+spiegel_kaetzchen_01_f000108.wav|Aber ich habe keine Gedanken gehabt, und nun da ich wieder solche habe, sehe ich nichts vor mir als das Schicksal dieses Krammetsvogels; wenn ich rund genug bin, so muß ich von hinnen, aus keinem andern Grunde als weil ich rund bin.
+spiegel_kaetzchen_01_f000109.wav|Ein schöner Grund für einen lebenslustigen und gedankenreichen Katzmann!
+spiegel_kaetzchen_01_f000110.wav|Ach, könnte ich aus dieser Schlinge kommen!
+spiegel_kaetzchen_01_f000111.wav|Er vertiefte sich nun in vielfältige Grübeleien, wie das gelingen möchte; aber da die Zeit der Gefahr noch nicht da war, so wurde es ihm nicht klar und er fand keinen Ausweg;
+spiegel_kaetzchen_01_f000112.wav|aber als ein kluger Mann ergab er sich bis dahin der Tugend und der Selbstbeherrschung, welches immer die beste Vorschule und Zeitverwendung ist, bis sich etwas entscheiden soll.
+spiegel_kaetzchen_01_f000113.wav|Er verschmähte das weiche Kissen, welches ihm Pineiß zurechtgelegt hatte, damit er fleißig darauf schlafen und fett werden sollte, und zog es vor, wieder auf schmalen Gesimsen und hohen gefährlichen Stellen zu liegen, wenn er ruhen wollte.
+spiegel_kaetzchen_01_f000114.wav|Ebenso verschmähte er die gebratenen Vögel und die gespickten Mäuse und fing sich lieber auf den Dächern, da er nun wieder einen rechtmäßigen Jagdgrund hatte, mit List und Gewandtheit einen schlichten lebendigen Sperling oder auf den Speichern eine flinke Maus,
+spiegel_kaetzchen_01_f000115.wav|und solche Beute schmeckte ihm vortrefflicher als das gebratene Wild in Pineißens künstlichem Gehege, während sie ihn nicht zu fett machte; auch die Bewegung und Tapferkeit sowie der wiedererlangte Gebrauch der Tugend und Philosophie verhinderten ein zu schnelles Fettwerden,
+spiegel_kaetzchen_01_f000116.wav|so daß Spiegel zwar gesund und glänzend aussah, aber zu Pineißens Verwunderung auf einer gewissen Stufe der Beleibtheit stehen blieb, welche lange nicht das erreichte, was der Hexenmeister mit seiner freundlichen Mästung bezweckte;
+spiegel_kaetzchen_01_f000117.wav|denn dieser stellte sich darunter ein kugelrundes, schwerfälliges Tier vor, welches sich nicht vom Ruhekissen bewegte und aus eitel Schmer bestand.
+spiegel_kaetzchen_01_f000118.wav|Aber hierin hatte sich seine Hexerei eben geirrt und er wußte bei aller Schlauheit nicht, daß, wenn man einen Esel füttert, derselbe ein Esel bleibt, wenn man aber einen Fuchsen speiset, derselbe nichts anders wird als ein Fuchs;
+spiegel_kaetzchen_01_f000119.wav|denn jede Kreatur wächst sich nach ihrer Weise aus.
+spiegel_kaetzchen_01_f000120.wav|Als Herr Pineiß entdeckte, wie Spiegel immer auf demselben Punkte einer wohlgenährten, aber geschmeidigen und rüstigen Schlankheit stehen blieb, ohne eine erkleckliche Fettigkeit anzusetzen, stellte er ihn eines Abends plötzlich zur Rede und sagte barsch:
+spiegel_kaetzchen_01_f000121.wav|Was ist das, Spiegel? Warum frissest du die guten Speisen nicht, die ich dir mit so viel Sorgfalt und Kunst präpariere und herstelle?
+spiegel_kaetzchen_01_f000122.wav|Warum fängst du die gebratenen Vögel nicht auf den Bäumen, warum suchst du die leckeren Mäuschen nicht in den Berghöhlen?
+spiegel_kaetzchen_01_f000123.wav|Warum fischest du nicht mehr in dem See?
+spiegel_kaetzchen_01_f000124.wav|Warum pflegst du dich nicht?
+spiegel_kaetzchen_01_f000125.wav|Warum schläfst du nicht auf dem Kissen?
+spiegel_kaetzchen_01_f000126.wav|Warum strapazierst du dich und wirst mir nicht fett?
+spiegel_kaetzchen_01_f000127.wav|Ei, Herr Pineiß! sagte Spiegel, weil es mir wohler ist auf diese Weise!
+spiegel_kaetzchen_01_f000128.wav|Soll ich meine kurze Frist nicht auf die Art verbringen, die mir am angenehmsten ist?
+spiegel_kaetzchen_01_f000129.wav|Wie! rief Pineiß, du sollst so leben, daß du dick und rund wirst, und nicht dich abjagen!
+spiegel_kaetzchen_01_f000130.wav|Ich merke aber wohl, wo du hinauswillst!
+spiegel_kaetzchen_01_f000131.wav|Du denkst mich zu äffen und hinzuhalten, daß ich dich in Ewigkeit in diesem Mittelzustande herumlaufen lasse?
+spiegel_kaetzchen_01_f000132.wav|Mit nichten soll dir das gelingen!
+spiegel_kaetzchen_01_f000133.wav|Es ist deine Pflicht, zu essen und zu trinken und dich zu pflegen, auf daß du dick werdest und Schmer bekommst!
+spiegel_kaetzchen_01_f000134.wav|Auf der Stelle entsage daher dieser hinterlistigen und kontraktwidrigen Mäßigkeit, oder ich werde ein Wörtlein mit dir sprechen!
+spiegel_kaetzchen_02_f000001.wav|Spiegel unterbrach sein behagliches Spinnen, das er angefangen, um seine Fassung zu behaupten, und sagte: Ich weiß kein Sterbenswörtchen davon, daß in dem Kontrakt steht, ich solle der Mäßigkeit und einem gesunden Lebenswandel entsagen!
+spiegel_kaetzchen_02_f000002.wav|Wenn der Herr Stadthexenmeister darauf gerechnet hat, daß ich ein fauler Schlemmer sei, so ist das nicht meine Schuld!
+spiegel_kaetzchen_02_f000003.wav|Ihr tut tausend rechtliche Dinge des Tages, so lasset dieses auch noch hinzukommen und uns beide hübsch in der Ordnung bleiben; denn Ihr wißt ja wohl, daß Euch mein Schmer nur nützlich ist, wenn er auf rechtliche Weise erwachsen!
+spiegel_kaetzchen_02_f000004.wav|Ei du Schwätzer! rief Pineiß erbost, willst du mich belehren?
+spiegel_kaetzchen_02_f000005.wav|Zeig her, wie weit bist du denn eigentlich gediehen, du Müßiggänger?
+spiegel_kaetzchen_02_f000006.wav|Vielleicht kann man dich doch bald abtun!
+spiegel_kaetzchen_02_f000007.wav|Er griff dem Kätzchen an den Bauch; allein dieses fühlte sich dadurch unangenehm gekitzelt und hieb dem Hexenmeister einen scharfen Kratz über die Hand.
+spiegel_kaetzchen_02_f000008.wav|Diesen betrachtete Pineiß aufmerksam, dann sprach er: Stehen wir so miteinander, du Bestie?
+spiegel_kaetzchen_02_f000009.wav|Wohlan, so erkläre ich dich hiemit feierlich, kraft des Vertrages, für fett genug!
+spiegel_kaetzchen_02_f000010.wav|Ich begnüge mich mit dem Ergebnis und werde mich desselben zu versichern wissen!
+spiegel_kaetzchen_02_f000011.wav|In fünf Tagen ist der Mond voll, und bis dahin magst du dich noch deines Lebens erfreuen, wie es geschrieben steht, und nicht eine Minute länger!
+spiegel_kaetzchen_02_f000012.wav|Damit kehrte er ihm den Rücken und überließ ihn seinen Gedanken.
+spiegel_kaetzchen_02_f000013.wav|Diese waren jetzt sehr bedenklich und düster.
+spiegel_kaetzchen_02_f000014.wav|So war denn die Stunde doch nahe, wo der gute Spiegel seine Haut lassen sollte?
+spiegel_kaetzchen_02_f000015.wav|Und war mit aller Klugheit gar nichts mehr zu machen?
+spiegel_kaetzchen_02_f000016.wav|Seufzend stieg er auf das hohe Dach, dessen Firste dunkel in den schönen Herbstabendhimmel emporragten.
+spiegel_kaetzchen_02_f000017.wav|Da ging der Mond über der Stadt auf und warf seinen Schein auf die schwarzen bemoosten Hohlziegel des alten Daches, ein lieblicher Gesang tönte in Spiegels Ohren und eine schneeweiße Kätzin wandelte glänzend über einen benachbarten First weg.
+spiegel_kaetzchen_02_f000018.wav|Sogleich vergaß Spiegel die Todesaussichten, in welchen er lebte, und erwiderte mit seinem schönsten Katerliede den Lobgesang der Schönen.
+spiegel_kaetzchen_02_f000019.wav|Er eilte ihr entgegen und war bald im hitzigen Gefecht mit drei fremden Katern begriffen, die er mutig und wild in die Flucht schlug.
+spiegel_kaetzchen_02_f000020.wav|Dann machte er der Dame feurig und ergeben den Hof und brachte Tag und Nacht bei ihr zu, ohne an den Pineiß zu denken oder im Hause sich sehen zu lassen.
+spiegel_kaetzchen_02_f000021.wav|Er sang wie eine Nachtigall die schönen Mondnächte hindurch, jagte hinter der weißen Geliebten her über die Dächer, durch die Gärten, und rollte mehr als einmal im heftigen Minnespiel oder im Kampfe mit den Rivalen über hohe Dächer hinunter und fiel auf die Straße;
+spiegel_kaetzchen_02_f000022.wav|aber nur um sich aufzuraffen, das Fell zu schütteln und die wilde Jagd seiner Leidenschaften von neuem anzuheben.
+spiegel_kaetzchen_02_f000023.wav|Stille und laute Stunden, süße Gefühle und zorniger Streit, anmutiges Zwiegespräch, witziger Gedankenaustausch, Ränke und Schwänke der Liebe und Eifersucht, Liebkosungen und Raufereien,
+spiegel_kaetzchen_02_f000024.wav|die Gewalt des Glückes und die Leiden des Unsterns ließen den verliebten Spiegel nicht zu sich selbst kommen, und als die Scheibe des Mondes voll geworden, war er von allen diesen Aufregungen und Leidenschaften so heruntergekommen,
+spiegel_kaetzchen_02_f000025.wav|daß er jämmerlicher, magerer und zerzauster aussah als je.
+spiegel_kaetzchen_02_f000026.wav|Im selben Augenblicke rief ihm Pineiß aus einem Dachtürmchen: Spiegelchen!
+spiegel_kaetzchen_02_f000027.wav|Spiegelchen! Wo bist du?
+spiegel_kaetzchen_02_f000028.wav|Komm doch ein bißchen nach Hause!
+spiegel_kaetzchen_02_f000029.wav|Da schied Spiegel von der weißen Freundin, welche zufrieden und kühl miauend ihrer Wege ging, und wandte sich stolz seinem Henker zu.
+spiegel_kaetzchen_02_f000030.wav|Dieser stieg in die Küche hinunter, raschelte mit dem Kontrakt und sagte: Komm Spiegelchen, komm Spiegelchen!
+spiegel_kaetzchen_02_f000031.wav|und Spiegel folgte ihm und setzte sich in der Hexenküche trotzig vor den Meister hin in all seiner Magerkeit und Zerzaustheit.
+spiegel_kaetzchen_02_f000032.wav|Als Herr Pineiß erblickte, wie er so schmählich um seinen Gewinn gebracht war, sprang er wie besessen in die Höhe und schrie wütend: Was seh ich?
+spiegel_kaetzchen_02_f000033.wav|Du Schelm, du gewissenloser Spitzbube!
+spiegel_kaetzchen_02_f000034.wav|Was hast du mir getan?
+spiegel_kaetzchen_02_f000035.wav|Außer sich vor Zorn griff er nach einem Besen und wollte Spiegelein schlagen; aber dieser krümmte den schwarzen Rücken, ließ die Haare emporstarren, daß ein fahler Schein darüber knisterte,
+spiegel_kaetzchen_02_f000036.wav|legte die Ohren zurück, prustete und funkelte den Alten so grimmig an, daß dieser voll Furcht und Entsetzen drei Schritt zurücksprang.
+spiegel_kaetzchen_02_f000037.wav|Er begann zu fürchten, daß er einen Hexenmeister vor sich habe, welcher ihn foppe und mehr könne als er selbst.
+spiegel_kaetzchen_02_f000038.wav|Ungewiß und kleinlaut sagte er: Ist der ehrsame Herr Spiegel vielleicht vom Handwerk?
+spiegel_kaetzchen_02_f000039.wav|Sollte ein gelehrter Zaubermeister beliebt haben, sich in dero äußere Gestalt zu verkleiden, da er nach Gefallen über sein Leibliches gebieten und genau so beleibt werden kann als es ihm angenehm dünkt,
+spiegel_kaetzchen_02_f000040.wav|nicht zu wenig und nicht zu viel, oder unversehens so mager wird wie ein Gerippe, um dem Tode zu entschlüpfen?
+spiegel_kaetzchen_02_f000041.wav|Spiegel beruhigte sich wieder und sprach ehrlich: Nein, ich bin kein Zauberer!
+spiegel_kaetzchen_02_f000042.wav|Es ist allein die süße Gewalt der Leidenschaft, welche mich so heruntergebracht und zu meinem Vergnügen Euer Fett dahin genommen hat.
+spiegel_kaetzchen_02_f000043.wav|Wenn wir übrigens jetzt unser Geschäft von neuem beginnen wollen, so will ich tapfer dabei sein und drein beißen!
+spiegel_kaetzchen_02_f000044.wav|Setzt mir nur eine recht schöne und große Bratwurst vor, denn ich bin ganz erschöpft und hungrig!
+spiegel_kaetzchen_02_f000045.wav|Da packte Pineiß den Spiegel wütend am Kragen, sperrte ihn in den Gänsestall, der immer leer war, und schrie: Da sieh zu, ob dir deine süße Gewalt der Leidenschaft noch einmal heraushilft und ob sie stärker ist als die Gewalt der Hexerei und meines rechtlichen Vertrages!
+spiegel_kaetzchen_02_f000046.wav|Jetzt heißt's: Vogel friß und stirb!
+spiegel_kaetzchen_02_f000047.wav|Sogleich briet er eine lange Wurst, die so lecker duftete, daß er sich nicht enthalten konnte, selbst ein bißchen an beiden Zipfeln zu schlecken, ehe er sie durch das Gitter steckte.
+spiegel_kaetzchen_02_f000048.wav|Spiegel fraß sie von vorn bis hinten auf, und indem er sich behaglich den Schnurrbart putzte und den Pelz leckte, sagte er zu sich selber: Meiner Seel!
+spiegel_kaetzchen_02_f000049.wav|es ist doch eine schöne Sache um die Liebe!
+spiegel_kaetzchen_02_f000050.wav|Die hat mich für diesmal wieder aus der Schlinge gezogen.
+spiegel_kaetzchen_02_f000051.wav|Jetzt will ich mich ein wenig ausruhen und trachten, daß ich durch Beschaulichkeit und gute Nahrung wieder zu vernünftigen Gedanken komme!
+spiegel_kaetzchen_02_f000052.wav|Alles hat seine Zeit!
+spiegel_kaetzchen_02_f000053.wav|Heute ein bißchen Leidenschaft, morgen ein wenig Besonnenheit und Ruhe, ist jedes in seiner Weise gut.
+spiegel_kaetzchen_02_f000054.wav|Dies Gefängnis ist gar nicht so übel und es läßt sich gewiß etwas Ersprießliches darin ausdenken!
+spiegel_kaetzchen_02_f000055.wav|Pineiß aber nahm sich nun zusammen und bereitete alle Tage mit aller seiner Kunst solche Leckerbissen und in solch reizender Abwechslung und Zuträglichkeit, daß der gefangene Spiegel denselben nicht widerstehen konnte;
+spiegel_kaetzchen_02_f000056.wav|denn Pineißens Vorrat an freiwilligem und rechtmäßigem Katzenschmer nahm alle Tage mehr ab und drohte nächstens ganz auszugehen, und dann war der Hexer ohne dies Hauptmittel ein geschlagener Mann.
+spiegel_kaetzchen_02_f000057.wav|Aber der gute Hexenmeister nährte mit dem Leibe Spiegels dessen Geist immer wieder mit, und es war durchaus nicht von dieser unbequemen Zutat loszukommen, weshalb auch seine Hexerei sich hier als lückenhaft erwies.
+spiegel_kaetzchen_02_f000058.wav|Als Spiegel in seinem Käfig ihm endlich fett genug dünkte, säumte er nicht länger, sondern stellte vor den Augen des aufmerksamen Katers alle Geschirre zurecht und machte ein helles Feuer auf dem Herd, um den lang ersehnten Gewinn auszukochen.
+spiegel_kaetzchen_02_f000059.wav|Dann wetzte er ein großes Messer, öffnete den Kerker, zog Spiegelchen hervor, nachdem er die Küchentüre wohl verschlossen, und sagte wohlgemut: Komm, du Sapperlöter!
+spiegel_kaetzchen_02_f000060.wav|wir wollen dir den Kopf abschneiden vorderhand und dann das Fell abziehen!
+spiegel_kaetzchen_02_f000061.wav|Dieses wird eine warme Mütze für mich geben, woran ich Einfältiger noch gar nicht gedacht habe!
+spiegel_kaetzchen_02_f000062.wav|Oder soll ich dir erst das Fell abziehen und dann den Kopf abschneiden?
+spiegel_kaetzchen_02_f000063.wav|Nein, wenn es Euch gefällig ist, sagte Spiegel demütig, lieber zuerst den Kopf abschneiden!
+spiegel_kaetzchen_02_f000064.wav|Hast recht, du armer Kerl! sagte Herr Pineiß, wir wollen dich nicht unnütz quälen!
+spiegel_kaetzchen_02_f000065.wav|Alles was recht ist! Dies ist ein wahres Wort!
+spiegel_kaetzchen_02_f000066.wav|sagte Spiegel mit einem erbärmlichen Seufzer und legte das Haupt ergebungsvoll auf die Seite, o hätt ich doch jederzeit getan, was recht ist,
+spiegel_kaetzchen_02_f000067.wav|und nicht eine so wichtige Sache leichtsinnig unterlassen, so könnte ich jetzt mit besseren Gewissen sterben, denn ich sterbe gern;
+spiegel_kaetzchen_02_f000068.wav|aber ein Unrecht erschwert mir den sonst so willkommenen Tod; denn was bietet mir das Leben?
+spiegel_kaetzchen_02_f000069.wav|Nichts als Furcht, Sorge und Armut und zur Abwechslung einen Sturm verzehrender Leidenschaft, die noch schlimmer ist als die stille zitternde Furcht!
+spiegel_kaetzchen_02_f000070.wav|Ei, welches Unrecht, welche wichtige Sache? fragte Pineiß neugierig.
+spiegel_kaetzchen_02_f000071.wav|Ach, was hilft das Reden jetzt noch, seufzte Spiegel, geschehen ist geschehen, und jetzt ist Reue zu spät!
+spiegel_kaetzchen_02_f000072.wav|Siehst du, Sappermenter, was für ein Sünder du bist?
+spiegel_kaetzchen_02_f000073.wav|sagte Pineiß, und wie wohl du deinen Tod verdienst?
+spiegel_kaetzchen_02_f000074.wav|Aber was Tausend hast du denn angestellt?
+spiegel_kaetzchen_02_f000075.wav|Hast du mir vielleicht etwas entwendet, entfremdet, verdorben?
+spiegel_kaetzchen_02_f000076.wav|Hast du mir ein himmelschreiendes Unrecht getan, von dem ich noch gar nichts weiß, ahne, vermute, du Satan?
+spiegel_kaetzchen_02_f000077.wav|Das sind mir schöne Geschichten!
+spiegel_kaetzchen_02_f000078.wav|Gut, daß ich noch dahinterkomme!
+spiegel_kaetzchen_02_f000079.wav|Auf der Stelle beichte mir, oder ich schinde und siede dich lebendig aus!
+spiegel_kaetzchen_02_f000080.wav|Wirst du sprechen oder nicht?
+spiegel_kaetzchen_02_f000081.wav|Ach nein! sagte Spiegel, wegen Euch habe ich mir nichts vorzuwerfen.
+spiegel_kaetzchen_02_f000082.wav|Es betrifft die zehntausend Goldgülden meiner seligen Gebieterin aber was hilft Reden!
+spiegel_kaetzchen_02_f000083.wav|Zwar wenn ich bedenke und Euch ansehe, so möchte es vielleicht doch nicht ganz zu spät sein wenn ich Euch betrachte, so sehe ich, daß Ihr ein noch ganz schöner und rüstiger Mann seid, in den besten Jahren sagt doch, Herr Pineiß!
+spiegel_kaetzchen_02_f000084.wav|habt Ihr noch nie etwa den Wunsch verspürt, Euch zu verehelichen, ehrbar und vorteilhaft?
+spiegel_kaetzchen_02_f000085.wav|Aber was schwatze ich!
+spiegel_kaetzchen_02_f000086.wav|Wie wird ein so kluger und kunstreicher Mann auf dergleichen müßige Gedanken kommen!
+spiegel_kaetzchen_02_f000087.wav|Wie wird ein so nützlich beschäftigter Meister an törichte Weiber denken!
+spiegel_kaetzchen_02_f000088.wav|Zwar allerdings hat auch die Schlimmste noch irgend was an sich, was etwa nützlich für einen Mann ist, das ist nicht abzuleugnen!
+spiegel_kaetzchen_02_f000089.wav|Und wenn sie nur halbwegs was taugt, so ist eine gute Hausfrau etwa weiß am Leibe, sorgfältig im Sinne, zutulich von Sitten, treu von Herzen, sparsam im Verwalten,
+spiegel_kaetzchen_02_f000090.wav|aber verschwenderisch in der Pflege ihres Mannes, kurzweilig in Worten und angenehm in ihren Taten, einschmeichelnd in ihren Handlungen!
+spiegel_kaetzchen_02_f000091.wav|Sie küßt den Mann mit ihrem Munde und streichelt ihm den Bart, sie umschließt ihn mit ihren Armen und krault ihm hinter den Ohren, wie er es wünscht, kurz, sie tut tausend Dinge, die nicht zu verwerfen sind.
+spiegel_kaetzchen_02_f000092.wav|Sie hält sich ihm ganz nah zu oder in bescheidener Entfernung, je nach seiner Stimmung, und wenn er seinen Geschäften nachgeht, so stört sie ihn nicht, sondern verbreitet unterdessen sein Lob in und außer dem Hause;
+spiegel_kaetzchen_02_f000093.wav|denn sie läßt nichts an ihn kommen und rühmt alles, was an ihm ist!
+spiegel_kaetzchen_02_f000094.wav|Aber das Anmutigste ist die wunderbare Beschaffenheit ihres zarten leiblichen Daseins, welches die Natur so verschieden gemacht hat von unserm Wesen bei anscheinender Menschenähnlichkeit,
+spiegel_kaetzchen_02_f000095.wav|daß es ein fortwährendes Meerwunder in einer glückhaften Ehe bewirkt und eigentlich die allerdurchtriebenste Hexerei in sich birgt!
+spiegel_kaetzchen_02_f000096.wav|Doch was schwatze ich da wie ein Tor an der Schwelle des Todes!
+spiegel_kaetzchen_02_f000097.wav|Wie wird ein weiser Mann auf dergleichen Eitelkeiten sein Augenmerk richten!
+spiegel_kaetzchen_02_f000098.wav|Verzeiht, Herr Pineiß, und schneidet mir den Kopf ab!
+spiegel_kaetzchen_02_f000099.wav|Pineiß aber rief hastig: So halt doch endlich inne, du Schwätzer!
+spiegel_kaetzchen_02_f000100.wav|und sage mir: Wo ist eine solche und hat sie zehntausend Goldgülden?
+spiegel_kaetzchen_02_f000101.wav|Zehntausend Goldgülden? sagte Spiegel.
+spiegel_kaetzchen_02_f000102.wav|Nun ja, rief Pineiß ungeduldig, sprächest du nicht eben erst davon?
+spiegel_kaetzchen_02_f000103.wav|Nein, antwortete jener, das ist eine andere Sache!
+spiegel_kaetzchen_02_f000104.wav|Die liegen vergraben an einem Orte!
+spiegel_kaetzchen_02_f000105.wav|Und was tun sie da, wem gehören sie? schrie Pineiß.
+spiegel_kaetzchen_02_f000106.wav|Niemand gehören sie, das ist eben meine Gewissensbürde, denn ich hätte sie unterbringen sollen!
+spiegel_kaetzchen_02_f000107.wav|Eigentlich gehören sie jenem, der eine solche Person heiratet, wie ich eben beschrieben habe.
+spiegel_kaetzchen_02_f000108.wav|Aber wie soll man drei solche Dinge zusammenbringen in dieser gottlosen Stadt: zehntausend Goldgülden, eine weise, feine und gute Hausfrau und einen weisen rechtschaffenen Mann?
+spiegel_kaetzchen_02_f000109.wav|Daher ist eigentlich meine Sünde nicht allzu groß, denn der Auftrag war zu schwer für eine arme Katze!
+spiegel_kaetzchen_02_f000110.wav|Wenn du jetzt, rief Pineiß, nicht bei der Sache bleibst und sie verständlich der Ordnung nach dartust, so schneide ich dir vorläufig den Schwanz und beide Ohren ab!
+spiegel_kaetzchen_02_f000111.wav|Jetzt fang an! Da Ihr es befehlt, so muß ich die Sache wohl erzählen, sagte Spiegel und setzte sich gelassen auf seine Hinterfüße, obgleich dieser Aufschub meine Leiden nur vergrößert!
+spiegel_kaetzchen_02_f000112.wav|Pineiß steckte das scharfe Messer zwischen sich und Spiegel in die Diele und setzte sich neugierig auf ein Fäßchen, um zuzuhören, und Spiegel fuhr fort: Ihr wisset doch,
+spiegel_kaetzchen_02_f000113.wav|Herr Pineiß, daß die brave Person, meine selige Meisterin, unverheiratet gestorben ist als eine alte Jungfer, die in aller Stille viel Gutes getan und niemanden zuwider gelebt hat.
+spiegel_kaetzchen_02_f000114.wav|Aber nicht immer war es um sie her so still und ruhig zugegangen, und obgleich sie niemals von bösem Gemüt gewesen, so hatte sie doch einst viel Leid und Schaden angerichtet;
+spiegel_kaetzchen_02_f000115.wav|denn in ihrer Jugend war sie das schönste Fräulein weit und breit, und was von jungen Herren und kecken Gesellen in der Gegend war oder des Weges kam, verliebte sich in sie und wollte sie durchaus heiraten.
+spiegel_kaetzchen_02_f000116.wav|Nun hatte sie wohl große Lust zu heiraten und einen hübschen, ehrenfesten und klugen Mann zu nehmen, und sie hatte die Auswahl,
+spiegel_kaetzchen_02_f000117.wav|da sich Einheimische und Fremde um sie stritten und einander mehr als einmal die Degen in den Leib rannten, um den Vorrang zu gewinnen.
+spiegel_kaetzchen_02_f000118.wav|Es bewarben sich um sie und versammelten sich kühne und verzagte, listige und treuherzige, reiche und arme Freier, solche mit einem guten und anständigen Geschäft und solche, welche als Kavaliere zierlich von ihren Renten lebten;
+spiegel_kaetzchen_02_f000119.wav|dieser mit diesen, jener mit jenen Vorzügen, beredt oder schweigsam, der eine munter und liebenswürdig, und ein anderer schien es mehr in sich zu haben, wenn er auch etwas einfältig aussah;
+spiegel_kaetzchen_02_f000120.wav|kurz, das Fräulein hatte eine so vollkommene Auswahl, wie es ein mannbares Frauenzimmer sich nur wünschen kann.
+spiegel_kaetzchen_02_f000121.wav|Allein sie besaß außer ihrer Schönheit ein schönes Vermögen von vielen tausend Goldgülden und diese waren die Ursache, daß sie nie dazu kam, eine Wahl treffen und einen Mann nehmen zu können,
+spiegel_kaetzchen_02_f000122.wav|denn sie verwaltete ihr Gut mit trefflicher Umsicht und Klugheit und legte einen großen Wert auf dasselbe, und da nun der Mensch immer von seinen eigenen Neigungen aus andere beurteilt,
+spiegel_kaetzchen_02_f000123.wav|so geschah es, daß sie, sobald sich ihr ein achtungswerten Freier genähert und ihr halbwegs gefiel, alsobald sich einbildete, derselbe begehre sie nur um ihres Gutes willen.
+spiegel_kaetzchen_02_f000124.wav|War einer reich, so glaubte sie, er würde sie doch nicht begehren, wenn sie nicht auch reich wäre, und von den Unbemittelten nahm sie vollends als gewiß an, daß sie nur ihre Goldgülden im Auge hätten und sich daran gedächten gütlich zu tun,
+spiegel_kaetzchen_02_f000125.wav|und das arme Fräulein, welches doch selbst so große Dinge auf den irdischen Besitz hielt, war nicht imstande, diese Liebe zu Geld und Gut an ihren Freiern von der Liebe zu ihr selbst zu unterscheiden oder,
+spiegel_kaetzchen_02_f000126.wav|wenn sie wirklich etwa vorhanden war, dieselbe nachzusehen und zu verzeihen.
+spiegel_kaetzchen_02_f000127.wav|Mehrere Male war sie schon so gut wie verlobt und ihr Herz klopfte endlich stärker; aber plötzlich glaubte sie aus irgendeinem Zuge zu entnehmen, daß sie verraten sei und man einzig an ihr Vermögen denke,
+spiegel_kaetzchen_02_f000128.wav|und sie brach unverweilt die Geschichte entzwei und zog sich voll Schmerzen, aber unerbittlich zurück.
+spiegel_kaetzchen_02_f000129.wav|Sie prüfte alle, welche ihr nicht mißfielen, auf hundert Arten, so daß eine große Gewandtheit dazu gehörte, nicht in die Falle zu gehen, und zuletzt keiner mehr sich mit einiger Hoffnung nähern konnte als wer ein durchaus geriebener und verstellter Mensch war,
+spiegel_kaetzchen_02_f000130.wav|so daß schon aus diesen Gründen endlich die Wahl wirklich schwer wurde, weil solche Menschen dann zuletzt doch eine unheimliche Unruhe erwecken und die peinlichste Ungewißheit bei einer Schönen zurücklassen, je geriebener und geschickter sie sind.
+spiegel_kaetzchen_02_f000131.wav|Das Hauptmittel, ihre Anbeter zu prüfen, war, daß sie ihre Uneigennützigkeit auf die Probe stellte und sie alle Tage zu großen Ausgaben, zu reichen Geschenken und zu wohltätigen Handlungen veranlaßte.
+spiegel_kaetzchen_02_f000132.wav|Aber sie mochten es machen, wie sie wollten, so trafen sie doch nie das Rechte; denn zeigten sie sich freigebig und aufopfernd, gaben sie glänzende Feste, brachten sie ihr Geschenke dar oder anvertrauten ihr beträchtliche Gelder für die Armen,
+spiegel_kaetzchen_02_f000133.wav|so sagte sie plötzlich, dies alles geschehe nur, um mit einem Würmchen den Lachs zu fangen oder mit der Wurst nach der Speckseite zu werfen, wie man zu sagen pflegt.
+spiegel_kaetzchen_02_f000134.wav|Und sie vergabte die Geschenke sowohl wie das anvertraute Geld an Klöster und milde Stiftungen und speisete die Armen; aber die betrogenen Freier wies sie unbarmherzig ab.
+spiegel_kaetzchen_02_f000135.wav|Bezeigten sich dieselben aber zurückhaltend oder gar knauserig, so war der Stab sogleich über sie gebrochen, da sie das noch viel übler nahm und daran eine schnöde und nackte Rücksichtslosigkeit und Eigenliebe zu erkennen glaubte.
+spiegel_kaetzchen_02_f000136.wav|So kam es, daß sie, welche ein reines und nur ihrer Person hingegebenes Herz suchte, zuletzt von lauter verstellten, listigen und eigensüchtigen Freiersleuten umgeben war, aus denen sie nie klug wurde und die ihr das Leben verbitterten.
+spiegel_kaetzchen_02_f000137.wav|Eines Tages fühlte sie sich so mißmutig und trostlos, daß sie ihren ganzen Hof aus dem Hause wies, dasselbe zuschloß und nach Mailand verreiste, wo sie eine Base hatte.
+spiegel_kaetzchen_02_f000138.wav|Als sie über den Sankt Gotthard ritt auf einem Eselein, war ihre Gesinnung so schwarz und schaurig wie das wilde Gestein, das sich aus den Abgründen emportürmte,
+spiegel_kaetzchen_02_f000139.wav|und sie fühlte die heftigste Versuchung, sich von der Teufelsbrücke in die tobenden Gewässer der Reuß hinabzustürzen.
+spiegel_kaetzchen_02_f000140.wav|Nur mit der größten Mühe gelang es den zwei Mägden, die sie bei sich hatte und die ich selbst noch gekannt habe, welche aber nun schon lange tot sind, und dem Führer, sie zu beruhigen und von der finstern Anwandlung abzubringen.
+spiegel_kaetzchen_02_f000141.wav|Doch langte sie bleich und traurig in dem schönen Land Italien an, und so blau dort der Himmel war, wollten sich ihre dunklen Gedanken doch nicht aufhellen.
+spiegel_kaetzchen_02_f000142.wav|Aber als sie einige Tage bei ihrer Base verweilt, sollte unverhofft eine andere Melodie ertönen und ein Frühlingsanfang in ihr aufgehen, von dem sie bis dato noch nicht viel gewußt.
+spiegel_kaetzchen_02_f000143.wav|Denn es kam ein junger Landsmann in das Haus der Base, der ihr gleich beim ersten Anblick so wohl gefiel, daß man wohl sagen kann, sie verliebte sich jetzt von selbst und zum erstenmal.
+spiegel_kaetzchen_02_f000144.wav|Es war ein schöner Jüngling, von guter Erziehung und edlem Benehmen, nicht arm und nicht reich zur Zeit, denn er hatte nichts als zehntausend Goldgülden,
+spiegel_kaetzchen_02_f000145.wav|welche er von seinen verstorbenen Eltern ererbt und womit er, da er die Kaufmannschaft erlernt hatte, in Mailand einen Handel mit Seide begründen wollte;
+spiegel_kaetzchen_02_f000146.wav|denn er war unternehmend und klar von Gedanken und hatte eine glückliche Hand, wie es unbefangene und unschuldige Leute oft haben; denn auch dies war der junge Mann; er schien, so wohlgelehrt er war, doch so arglos und unschuldig wie ein Kind.
+spiegel_kaetzchen_02_f000147.wav|Und obgleich er ein Kaufmann war und ein so unbefangenes Gemüt, was schon zusammen eine köstliche Seltenheit ist, so war er doch fest und ritterlich in seiner Haltung und trug sein Schwert so keck zur Seite, wie nur ein geübter Kriegsmann es tragen kann.
+spiegel_kaetzchen_02_f000148.wav|Dies alles sowie seine frische Schönheit und Jugend bezwungen das Herz des Fräuleins dermaßen, daß sie kaum an sich halten konnte und ihm mit großer Freundlichkeit begegnete.
+spiegel_kaetzchen_02_f000149.wav|Sie wurde wieder heiter, und wenn sie dazwischen auch traurig war, so geschah dies in dem Wechsel der Liebesfurcht und Hoffnung,
+spiegel_kaetzchen_02_f000150.wav|welche immerhin ein edleres und angenehmeres Gefühl war als jene peinliche Verlegenheit in der Wahl, welche sie früher unter den vielen Freiern empfunden.
+spiegel_kaetzchen_02_f000151.wav|jetzt kannte sie nur eine Mühe und Besorgnis, diejenige nämlich, dem schönen und guten Jüngling zu gefallen, und je schöner sie selbst war, desto demütiger und unsicherer war sie jetzt, da sie zum ersten Male eine wahre Neigung gefaßt hatte.
+spiegel_kaetzchen_03_f000001.wav|Aber auch der junge Kaufmann hatte noch nie eine solche Schönheit gesehen oder war wenigstens noch keiner so nahe gewesen und von ihr so freundlich und artig behandelt worden.
+spiegel_kaetzchen_03_f000002.wav|Da sie nun, wie gesagt, nicht nur schön, sondern auch gut von Herzen und fein von Sitten war, so ist es nicht zu verwundern, daß der offene und frische Jüngling,
+spiegel_kaetzchen_03_f000003.wav|dessen Herz noch ganz frei und unerfahren war, sich ebenfalls in sie verliebte und das mit aller Kraft und Rückhaltlosigkeit, die in seiner ganzen Natur lag.
+spiegel_kaetzchen_03_f000004.wav|Aber vielleicht hätte das nie jemand erfahren, wenn er in seiner Einfalt nicht aufgemuntert worden wäre durch des Fräuleins Zutulichkeit, welche er mit heimlichem Zittern und Zagen für eine Erwiderung seiner Liebe zu halten wagte,
+spiegel_kaetzchen_03_f000005.wav|da er selber keine Verstellung kannte.
+spiegel_kaetzchen_03_f000006.wav|Doch bezwang er sich einige Wochen und glaubte die Sache zu verheimlichen; aber jeder sah ihm von weitem an, daß er zum Sterben verliebt war, und wenn er irgend in die Nähe des Fräuleins geriet oder sie nur genannt wurde,
+spiegel_kaetzchen_03_f000007.wav|so sah man auch gleich, in wen er verliebt war.
+spiegel_kaetzchen_03_f000008.wav|Er war aber nicht lange verliebt, sondern begann wirklich zu lieben mit aller Heftigkeit seiner Jugend, so daß ihm das Fräulein das Höchste und Beste auf der Welt wurde, an welches er ein für allemal das Heil und den ganzen Wert seiner eigenen Person setzte.
+spiegel_kaetzchen_03_f000009.wav|Dies gefiel ihr über die Maßen wohl; denn es war in allem, was er sagte oder tat, eine andere Art als sie bislang erfahren, und dies bestärkte und rührte sie so tief,
+spiegel_kaetzchen_03_f000010.wav|daß sie nun gleichermaßen der stärksten Liebe anheimfiel und nun nicht mehr von einer Wahl für sie die Rede war.
+spiegel_kaetzchen_03_f000011.wav|Jedermann sah diese Geschichte spielen und es wurde offen darüber gesprochen und vielfach gescherzt.
+spiegel_kaetzchen_03_f000012.wav|Dem Fräulein war es höchlich wohl dabei, und indem ihr das Herz vor banger Erwartung zerspringen wollte, half sie den Roman von ihrer Seite doch ein wenig verwickeln und ausspannen, um ihn recht auszukosten und zu genießen.
+spiegel_kaetzchen_03_f000013.wav|Denn der junge Mann beging in seiner Verwirrung so köstliche und kindliche Dinge, dergleichen sie niemals erfahren und für sie einmal schmeichelhafter und angenehmer waren als das andere.
+spiegel_kaetzchen_03_f000014.wav|Er aber in seiner Gradheit und Ehrlichkeit konnte es nicht lange so aushalten; da jeder darauf anspielte und sich einen Scherz erlaubte, so schien es ihm eine Komödie zu werden,
+spiegel_kaetzchen_03_f000015.wav|als deren Gegenstand ihm seine Geliebte viel zu gut und heilig war, und was ihr ausnehmend behagte, das machte ihn bekümmert, ungewiß und verlegen um sie selber.
+spiegel_kaetzchen_03_f000016.wav|Auch glaubte er sie zu beleidigen und zu hintergehen, wenn er da lange eine so heftige Leidenschaft zu ihr herumtrüge und unaufhörlich an sie denke, ohne daß sie eine Ahnung davon habe, was doch gar nicht schicklich sei und ihm selber nicht recht!
+spiegel_kaetzchen_03_f000017.wav|Daher sah man ihm eines Morgens von weitem an, daß er etwas vorhatte, und er bekannte ihr seine Liebe in einigen Worten, um es ein Mal und nie zum zweiten Mal zu sagen, wenn er nicht glücklich sein sollte.
+spiegel_kaetzchen_03_f000018.wav|Denn er war nicht gewohnt zu denken, daß ein solches schönes und wohlbeschaffenes Fräulein etwa nicht ihre wahre Meinung sagen und nicht auch gleich zum erstenmal ihr unwiderrufliches Ja oder Nein erwidern sollte.
+spiegel_kaetzchen_03_f000019.wav|Er war ebenso zart gesinnt als heftig verliebt, ebenso spröde als kindlich und ebenso stolz als unbefangen, und bei ihm galt es gleich auf Tod und Leben, auf Ja oder Nein, Schlag um Schlag.
+spiegel_kaetzchen_03_f000020.wav|In demselben Augenblicke aber, in welchem das Fräulein sein Geständnis anhörte, das sie so sehnlich erwartet, überfiel sie ihr altes Mißtrauen und es fiel ihr zur unglücklichen Stunde ein,
+spiegel_kaetzchen_03_f000021.wav|daß ihr Liebhaber ein Kaufmann sei, welcher am Ende nur ihr Vermögen zu erlangen wünsche, um seine Unternehmungen zu erweitern.
+spiegel_kaetzchen_03_f000022.wav|Wenn er daneben auch ein wenig in ihre Person verliebt sein sollte, so wäre ja das bei ihrer Schönheit kein sonderliches Verdienst und nur um so empörender, wenn sie eine bloße wünschbare Zugabe zu ihrem Golde vorstellen sollte.
+spiegel_kaetzchen_03_f000023.wav|Anstatt ihm daher ihre Gegenliebe zu gestehen und ihn wohl aufzunehmen, wie sie am liebsten getan hätte, ersann sie auf der Stelle eine neue List, um seine Hingebung zu prüfen,
+spiegel_kaetzchen_03_f000024.wav|und nahm eine ernste, fast traurige Miene an, indem sie ihm vertraute, wie sie bereits mit einem jungen Mann verlobt sei in ihrer Heimat, welchen sie auf das allerherzlichste liebe.
+spiegel_kaetzchen_03_f000025.wav|Sie habe ihm das schon mehrmals mitteilen wollen, da sie ihn, den Kaufmann nämlich, als Freund sehr lieb habe, wie er wohl habe sehen können aus ihrem Benehmen, und sie vertraue ihm wie einem Bruder.
+spiegel_kaetzchen_03_f000026.wav|Aber die ungeschickten Scherze, welche in der Gesellschaft aufgekommen seien, hätten ihr eine vertrauliche Unterhaltung erschwert; da er nun aber selbst sie mit seinem braven und edlen Herzen überrascht und dasselbe vor ihr aufgetan,
+spiegel_kaetzchen_03_f000027.wav|so könne sie ihm für seine Neigung nicht besser danken als indem sie ihm ebenso offen sich anvertraue.
+spiegel_kaetzchen_03_f000028.wav|Ja, fuhr sie fort, nur demjenigen könne sie angehören, welchen sie einmal erwählt habe, und nie würde es ihr möglich sein, ihr Herz einem andern Mannesbilde zuzuwenden,
+spiegel_kaetzchen_03_f000029.wav|dies stehe mit goldenem Feuer in ihrer Seele geschrieben und der liebe Mann wisse selbst nicht, wie lieb er ihr sei, so wohl er sie auch kenne!
+spiegel_kaetzchen_03_f000030.wav|Aber ein trüber Unstern hätte sie betroffen: ihr Bräutigam sei ein Kaufmann, aber so arm wie eine Maus; darum hätten sie den Plan gefaßt, daß er aus den Mitteln der Braut einen Handel begründen solle;
+spiegel_kaetzchen_03_f000031.wav|der Anfang sei gemacht und alles auf das beste eingeleitet, die Hochzeit sollte in diesen Tagen gefeiert werden, da wollte ein unverhofftes Mißgeschick, daß ihr ganzes Vermögen plötzlich ihr angetastet und abgestritten wurde und vielleicht für immer verloren gehe,
+spiegel_kaetzchen_03_f000032.wav|während der arme Bräutigam in nächster Zeit seine ersten Zahlungen zu leisten habe an die Mailänder und venezianischen Kaufleute, worauf sein ganzer Kredit, sein Gedeihen und seine Ehre beruhe, nicht zu sprechen von ihrer Vereinigung und glücklichen Hochzeit!
+spiegel_kaetzchen_03_f000033.wav|Sie sei in der Eile nach Mailand gekommen, wo sie begüterte Verwandte habe, um da Mittel und Auswege zu finden; aber zu einer schlimmen Stunde sei sie gekommen; denn nichts wolle sich fügen und schicken,
+spiegel_kaetzchen_03_f000034.wav|während der Tag immer nähe rücke, und wenn sie ihrem Geliebten nicht helfen könne, so müsse sie sterben vor Traurigkeit.
+spiegel_kaetzchen_03_f000035.wav|Denn es sei der liebste und beste Mensch, den man sich denken könne, und würde sicherlich ein großer Kaufherr werden, wenn ihm geholfen würde, und sie kenne kein anderes Glück mehr auf Erden als dann dessen Gemahlin zu sein!
+spiegel_kaetzchen_03_f000036.wav|Als sie diese Erzählung beendet, hatte sich der arme schöne Jüngling schon lange entfärbt und war bleich wie ein weißes Tuch.
+spiegel_kaetzchen_03_f000037.wav|Aber er ließ keinen Laut der Klage vernehmen und sprach nicht ein Sterbenswörtchen mehr von sich selbst und von seiner Liebe, sondern fragte bloß traurig, auf wieviel sich denn die eingegangenen Verpflichtungen des glücklich unglücklichen Bräutigams beliefen?
+spiegel_kaetzchen_03_f000038.wav|Auf zehntausend Goldgülden! antwortete sie noch viel trauriger.
+spiegel_kaetzchen_03_f000039.wav|Der junge traurige Kaufherr stand auf, ermahnte das Fräulein, guten Mutes zu sein, da sich gewiß ein Ausweg zeigen werde, und entfernte sich von ihr, ohne daß er sie anzusehen wagte;
+spiegel_kaetzchen_03_f000040.wav|so sehr fühlte er sich betroffen und beschämt, daß er sein Auge auf eine Dame geworfen, die so treu und leidenschaftlich einen andern liebte.
+spiegel_kaetzchen_03_f000041.wav|Denn der Arme glaubte jedes Wort von ihrer Erzählung wie ein Evangelium.
+spiegel_kaetzchen_03_f000042.wav|Dann begab er sich ohne Säumnis zu seinen Handelsfreunden und brachte sie durch Bitten und Einbüßung einer gewissen Summe dahin, seine Bestellungen und Einkäufe wieder rückgängig zu machen,
+spiegel_kaetzchen_03_f000043.wav|welche er selbst in diesen Tagen auch grad mit seinen zehntausend Goldgülden bezahlen sollte und worauf er seine ganze Laufbahn bauete, und ehe sechs Stunden verflossen waren,
+spiegel_kaetzchen_03_f000044.wav|erschien er wieder bei dem Fräulein mit seinem ganzen Besitztum und bat sie um Gottes willen, diese Aushilfe von ihm annehmen zu wollen.
+spiegel_kaetzchen_03_f000045.wav|Ihre Augen funkelten vor freudiger Überraschung und ihre Brust pochte wie ein Hammerwerk; sie fragte ihn, wo er denn dies Kapital hergenommen, und er erwiderte, er habe es auf seinen guten Namen geliehen und würde es,
+spiegel_kaetzchen_03_f000046.wav|da seine Geschäfte sich glücklich wendeten, ohne Unbequemlichkeit zurückerstatten können.
+spiegel_kaetzchen_03_f000047.wav|Sie sah ihm deutlich an, daß er log und daß es sein einziges Vermögen und ganze Hoffnung war, welche er ihrem Glücke opferte; doch stellte sie sich, als glaubte sie seinen Worten.
+spiegel_kaetzchen_03_f000048.wav|Sie ließ ihren freudigen Empfindungen freien Lauf und tat grausamerweise, als ob diese dem Glücke galten, nun doch ihren Erwählten retten und heiraten zu dürfen, und sie konnte nicht Worte finden, ihre Dankbarkeit auszudrücken.
+spiegel_kaetzchen_03_f000049.wav|Doch plötzlich besann sie sich und erklärte, nur unter einer Bedingung die großmütige Tat annehmen zu können, da sonst alles Zureden unnütz wäre.
+spiegel_kaetzchen_03_f000050.wav|Befragt, worin diese Bedingung bestehe, verlangte sie das heilige Versprechen, daß er an einem bestimmten Tage sich bei ihr einfinden wolle, um ihrer Hochzeit beizuwohnen und der beste Freund und Gönner ihres zukünftigen Ehegemahls zu werden sowie der treuste Freund,
+spiegel_kaetzchen_03_f000051.wav|Schützer und Berater ihrer selbst.
+spiegel_kaetzchen_03_f000052.wav|Errötend bat er sie, von diesem Begehren abzustehen; aber umsonst wandte er alle Gründe an, um sie davon abzubringen, umsonst stellte er ihr vor, daß seine Angelegenheiten jetzt nicht erlaubten,
+spiegel_kaetzchen_03_f000053.wav|nach der Schweiz zurückzureisen, und daß er von einem solchen Abstecher einen erheblichen Schaden erleiden würde.
+spiegel_kaetzchen_03_f000054.wav|Sie beharrte entschieden auf ihrem Verlangen und schob ihm sogar sein Gold wieder zu, da er sich nicht dazu verstehen wollte.
+spiegel_kaetzchen_03_f000055.wav|Endlich versprach er es, aber er mußte ihr die Hand darauf geben und es ihr bei seiner Ehre und Seligkeit beschwören.
+spiegel_kaetzchen_03_f000056.wav|Sie bezeichnete ihm genau den Tag und die Stunde, wann er eintreffen solle, und alles dies mußte er bei seinem Christenglauben und bei seiner Seligkeit beschwören.
+spiegel_kaetzchen_03_f000057.wav|Erst dann nahm sie sein Opfer an und ließ den Schatz vergnügt in ihre Schlafkammer tragen, wo sie ihn eigenhändig in ihre Reisetruhe verschloß und den Schlüssel in den Busen steckte.
+spiegel_kaetzchen_03_f000058.wav|Nun hielt sie sich nicht länger in Mailand auf, sondern reiste ebenso fröhlich über den Sankt Gotthard zurück als schwermütig sie hergekommen war.
+spiegel_kaetzchen_03_f000059.wav|Auf der Teufelsbrücke, wo sie hatte hinabspringen wollen, lachte sie wie eine Unkluge und warf mit hellem Jauchzen ihrer wohlklingenden Stimme einen Granatblütenstrauß in die Reuß,
+spiegel_kaetzchen_03_f000060.wav|welchen sie vor der Brust trug, kurz ihre Lust war nicht zu bändigen, und es war die fröhlichste Reise, die je getan wurde.
+spiegel_kaetzchen_03_f000061.wav|Heimgekehrt, öffnete und lüftete sie ihr Haus von oben bis unten und schmückte es, als ob sie einen Prinzen erwartete.
+spiegel_kaetzchen_03_f000062.wav|Aber zu Häupten ihres Bettes legte sie den Sack mit den zehntausend Goldgülden und legte des Nachts den Kopf so glückselig auf den harten Klumpen und schlief darauf, wie wenn es das weichste Flaumkissen gewesen wäre.
+spiegel_kaetzchen_03_f000063.wav|Kaum konnte sie den verabredeten Tag erwarten, wo sie ihn sicher kommen sah, da sie wußte, daß er nicht das einfachste Versprechen, geschweige denn einen Schwur brechen würde, und wenn es ihm um das Leben ginge.
+spiegel_kaetzchen_03_f000064.wav|Aber der Tag brach an und der Geliebte erschien nicht und es vergingen viele Tage und Wochen, ohne daß er von sich hören ließ.
+spiegel_kaetzchen_03_f000065.wav|Da fing sie an, an allen Gliedern zu zittern, und verfiel in die größte Angst und Bangigkeit; sie schickte Briefe über Briefe nach Mailand, aber niemand wußte ihr zu sagen, wo er geblieben sei.
+spiegel_kaetzchen_03_f000066.wav|Endlich aber stellte es sich durch einen Zufall heraus, daß der junge Kaufherr aus einem blutroten Stück Seidendamast, welches er von seinem Handelsanfang her im Haus liegen und bereits bezahlt hatte,
+spiegel_kaetzchen_03_f000067.wav|sich ein Kriegskleid hatte anfertigen lassen und unter die Schweizer gegangen war, welche damals eben im Solde des Königs Franz von Frankreich den Mailändischen Krieg mitstritten.
+spiegel_kaetzchen_03_f000068.wav|Nach der Schlacht bei Pavia, in welcher so viele Schweizer das Leben verloren, wurde er auf einem Haufen erschlagener Spaniolen liegend gefunden, von vielen tödlichen Wunden zerrissen und sein rotes Seidengewand von unten bis oben zerschlitzt und zerfetzt.
+spiegel_kaetzchen_03_f000069.wav|Eh er den Geist aufgab, sagte er einem neben ihm liegenden Seldwyler, der minder übel zugerichtet war, folgende Botschaft ins Gedächtnis und bat ihn, dieselbe auszurichten, wenn er mit dem Leben davonkäme: Liebstes Fräulein!
+spiegel_kaetzchen_03_f000070.wav|Obgleich ich Euch bei meiner Ehre, bei meinem Christenglauben und bei meiner Seligkeit geschworen habe, auf Eurer Hochzeit zu erscheinen, so ist es mir dennoch nicht möglich gewesen,
+spiegel_kaetzchen_03_f000071.wav|Euch nochmals zu sehen und einen andern des höchsten Glückes teilhaftig zu erblicken, das es für mich geben könnte.
+spiegel_kaetzchen_03_f000072.wav|Dieses habe ich erst in Eurer Abwesenheit verspürt und habe vorher nicht gewußt, welch eine strenge und unheimliche Sache es ist um solche Liebe, wie ich zu Euch habe, sonst würde ich mich zweifelsohne besser davor gehütet haben.
+spiegel_kaetzchen_03_f000073.wav|Da es aber einmal so ist, so wollte ich lieber meiner weltlichen Ehre und meiner geistlichen Seligkeit verloren und in die ewige Verdammnis eingehen als ein Meineidiger denn noch einmal in Eurer Nähe erscheinen mit einem Feuer in der Brust,
+spiegel_kaetzchen_03_f000074.wav|welches stärker und unauslöschlicher ist als das Höllenfeuer und mich dieses kaum wird verspüren lassen.
+spiegel_kaetzchen_03_f000075.wav|Betet nicht etwa für mich, schönstes Fräulein, denn ich kann und werde nie selig werden ohne Euch, sei es hier oder dort, und somit lebt glücklich und seid gegrüßt!
+spiegel_kaetzchen_03_f000076.wav|So hatte in dieser Schlacht, nach welcher König Franziskus sagte: Alles verloren, außer der Ehre!
+spiegel_kaetzchen_03_f000077.wav|der unglückliche Liebhaber alles verloren, die Hoffnung, die Ehre, das Leben und die ewige Seligkeit, nur die Liebe nicht, die ihn verzehrte.
+spiegel_kaetzchen_03_f000078.wav|Der Seldwyler kam glücklich davon, und sobald er sich in etwas erholt und außer Gefahr sah, schrieb er die Worte des Umgekommenen getreu auf seine Schreibtafel, um sie nicht zu vergessen,
+spiegel_kaetzchen_03_f000079.wav|reiste nach Hause, meldete sich bei dem unglücklichen Fräulein und las ihr die Botschaft so steif und kriegerisch vor, wie er zu tun gewohnt war, wenn er sonst die Mannschaft seines Fähnleins verlas; denn es war ein Feldleutnant.
+spiegel_kaetzchen_03_f000080.wav|Das Fräulein aber zerraufte sich die Haare, zerriß ihre Kleider und begann so laut zu schreien und zu weinen, daß man es die Straße auf und nieder hörte und die Leute zusammenliefen.
+spiegel_kaetzchen_03_f000081.wav|Sie schleppte wie wahnsinnig die zehntausend Goldgülden herbei, zerstreute sie auf dem Boden, warf sich der Länge nach darauf hin und küßte die glänzenden Goldstücke.
+spiegel_kaetzchen_03_f000082.wav|Ganz von Sinnen, suchte sie den umherrollenden Schatz zusammenzuraffen und zu umarmen, als ob der verlorene Geliebte darin zugegen wäre.
+spiegel_kaetzchen_03_f000083.wav|Sie lag Tag und Nacht auf dem Golde und wollte weder Speise noch Trank zu sich nehmen; unaufhörlich liebkoste und küßte sie das kalte Metall, bis sie mitten in einer Nacht plötzlich aufstand,
+spiegel_kaetzchen_03_f000084.wav|den Schatz emsig hin und her eilend nach dem Garten trug und dort unter bitteren Tränen in den tiefen Brunnen warf und einen Fluch darüber aussprach, daß er niemals jemand anderm angehören solle.
+spiegel_kaetzchen_03_f000085.wav|Als Spiegel so weit erzählt hatte, sagte Pineiß: Und liegt das schöne Geld noch in dem Brunnen?
+spiegel_kaetzchen_03_f000086.wav|Ja, wo sollte es sonst liegen? antwortete Spiegel, denn nur ich kann es herausbringen und habe es bis zur Stunde noch nicht getan!
+spiegel_kaetzchen_03_f000087.wav|Ei ja so, richtig! sagte Pineiß, ich habe es ganz vergessen über deiner Geschichte!
+spiegel_kaetzchen_03_f000088.wav|Du kannst nicht übel erzählen, du Sapperlöter!
+spiegel_kaetzchen_03_f000089.wav|und es ist mir ganz gelüstig geworden nach einem Weibchen, die so für mich eingenommen wäre; aber sehr schön müßte sie sein!
+spiegel_kaetzchen_03_f000090.wav|Doch erzähle jetzt schnell noch, wie die Sache eigentlich zusammenhängt!
+spiegel_kaetzchen_03_f000091.wav|Es dauerte manche Jahre, sagte Spiegel, bis das Fräulein aus bittern Seelenleiden so weit zu sich kam, daß sie anfangen konnte, die stille alte Jungfer zu werden, als welche ich sie kennen lernte.
+spiegel_kaetzchen_03_f000092.wav|Ich darf mich berühmen, daß ich ihr einziger Trost und ihr vertrautester Freund geworden bin in ihrem einsamen Leben bis an ihr stilles Ende.
+spiegel_kaetzchen_03_f000093.wav|Als sie aber dieses herannahen sah, vergegenwärtigte sie sich noch einmal die Zeit ihrer fernen Jugend und Schönheit und erlitt noch einmal mit milderen ergebenen Gedanken erst die süßen Erregungen
+spiegel_kaetzchen_03_f000094.wav|und dann die bittern Leiden jener Zeit und sie weinte still sieben Tage und Nächte hindurch über die Liebe des Jünglings,
+spiegel_kaetzchen_03_f000095.wav|deren Genuß sie durch ihr Mißtrauen verloren hatte, so daß ihre alten Augen noch kurz vor dem Tode erblindeten.
+spiegel_kaetzchen_03_f000096.wav|Dann bereute sie den Fluch, welchen sie über jenen Schatz ausgesprochen, und sagte zu mir, indem sie mich mit dieser wichtigen Sache beauftragte: Ich bestimme nun anders, lieber Spiegel!
+spiegel_kaetzchen_03_f000097.wav|und gebe dir die Vollmacht, daß du meine Verordnung vollziehest.
+spiegel_kaetzchen_03_f000098.wav|Sieh dich um und suche, bis du eine bildschöne, aber unbemittelte Frauensperson findest, welcher es ihrer Armut wegen an Freiern gebricht!
+spiegel_kaetzchen_03_f000099.wav|Wenn sich dann ein verständiger, rechtlicher und hübscher Mann finden sollte, der sein gutes Auskommen hat und die Jungfrau ungeachtet ihrer Armut, nur allein von ihrer Schönheit bewegt,
+spiegel_kaetzchen_03_f000100.wav|zur Frau begehrt, so soll dieser Mann mit den stärksten Eiden sich verpflichten, derselben so treu, aufopfernd und unabänderlich ergeben zu sein, wie es mein unglücklicher Liebster gewesen ist, und dieser Frau sein Leben lang in allen Dingen zu willfahren.
+spiegel_kaetzchen_03_f000101.wav|Dann gib der Braut die zehntausend Goldgülden, welche im Brunnen liegen, zur Mitgift, daß sie ihren Bräutigam am Hochzeitmorgen damit überrasche!
+spiegel_kaetzchen_03_f000102.wav|So sprach die Selige und ich habe meiner widrigen Geschicke wegen versäumt, dieser Sache nachzugehen, und muß nun befürchten, daß die Arme deswegen im Grabe noch beunruhigt sei, was für mich eben auch nicht die angenehmsten Folgen haben kann!
+spiegel_kaetzchen_03_f000103.wav|Pineiß sah den Spiegel mißtrauisch an und sagte: Wärst du wohl imstande, Bürschchen!
+spiegel_kaetzchen_03_f000104.wav|mir den Schatz ein wenig nachzuweisen und augenscheinlich zu machen?
+spiegel_kaetzchen_03_f000105.wav|Zu jeder Stunde! versetzte Spiegel, aber Ihr müßt wissen, Herr Stadthexenmeister, daß Ihr das Gold nicht etwa so ohne weiteres herausfischen dürftet!
+spiegel_kaetzchen_03_f000106.wav|Man würde Euch unfehlbar das Genick umdrehen; denn es ist nicht ganz geheuer in dem Brunnen, ich habe darüber bestimmte Inzichten, welche ich aus Rücksichten nicht näher berühren darf!
+spiegel_kaetzchen_03_f000107.wav|Hei, wer spricht denn von Herausholen?
+spiegel_kaetzchen_03_f000108.wav|sagte Pineiß etwas furchtsam, führe mich einmal hin und zeige mir den Schatz!
+spiegel_kaetzchen_03_f000109.wav|Oder vielmehr will ich dich führen an einem guten Schnürlein, damit du mir nicht entwischest!
+spiegel_kaetzchen_03_f000110.wav|Wie Ihr wollt! sagte Spiegel, aber nehmt auch eine andere lange Schnur mit und eine Blendlaterne, welche Ihr daran in den Brunnen hinablassen könnt; denn der ist sehr tief und dunkel!
+spiegel_kaetzchen_03_f000111.wav|Pineiß befolgte diesen Rat und führte das muntere Kätzchen nach dem Garten jener Verstorbenen.
+spiegel_kaetzchen_03_f000112.wav|Sie überstiegen miteinander die Mauer und Spiegel zeigte dem Hexer den Weg zu dem alten Brunnen, welcher unter verwildertem Gebüsche verborgen war.
+spiegel_kaetzchen_03_f000113.wav|Dort ließ Pineiß sein Laternchen hinunter, begierig nachblickend, während er den angebundenen Spiegel nicht von der Hand ließ.
+spiegel_kaetzchen_03_f000114.wav|Aber richtig sah er in der Tiefe das Gold funkeln unter dem grünlichen Wasser und rief.
+spiegel_kaetzchen_03_f000115.wav|Wahrhaftig, ich seh's, es ist wahr!
+spiegel_kaetzchen_03_f000116.wav|Spiegel, du bist ein Tausendskerl!
+spiegel_kaetzchen_03_f000117.wav|Dann guckte er wieder eifrig hinunter und sagte: Mögen es auch zehntausend sein?
+spiegel_kaetzchen_03_f000118.wav|Ja, das ist nun nicht zu schwören!
+spiegel_kaetzchen_03_f000119.wav|sagte Spiegel, ich bin nie da unten gewesen und hab's nicht gezählt!
+spiegel_kaetzchen_03_f000120.wav|Ist auch möglich, daß die Dame dazumal einige Stücke auf dem Wege verloren hat, als sie den Schatz hierher trug, da sie in einem sehr aufgeregten Zustande war.
+spiegel_kaetzchen_03_f000121.wav|Nun, seien es auch ein Dutzend oder mehr weniger!
+spiegel_kaetzchen_03_f000122.wav|sagte Herr Pineiß, es soll mir darauf nicht ankommen!
+spiegel_kaetzchen_03_f000123.wav|Er setzte sich auf den Rand des Brunnens, Spiegel setzte sich auch nieder und leckte sich das Pfötchen.
+spiegel_kaetzchen_03_f000124.wav|Da wäre nun der Schatz!
+spiegel_kaetzchen_03_f000125.wav|sagte Pineiß, indem er sich hinter den Ohren kratzte, und hier wäre auch der Mann dazu; fehlt nur noch das bildschöne Weib!
+spiegel_kaetzchen_03_f000126.wav|Wie? sagte Spiegel.
+spiegel_kaetzchen_03_f000127.wav|Ich meine, es fehlt nur noch diejenige, welche die Zehntausend als Mitgift bekommen soll, um mich damit zu überraschen am Hochzeitmorgen, und welche alle jene angenehmen Tugenden hat, von denen du gesprochen!
+spiegel_kaetzchen_03_f000128.wav|Hm! versetzte Spiegel, die Sache verhält sich nicht ganz so, wie Ihr sagt!
+spiegel_kaetzchen_03_f000129.wav|Der Schatz ist da, wie Ihr richtig einseht; das schöne Weib habe ich, um es aufrichtig zu gestehen, allbereits auch schon ausgespart; aber mit dem Mann, der sie unter diesen schwierigen Umständen heiraten möchte, da hapert es eben;
+spiegel_kaetzchen_03_f000130.wav|denn heutzutage muß die Schönheit obenein vergoldet sein wie die Weihnachtsnüsse, und je hohler die Köpfe werden, desto mehr sind sie bestrebt, die Leere mit einigem Weibergut nachzufüllen, damit sie die Zeit besser zu verbringen vermögen;
+spiegel_kaetzchen_03_f000131.wav|da wird dann mit wichtigem Gesicht ein Pferd besehen und ein Stück Sammet gekauft, mit Laufen und Rennen eine gute Armbrust bestellt, und der Büchsenschmied kommt nicht aus dem Hause;
+spiegel_kaetzchen_03_f000132.wav|da heißt es: ich muß meinen Wein einheimsen und meine Fässer putzen, meine Bäume putzen lassen und mein Dach decken; ich muß meine Frau ins Bad schicken, sie kränkelt und kostet mich viel Geld, und muß mein Holz fahren lassen und mein Ausstehendes eintreiben;
+spiegel_kaetzchen_03_f000133.wav|ich habe ein Paar Windspiele gekauft und meine Bracken vertauscht, ich habe einen schönen eichenen Ausziehtisch eingehandelt und meine große Nußbaumlade drangegeben;
+spiegel_kaetzchen_03_f000134.wav|ich habe meine Bohnenstangen geschnitten, meinen Gärtner fortgejagt, mein Heu verkauft und meinen Salat gesäet, immer mein und mein vom Morgen bis zu Abend.
+spiegel_kaetzchen_03_f000135.wav|Manche sagen sogar: ich habe meine Wäsche die nächste Woche, ich muß meine Betten sonnen, ich muß eine Magd dingen und einen neuen Metzger haben, denn den alten will ich abschaffen;
+spiegel_kaetzchen_03_f000136.wav|ich habe ein allerliebstes Waffeleisen erstanden, durch Zufall, und habe mein silbernes Zimmetbüchschen verkauft, es war mir so nichts nütze.
+spiegel_kaetzchen_03_f000137.wav|Alles das sind wohlverstanden die Sachen der Frau, und so verbringt ein solcher Kerl die Zeit und stiehlt unserm Herrgott den Tag ab, indem er alle diese Verrichtungen aufzählt, ohne einen Streich zu tun.
+spiegel_kaetzchen_03_f000138.wav|Wenn es hoch kommt und ein solcher Patron sich etwa ducken muß, so wird er vielleicht sagen: unsere Kühe und unsere Schweine, aber Pineiß riß den Spiegel an der Schnur, daß er miau! schrie, und rief.
+spiegel_kaetzchen_03_f000139.wav|Genug, du Plappermaul!
+spiegel_kaetzchen_03_f000140.wav|Sag jetzt unverzüglich: wo ist sie, von der du weißt?
+spiegel_kaetzchen_03_f000141.wav|Denn die Aufzählung aller dieser Herrlichkeiten und Verrichtungen, die mit einem Weibergute verbunden sind, hatte dem dürren Hexenmeister den Mund nur noch wässeriger gemacht.
+spiegel_kaetzchen_03_f000142.wav|Spiegel sagte erstaunt: Wollt Ihr denn wirklich das Ding unternehmen, Herr Pineiß?
+spiegel_kaetzchen_03_f000143.wav|Versteht sich, will ich!
+spiegel_kaetzchen_03_f000144.wav|Wer sonst als ich?
+spiegel_kaetzchen_03_f000145.wav|Drum heraus damit: wo ist diejenige?
+spiegel_kaetzchen_03_f000146.wav|Damit Ihr hingehen und sie freien könnt?
+spiegel_kaetzchen_03_f000147.wav|Ohne Zweifel!
+spiegel_kaetzchen_03_f000148.wav|So wisset, die Sache geht nur durch meine Hand!
+spiegel_kaetzchen_03_f000149.wav|Mit mir müßt Ihr sprechen, wenn Ihr Geld und Frau wollt!
+spiegel_kaetzchen_03_f000150.wav|sagte Spiegel kaltblütig und gleichgültig und fuhr sich mit den beiden Pfoten eifrig über die Ohren, nachdem er sie jedesmal ein bißchen naß gemacht.
+spiegel_kaetzchen_03_f000151.wav|Pineiß besann sich sorgfältig, stöhnte ein bißchen und sagte: Ich merke, du willst unsern Kontrakt aufheben und deinen Kopf salvieren!
+spiegel_kaetzchen_03_f000152.wav|Schiene Euch das so uneben und unnatürlich?
+spiegel_kaetzchen_03_f000153.wav|Du betrügst mich am Ende und belügst mich wie ein Schelm!
+spiegel_kaetzchen_03_f000154.wav|Dies ist auch möglich! sagte Spiegel.
+spiegel_kaetzchen_03_f000155.wav|Ich sage dir: betrüge mich nicht!
+spiegel_kaetzchen_03_f000156.wav|rief Pineiß gebieterisch.
+spiegel_kaetzchen_03_f000157.wav|Gut, so betrüge ich Euch nicht! sagte Spiegel.
+spiegel_kaetzchen_03_f000158.wav|Wenn du's tust!
+spiegel_kaetzchen_03_f000159.wav|So tu ich's.
+spiegel_kaetzchen_03_f000160.wav|Quäle mich nicht, Spiegelchen!
+spiegel_kaetzchen_03_f000161.wav|sprach Pineiß beinahe weinerlich, und Spiegel erwiderte jetzt ernsthaft: Ihr seid ein wunderbarer Mensch, Herr Pineiß!
+spiegel_kaetzchen_03_f000162.wav|Da haltet Ihr mich an einer Schnur gefangen und zerrt daran, daß mir der Atem vergeht!
+spiegel_kaetzchen_03_f000163.wav|Ihr lasset das Schwert des Todes über mir schweben seit länger als zwei Stunden, was sag ich! seit einem halben Jahre!
+spiegel_kaetzchen_03_f000164.wav|und nun sprecht Ihr: Quäle mich nicht, Spiegelchen!
+spiegel_kaetzchen_03_f000165.wav|Wenn Ihr erlaubt, so sage ich Euch in Kürze: Es kann mir nur lieb sein, jene Liebespflicht gegen die Tote doch noch zu erfüllen und für das bewußte Frauenzimmer einen tauglichen Mann zu finden, und Ihr scheint mir allerdings in aller Hinsicht zu genügen;
+spiegel_kaetzchen_03_f000166.wav|es ist keine Leichtigkeit, ein Weibstück wohl unterzubringen, so sehr dies auch scheint, und ich sage noch einmal: ich bin froh, daß Ihr Euch hiezu bereit finden lasset!
+spiegel_kaetzchen_03_f000167.wav|Aber umsonst ist der Tod!
+spiegel_kaetzchen_03_f000168.wav|Eh ich ein Wort weiter spreche, einen Schritt tue, ja eh ich nur den Mund noch einmal aufmache, will ich erst meine Freiheit wieder haben und mein Leben versichert!
+spiegel_kaetzchen_03_f000169.wav|Daher nehmt diese Schnur weg und legt den Kontrakt hier auf den Brunnen, hier auf diesen Stein, oder schneidet mir den Kopf ab, eins von beiden!
+spiegel_kaetzchen_04_f000001.wav|Ei du Tollhäusler und Obenhinaus!
+spiegel_kaetzchen_04_f000002.wav|sagte Pineiß, du Hitzkopf, so streng wird es nicht gemeint sein?
+spiegel_kaetzchen_04_f000003.wav|Das will ordentlich besprochen sein und muß jedenfalls ein neuer Vertrag geschlossen werden!
+spiegel_kaetzchen_04_f000004.wav|Spiegel gab keine Antwort mehr und saß unbeweglich da, ein, zwei und drei Minuten.
+spiegel_kaetzchen_04_f000005.wav|Da ward dem Meister bänglich, er zog seine Brieftasche hervor, klaubte seufzend den Schein heraus, las ihn noch einmal durch und legte ihn dann zögernd vor Spiegel hin.
+spiegel_kaetzchen_04_f000006.wav|Kaum lag das Papier dort, so schnappte es Spiegel auf und verschlang es; und obgleich er heftig daran zu würgen hatte, so dünkte es ihn doch die beste und gedeihlichste Speise zu sein,
+spiegel_kaetzchen_04_f000007.wav|die er je genossen, und er hoffte, daß sie ihm noch auf lange wohl bekommen und ihn rundlich und munter machen würde.
+spiegel_kaetzchen_04_f000008.wav|Als er mit der angenehmen Mahlzeit fertig war, begrüßte er den Hexenmeister höflich und sagte: Ihr werdet unfehlbar von mir hören, Herr Pineiß, und Weib und Geld sollen Euch nicht entgehen.
+spiegel_kaetzchen_04_f000009.wav|Dagegen macht Euch bereit, recht verliebt zu sein, damit Ihr jene Bedingungen einer unverbrüchlichen Hingebung an die Liebkosungen Eurer Frau, die schon so gut wie Euer ist, ja beschwören und erfüllen könnt!
+spiegel_kaetzchen_04_f000010.wav|Und hiemit bedanke ich mich des vorläufigen für genossene Pflege und Beköstigung und beurlaube mich!
+spiegel_kaetzchen_04_f000011.wav|Somit ging Spiegel seines Weges und freute sich über die Dummheit des Hexenmeisters, welcher glaubte, sich selbst und alle Welt betrügen zu können, indem er ja die gehoffte Braut nicht uneigennützig,
+spiegel_kaetzchen_04_f000012.wav|aus bloßer Liebe zur Schönheit, ehelichen wollte, sondern den Umstand mit den zehntausend Goldgülden vorher wußte.
+spiegel_kaetzchen_04_f000013.wav|Indessen hatte er schon eine Person im Auge, welche er dem törichten Hexenmeister aufzuhalsen gedachte für seine gebratenen Krammetsvögel, Mäuse und Würstchen.
+spiegel_kaetzchen_04_f000014.wav|Dem Hause des Herrn Pineiß gegenüber war ein anderes Haus, dessen vordere Seite auf das sauberste geweißt war und dessen Fenster immer frisch gewaschen glänzten.
+spiegel_kaetzchen_04_f000015.wav|Die bescheidenen Fenstervorhänge waren immer schneeweiß und wie soeben geplättet, und ebenso weiß war der Habit und das Kopf- und Halstuch einer alten Begine, welche in dem Hause wohnte,
+spiegel_kaetzchen_04_f000016.wav|also daß ihr nonnenartiger Kopfputz, der ihre Brust bekleidete, immer wie aus Schreibpapier gefaltet aussah, so daß man gleich darauf hätte schreiben mögen;
+spiegel_kaetzchen_04_f000017.wav|das hätte man wenigstens auf der Brust bequem tun können, da sie so eben und so hart war wie ein Brett.
+spiegel_kaetzchen_04_f000018.wav|So scharf die weißen Kanten und Ecken ihrer Kleidung, so scharf war auch die lange Nase und das Kinn der Begine, ihre Zunge und der böse Blick ihrer Augen; doch sprach sie nur wenig mit der Zunge und blickte wenig mit den Augen,
+spiegel_kaetzchen_04_f000019.wav|da sie die Verschwendung nicht liebte und alles nur zur rechten Zeit und mit Bedacht verwendete.
+spiegel_kaetzchen_04_f000020.wav|Alle Tage ging sie dreimal in die Kirche, und wenn sie in ihrem frischen, weißen und knitternden Zeuge und mit ihrer weißen spitzigen Nase über die Straße ging,
+spiegel_kaetzchen_04_f000021.wav|liefen die Kinder furchtsam davon und selbst erwachsene Leute traten gern hinter die Haustüre, wenn es noch Zeit war.
+spiegel_kaetzchen_04_f000022.wav|Sie stand aber wegen ihrer strengen Frömmigkeit und Eingezogenheit in großem Rufe und besonders bei der Geistlichkeit in hohem Ansehen, aber selbst die Pfaffen verkehrten lieber schriftlich mit ihr als mündlich,
+spiegel_kaetzchen_04_f000023.wav|und wenn sie beichtete, so schoß der Pfarrer jedesmal so schweißtriefend aus dem Beichtstuhl heraus, als ob er aus einem Backofen käme.
+spiegel_kaetzchen_04_f000024.wav|So lebte die fromme Begine, die keinen Spaß verstand, in tiefem Frieden und blieb ungeschoren.
+spiegel_kaetzchen_04_f000025.wav|Sie machte sich auch mit niemand zu schaffen und ließ die Leute gehen, vorausgesetzt, daß sie ihr aus dem Wege gingen; nur auf ihren Nachbar Pineiß schien sie einen besondern Haß geworfen zu haben;
+spiegel_kaetzchen_04_f000026.wav|denn sooft er sich an seinem Fenster blicken ließ, warf sie ihm einen bösen Blick hinüber und zog augenblicklich ihre weißen Vorhänge vor, und Pineiß fürchtete sie wie das Feuer und wagte nur zuhinterst in seinem Hause,
+spiegel_kaetzchen_04_f000027.wav|wenn alles gut verschlossen war, etwa einen Witz über sie zu machen.
+spiegel_kaetzchen_04_f000028.wav|So weiß und hell aber das Haus der Begine nach der Straße zu aussah, so schwarz und räucherig, unheimlich und seltsam sah es von hinten aus, wo es jedoch fast gar nicht gesehen werden konnte als von den Vögeln des Himmels und den Katzen auf den Dächern,
+spiegel_kaetzchen_04_f000029.wav|weil es in eine dunkle Winkelei von himmelhohen Brandmauern ohne Fenster hineingebaut war, wo nirgends ein menschliches Gesicht sich sehen ließ.
+spiegel_kaetzchen_04_f000030.wav|Unter dem Dache dort hingen alte zerrissene Unterröcke, Körbe und Kräutersäcke, auf dem Dache wuchsen ordentliche Eibenbäumchen und Dornsträucher, und ein großer rußiger Schornstein ragte unheimlich in die Luft.
+spiegel_kaetzchen_04_f000031.wav|Aus diesem Schornstein aber fuhr in der dunklen Nacht nicht selten eine Hexe auf ihrem Besen in die Höhe, jung und schön und splitternackt, wie Gott die Weiber geschaffen und der Teufel sie gern sieht.
+spiegel_kaetzchen_04_f000032.wav|Wenn sie aus dem Schornstein fuhr, so schnupperte sie mit dem feinsten Näschen und mit lächelnden Kirschenlippen in der frischen Nachtluft und fuhr in dem weißen Scheine ihres Leibes dahin,
+spiegel_kaetzchen_04_f000033.wav|indes ihr langes rabenschwarzes Haar wie eine Nachtfahne hinter ihr herflatterte.
+spiegel_kaetzchen_04_f000034.wav|In einem Loch am Schornstein saß ein alter Eulenvogel, und zu diesem begab sich jetzt der befreite Spiegel, eine fette Maus im Maule, die er unterwegs gefangen.
+spiegel_kaetzchen_04_f000035.wav|Wünsch guten Abend, liebe Frau Eule!
+spiegel_kaetzchen_04_f000036.wav|Eifrig auf der Wacht? sagte er, und die Eule erwiderte: Muß wohl!
+spiegel_kaetzchen_04_f000037.wav|Wünsch gleichfalls guten Abend!
+spiegel_kaetzchen_04_f000038.wav|Ihr habt Euch lange nicht sehen lassen, Herr Spiegel!
+spiegel_kaetzchen_04_f000039.wav|Hat seine Gründe gehabt, werde Euch das erzählen.
+spiegel_kaetzchen_04_f000040.wav|Hier habe ich Euch ein Mäuschen gebracht, schlecht und recht, wie es die Jahrszeit gibt, wenn Ihr's nicht verschmähen wollt!
+spiegel_kaetzchen_04_f000041.wav|Ist die Meisterin ausgeritten?
+spiegel_kaetzchen_04_f000042.wav|Noch nicht, sie will erst gegen Morgen auf ein Stündchen hinaus.
+spiegel_kaetzchen_04_f000043.wav|Habt Dank für die schöne Maus!
+spiegel_kaetzchen_04_f000044.wav|Seid doch immer der höfliche Spiegel!
+spiegel_kaetzchen_04_f000045.wav|Habe hier einen schlechten Sperling zur Seite gelegt, der mir heut zu nahe flog; wenn Euch beliebt, so kostet den Vogel!
+spiegel_kaetzchen_04_f000046.wav|Und wie ist es Euch denn ergangen?
+spiegel_kaetzchen_04_f000047.wav|Fast wunderlich, erwiderte Spiegel, sie wollten mir an den Kragen.
+spiegel_kaetzchen_04_f000048.wav|Hört, wenn es Euch gefällig ist.
+spiegel_kaetzchen_04_f000049.wav|Während sie nun vergnüglich ihr Abendessen einnahmen, erzählte Spiegel der aufmerksamen Eule alles, was ihn betroffen und wie er sich aus den Händen des Herrn Pineiß befreit habe.
+spiegel_kaetzchen_04_f000050.wav|Die Eule sagte: Da wünsch ich tausendmal Glück, nun seid Ihr wieder ein gemachter Mann und könnt gehen, wo ihr wollt, nachdem Ihr mancherlei erfahren!
+spiegel_kaetzchen_04_f000051.wav|Damit sind wir noch nicht zu Ende, sagte Spiegel, der Mann muß seine Frau und seine Goldgülden haben!
+spiegel_kaetzchen_04_f000052.wav|Seid Ihr von Sinnen, dem Schelm noch wohlzutun, der Euch das Fell abziehen wollte?
+spiegel_kaetzchen_04_f000053.wav|Ei, er hat es doch rechtlich und vertragsmäßig tun können, und da ich ihn in gleicher Münze weiter bedienen kann, warum sollt ich es unterlassen?
+spiegel_kaetzchen_04_f000054.wav|Wer sagt denn, daß ich ihm wohltun will?
+spiegel_kaetzchen_04_f000055.wav|Jene Erzählung war eine reine Erfindung von mir, meine in Gott ruhende Meisterin war eine simple Person, welche in ihrem Leben nie verliebt noch von Anbetern umringt war,
+spiegel_kaetzchen_04_f000056.wav|und jener Schatz ist ein ungerechtes Gut, das sie einst ererbt und in den Brunnen geworfen hat, damit sie kein Unglück daran erlebe.
+spiegel_kaetzchen_04_f000057.wav|Verflucht sei, wer es da herausnimmt und verbraucht, sagte sie.
+spiegel_kaetzchen_04_f000058.wav|Es macht sich also in betreff des Wohltuns!
+spiegel_kaetzchen_04_f000059.wav|Dann ist die Sache freilich anders!
+spiegel_kaetzchen_04_f000060.wav|Aber nun, wo wollt Ihr die entsprechende Frau hernehmen?
+spiegel_kaetzchen_04_f000061.wav|Hier aus diesem Schornstein!
+spiegel_kaetzchen_04_f000062.wav|Deshalb bin ich gekommen, um ein vernünftiges Wort mit Euch zu reden!
+spiegel_kaetzchen_04_f000063.wav|Möchtet Ihr denn nicht einmal wieder frei werden aus den Banden dieser Hexe?
+spiegel_kaetzchen_04_f000064.wav|Sinnt nach, wie wir sie fangen und mit dem alten Bösewicht verheiraten!
+spiegel_kaetzchen_04_f000065.wav|Spiegel, Ihr braucht Euch nur zu nähern, so weckt Ihr mir ersprießliche Gedanken.
+spiegel_kaetzchen_04_f000066.wav|Das wußt ich wohl, daß Ihr klug seid!
+spiegel_kaetzchen_04_f000067.wav|Ich habe das meinige getan, und es ist besser, daß Ihr auch Euren Senf dazu gebt und neue Kräfte vorspannt, so kann es gewiß nicht fehlen!
+spiegel_kaetzchen_04_f000068.wav|Da alle Dinge so schön zusammentreffen, so brauche ich nicht lang zu sinnen, mein Plan ist längst gemacht!
+spiegel_kaetzchen_04_f000069.wav|Wie fangen wir sie?
+spiegel_kaetzchen_04_f000070.wav|Mit einem neuen Schnepfengarn aus guten starken Hanfschnüren; geflochten muß es sein von einem zwanzigjährigen Jägerssohn, der noch kein Weib angesehen hat,
+spiegel_kaetzchen_04_f000071.wav|und es muß schon dreimal der Nachttau darauf gefallen sein, ohne daß sich eine Schnepfe gefangen;
+spiegel_kaetzchen_04_f000072.wav|der Grund aber hievon muß dreimal eine gute Handlung sein.
+spiegel_kaetzchen_04_f000073.wav|Ein solches Netz ist stark genug, die Hexe zu fangen.
+spiegel_kaetzchen_04_f000074.wav|Nun bin ich neugierig, wo Ihr ein solches hernehmt, sagte Spiegel, denn ich weiß, daß ihr keine vergeblichen Worte schwatzt!
+spiegel_kaetzchen_04_f000075.wav|Es ist auch schon gefunden, wie für uns gemacht; in einem Walde nicht weit von hier sitzt ein zwanzigjähriger Jägerssohn, welcher noch kein Weib angesehen hat; denn er ist blind geboren.
+spiegel_kaetzchen_04_f000076.wav|Deswegen ist er auch zu nichts zu gebrauchen als zum Garnflechten und hat vor einigen Tagen ein neues, sehr schönes Schnepfengarn zustande gebracht.
+spiegel_kaetzchen_04_f000077.wav|Aber als der alte Jäger es zum ersten Male ausspannen wollte, kam ein Weib daher, welches ihn zur Sünde verlocken wollte; es war aber so häßlich, daß der alte Mann voll Schreckens davonlief und das Garn am Boden liegen ließ.
+spiegel_kaetzchen_04_f000078.wav|Darum ist ein Tau darauf gefallen, ohne daß sich eine Schnepfe fing, und war also eine gute Handlung daran schuld.
+spiegel_kaetzchen_04_f000079.wav|Als er des andern Tages hinging, um das Garn abermals auszuspannen, kam eben ein Reiter daher, welcher einen schweren Mantelsack hinter sich hatte; in diesem war ein Loch, aus welchem von Zeit zu Zeit ein Goldstück auf die Erde fiel.
+spiegel_kaetzchen_04_f000080.wav|Da ließ der Jäger das Garn abermals liegen und lief eifrig hinter dem Reiter her und sammelte die Goldstücke in seinen Hut, bis der Reiter sich umkehrte, es sah und voll Grimm seine Lanze auf ihn richtete.
+spiegel_kaetzchen_04_f000081.wav|Da bückte der Jäger sich erschrocken, reichte ihm den Hut dar und sagte: Erlaubt, gnädiger Herr, Ihr habt hier viel Gold verloren, das ich Euch sorgfältig aufgelesen!
+spiegel_kaetzchen_04_f000082.wav|Dies war wiederum eine gute Handlung, indem das ehrliche Finden eine der schwierigsten und besten ist; er war aber so weit von dem Schnepfengarn entfernt, daß er es die zweite Nacht im Walde liegen ließ und den nähern Weg nach Hause ging.
+spiegel_kaetzchen_04_f000083.wav|Am dritten Tag endlich, nämlich gestern, als er eben wieder auf dem Wege war, traf er eine hübsche Gevattersfrau an, die dem Alten um den Bart zu gehen pflegte und der er schon manches Häslein geschenkt hat.
+spiegel_kaetzchen_04_f000084.wav|Darüber vergaß er die Schnepfen gänzlich und sagte am Morgen: Ich habe den armen Schnepflein das Leben geschenkt; auch gegen Tiere muß man barmherzig sein!
+spiegel_kaetzchen_04_f000085.wav|Und um dieser drei guten Handlungen willen fand er, daß er jetzt zu gut sei für diese Welt, und ist heute vormittag beizeiten in ein Kloster gegangen.
+spiegel_kaetzchen_04_f000086.wav|So liegt das Garn noch ungebraucht im Walde und ich darf es nur holen.
+spiegel_kaetzchen_04_f000087.wav|Holt es geschwind! sagte Spiegel, es wird gut sein zu unserm Zweck!
+spiegel_kaetzchen_04_f000088.wav|Ich will es holen, sagte die Eule, steht nur so lang Wache für mich in diesem Loch, und wenn etwa die Meisterin den Schornstein hinaufrufen sollte, ob die Luft rein sei?
+spiegel_kaetzchen_04_f000089.wav|so antwortet, indem Ihr meine Stimme nachahmt: Nein, es stinkt noch nicht in der Fechtschul!
+spiegel_kaetzchen_04_f000090.wav|Spiegel stellte sich in die Nische und die Eule flog still über die Stadt weg nach dem Wald.
+spiegel_kaetzchen_04_f000091.wav|Bald kam sie mit dem Schnepfengarn zurück und fragte: Hat sie schon gerufen?
+spiegel_kaetzchen_04_f000092.wav|Noch nicht! sagte Spiegel.
+spiegel_kaetzchen_04_f000093.wav|Da spannten sie das Garn aus über den Schornstein und setzten sich daneben still und klug; die Luft war dunkel und es ging ein leichtes Morgenwindchen, in welchem ein paar Sternbilder flackerten.
+spiegel_kaetzchen_04_f000094.wav|Ihr sollt sehen, flüsterte die Eule, wie geschickt die durch den Schornstein heraufzusäuseln versteht, ohne sich die blanken Schultern schwarz zu machen!
+spiegel_kaetzchen_04_f000095.wav|Ich hab sie noch nie so nah gesehen, erwiderte Spiegel leise, wenn sie uns nur nicht zu fassen kriegt!
+spiegel_kaetzchen_04_f000096.wav|Da rief die Hexe von unten: Ist die Luft rein?
+spiegel_kaetzchen_04_f000097.wav|Die Eule rief Ganz rein, es stinkt herrlich in der Fechtschul!
+spiegel_kaetzchen_04_f000098.wav|und alsobald kam die Hexe heraufgefahren und wurde in dem Garne gefangen, welches die Katze und die Eule eiligst zusammenzogen und verbanden. Halt fest! sagte Spiegel und Binde gut! die Eule.
+spiegel_kaetzchen_04_f000099.wav|Die Hexe zappelte und tobte mäuschenstill wie ein Fisch im Netz; aber es half ihr nichts und das Garn bewährte sich auf das beste.
+spiegel_kaetzchen_04_f000100.wav|Nur der Stiel ihres Besens ragte durch die Maschen.
+spiegel_kaetzchen_04_f000101.wav|Spiegel wollte ihn sachte herausziehen, erhielt aber einen solchen Nasenstüber, daß er beinahe in Ohnmacht fiel und einsah, wie man auch einer Löwin im Netz nicht zu nahe kommen dürfe.
+spiegel_kaetzchen_04_f000102.wav|Endlich hielt sich die Hexe still und sagte: Was wollt ihr denn von mir, ihr wunderlichen Tiere?
+spiegel_kaetzchen_04_f000103.wav|Ihr sollt mich aus Eurem Dienste entlassen und meine Freiheit zurückgeben! sagte die Eule.
+spiegel_kaetzchen_04_f000104.wav|So viel Geschrei und wenig Wolle! sagte die Hexe, du bist frei, mach dies Garn auf!
+spiegel_kaetzchen_04_f000105.wav|Noch nicht! sagte Spiegel, der immer noch seine Nase rieb.
+spiegel_kaetzchen_04_f000106.wav|Ihr müßt Euch verpflichten, den Stadthexenmeister Pineiß, Euren Nachbar, zu heiraten auf die Weise, wie wir Euch sagen werden, und ihn nicht mehr zu verlassen!
+spiegel_kaetzchen_04_f000107.wav|Da fing die Hexe wieder an zu zappeln und zu prusten wie der Teufel, und die Eule sagte: Sie will nicht dran!
+spiegel_kaetzchen_04_f000108.wav|Spiegel aber sagte: Wenn Ihr nicht ruhig seid und alles tut, was wir wünschen, so hängen wir das Garn samt seinem Inhalte da vorn an den Drachenknopf der Dachtraufe, nach der Straße zu, daß man Euch morgen sieht und die Hexe erkennt!
+spiegel_kaetzchen_04_f000109.wav|Sagt also: Wollt Ihr lieber unter dem Vorsitze des Herrn Pineiß gebraten werden oder ihn braten, indem Ihr ihn heiratet?
+spiegel_kaetzchen_04_f000110.wav|Da sagte die Hexe mit einem Seufzer: So sprecht, wie meint Ihr die Sache?
+spiegel_kaetzchen_04_f000111.wav|Und Spiegel setzte ihr alles zierlich auseinander, wie es gemeint sei und was sie zu tun hätte.
+spiegel_kaetzchen_04_f000112.wav|Das ist allenfalls noch auszuhalten, wenn es nicht anders sein kann!
+spiegel_kaetzchen_04_f000113.wav|sagte sie und ergab sich unter den stärksten Formeln, die eine Hexe binden können.
+spiegel_kaetzchen_04_f000114.wav|Da taten die Tiere das Gefängnis auf und ließen sie heraus.
+spiegel_kaetzchen_04_f000115.wav|Sie bestieg sogleich den Besen, die Eule setzte sich hinter sie auf den Stiel und Spiegel zuhinterst auf das Reisigbündel und hielt sich da fest, und so ritten sie nach dem Brunnen, in welchen die Hexe hinabfuhr, um den Schatz heraufzuholen.
+spiegel_kaetzchen_04_f000116.wav|Am Morgen erschien Spiegel bei Herrn Pineiß und meldete ihm, daß er die bewußte Person ansehen und freien könne; sie sei aber allbereits so arm geworden, daß sie, gänzlich verlassen und verstoßen, vor dem Tore unter einem Baume sitze und bitterlich weine.
+spiegel_kaetzchen_04_f000117.wav|Sogleich kleidete sich Herr Pineiß in sein abgeschabtes gelbes Samtwämschen, das er nur bei feierlichen Gelegenheiten trug, setzte die bessere Pudelmütze auf und umgürtete sich mit seinem Degen;
+spiegel_kaetzchen_04_f000118.wav|in die Hand nahm er einen alten grünen Handschuh, ein Balsamfläschchen, worin einst Balsam gewesen und das noch ein bißchen roch, und eine papierne Nelke, worauf er mit Spiegel vor das Tor ging, um zu freien.
+spiegel_kaetzchen_04_f000119.wav|Dort traf er ein weinendes Frauenzimmer sitzen unter einem Weidenbaum, von so großer Schönheit, wie er noch nie gesehen; aber ihr Gewand war so dürftig und zerrissen,
+spiegel_kaetzchen_04_f000120.wav|daß, sie mochte sich auch schamhaft gebärden, wie sie wollte, immer da oder dort der schneeweiße Leib ein bißchen durchschimmerte.
+spiegel_kaetzchen_04_f000121.wav|Pineiß riß die Augen auf und konnte vor heftigem Entzücken kaum seine Bewerbung vorbringen.
+spiegel_kaetzchen_04_f000122.wav|Da trocknete die Schöne ihre Tränen, gab ihm mit süßem Lächeln die Hand, dankte ihm mit einer himmlischen Glockenstimme für seine Großmut und schwur, ihm ewig treu zu sein.
+spiegel_kaetzchen_04_f000123.wav|Aber im selben Augenblicke erfüllte ihn eine solche Eifersucht und Neideswut auf seine Braut, daß er beschloß, sie vor keinem menschlichen Auge jemals sehen zu lassen.
+spiegel_kaetzchen_04_f000124.wav|Er ließ sich bei einem uralten Einsiedler mit ihr trauen und feierte das Hochzeitmahl in seinem Hause, ohne andere Gäste als Spiegel und die Eule, welche ersterer mitzubringen sich die Erlaubnis erbeten hatte.
+spiegel_kaetzchen_04_f000125.wav|Die zehntausend Goldgülden standen in einer Schüssel auf dem Tisch und Pineiß griff zuweilen hinein und wühlte in dem Golde; dann sah er wieder die schöne Frau an,
+spiegel_kaetzchen_04_f000126.wav|welche in einem meerblauen Sammetkleide dasaß, das Haar mit einem goldenen Netze umflochten und mit Blumen geschmückt, und den weißen Hals mit Perlen umgeben.
+spiegel_kaetzchen_04_f000127.wav|Er wollte sie fortwährend küssen, aber sie wußte verschämt und züchtig ihn abzuhalten, mit einem verführerischen Lächeln, und schwur, daß sie dieses vor Zeugen und vor Anbruch der Nacht nicht tun würde.
+spiegel_kaetzchen_04_f000128.wav|Dies machte ihn nur noch verliebter und glückseliger, und Spiegel würzte das Mahl mit lieblichen Gesprächen, welche die schöne Frau mit den angenehmsten, witzigsten und einschmeichelndsten Worten fortführte,
+spiegel_kaetzchen_04_f000129.wav|so daß der Hexenmeister nicht wußte, wie ihm geschah vor Zufriedenheit.
+spiegel_kaetzchen_04_f000130.wav|Als es aber dunkel geworden, beurlaubten sich die Eule und die Katze und entfernten sich bescheiden; Herr Pineiß begleitete sie bis unter die Haustüre mit einem Lichte und dankte dem Spiegel nochmals,
+spiegel_kaetzchen_04_f000131.wav|indem er ihn einen trefflichen und höflichen Mann nannte, und als er in die Stube zurückkehrte, saß die alte weiße Begine, seine Nachbarin, am Tisch und sah ihn mit einem bösen Blick an.
+spiegel_kaetzchen_04_f000132.wav|Entsetzt ließ Pineiß den Leuchter fallen und lehnte sich zitternd an die Wand.
+spiegel_kaetzchen_04_f000133.wav|Er hing die Zunge heraus und sein Gesicht war so fahl und spitzig geworden wie das der Begine.
+spiegel_kaetzchen_04_f000134.wav|Diese aber stand auf, näherte sich ihm und trieb ihn vor sich her in die Hochzeitkammer, wo sie mit höllischen Künsten ihn auf eine Folter spannte, wie noch kein Sterblicher erlebt.
+spiegel_kaetzchen_04_f000135.wav|So war er nun mit der Alten unauflöslich verehelicht, und in der Stadt hieß es, als es ruchbar wurde: Ei seht, wie stille Wasser tief sind!
+spiegel_kaetzchen_04_f000136.wav|Wer hätte gedacht, daß die fromme Begine und der Herr Stadthexenmeister sich noch verheiraten würden!
+spiegel_kaetzchen_04_f000137.wav|Nun, es ist ein ehrbares und rechtliches Paar, wenn auch nicht sehr liebenswürdig!
+spiegel_kaetzchen_04_f000138.wav|Herr Pineiß aber führte von nun an ein erbärmliches Leben; seine Gattin hatte sich sogleich in den Besitz aller seiner Geheimnisse gesetzt und beherrschte ihn vollständig.
+spiegel_kaetzchen_04_f000139.wav|Es war ihm nicht die geringste Freiheit und Erholung gestattet, er mußte hexen vom Morgen bis zum Abend, was das Zeug halten wollte, und wenn Spiegel vorüberging und es sah, sagte er freundlich: Immer fleißig, fleißig, Herr Pineiß?
+spiegel_kaetzchen_04_f000140.wav|Seit dieser Zeit sagt man zu Seldwyla: Er hat der Katze den Schmer abgekauft!
+spiegel_kaetzchen_04_f000141.wav|besonders wenn einer eine böse und widerwärtige Frau erhandelt hat.
+

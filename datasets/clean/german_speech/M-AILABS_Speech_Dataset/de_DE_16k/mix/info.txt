@@ -1,0 +1,8 @@
+Source:   LibriVox (https://librivox.org)
+Language: German
+Speker:   Mix
+
+Book Name: auf_zwei_planeten               Duration: 025:15:12
+Book Name: erzaehlungen_poe                Duration: 021:26:31
+
+Total Duration: 046:41:43

@@ -1,0 +1,4 @@
+Source:	  LibriVox (https://librivox.org)
+Language: German
+Speaker:  Eva K
+Duration: 29:02:34

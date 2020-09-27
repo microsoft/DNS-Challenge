@@ -1,0 +1,9 @@
+Dataset name: Open Speech Data Corpus for German/Telecooperation German Corpus for Kinect dataset
+This data was downloaded from http://www.repository.voxforge1.org/downloads/de/german-speechdata-TUDa-2015.tar.gz
+on this page http://www.voxforge.org/home/forums/other-languages/german/open-speech-data-corpus-for-german
+
+Contains information from approx. 35 hours audio recorded by 180 speakers, which is made available
+here under the Creative Commons  Attribution 4.0 International (CC BY 4.0)
+
+License: Creative Commons  Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
+
