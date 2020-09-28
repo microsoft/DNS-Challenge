@@ -1,0 +1,7 @@
+Source:   LibriVox (https://librivox.org)
+Language: Italian
+Speker:   Lisa_Caputo
+
+Book Name: Malavoglia                      Duration: 008:23:56
+
+Total Duration: 008:23:56

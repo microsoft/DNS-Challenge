@@ -1,0 +1,11 @@
+Source:   LibriVox (https://librivox.org)
+Language: Italian
+Speker:   Riccardo_Fasol
+
+Book Name: Galatea                         Duration: 007:03:24
+Book Name: Il_Fu_Mattia_Pascal             Duration: 009:17:08
+Book Name: Il_Ritratto_del_Diavolo         Duration: 007:23:01
+Book Name: La_Contessa_di_Karolystria      Duration: 002:08:20
+Book Name: Le_Meraviglie_del_Duemila       Duration: 005:53:30
+
+Total Duration: 031:45:24

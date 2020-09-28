@@ -1,0 +1,20 @@
+Source:   LibriVox (https://librivox.org)
+Language: Italian
+Speker:   Mix
+
+Book Name: novelle_per_un_anno_00          Duration: 000:02:27
+Book Name: novelle_per_un_anno_01          Duration: 008:24:15
+Book Name: novelle_per_un_anno_02          Duration: 008:35:58
+Book Name: novelle_per_un_anno_03          Duration: 005:55:52
+Book Name: novelle_per_un_anno_04          Duration: 006:46:30
+Book Name: novelle_per_un_anno_05          Duration: 007:50:15
+Book Name: novelle_per_un_anno_06          Duration: 009:15:14
+Book Name: novelle_per_un_anno_07          Duration: 005:05:03
+Book Name: novelle_per_un_anno_08          Duration: 005:31:28
+Book Name: novelle_per_un_anno_09          Duration: 004:52:43
+Book Name: novelle_per_un_anno_10          Duration: 006:08:29
+Book Name: novelle_per_un_anno_11          Duration: 006:57:19
+Book Name: novelle_per_un_anno_12          Duration: 006:29:42
+Book Name: novelle_per_un_anno_13          Duration: 005:58:04
+
+Total Duration: 087:53:25
