@@ -1,0 +1,42 @@
+Training Data for Speech Recognition and Speech Sythesis
+
+Language: Russian (Russia)
+Sources: 
+	http://www.bibe.ru
+	Elvira Baryakina baryakina.com	
+
+Total durations: 46h 46m
+	Female: 16h 3m 
+		Hajdurova: 16h 3m 
+	Male: 30h 43m
+		Minaev: 20h 45m
+		Nikolaev: 9h 58m
+	Mixed: NONE
+
+
+This training data was created by THE TEAM @ MUNICH ARTIFICIAL INTELLIGENCE LABORATORIES GmbH
+Munich, Germany
+
+If you have any questions, please contact us at info@m-ailabs.bayern
+
+----------------------------------------------------------------------------------------
+                                       LICENSE
+
+Copyright (c) 2017-2018 MUNICH ARTIFICIAL INTELLIGENCE LABORATORIES GmbH
+
+Redistribution and use in any form, including any commercial use, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source data must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this downloaded data, source-code or binary-code without specific prior written permission.
+
+3. ANY USE BY ANY UNIVERSITY, COLLEGE, RESEARCH INSTITUTE (e.g. Fraunhofer Institute, DFKI) OR SIMILAR HIGHER EDUCATION INSTITUTION IN GERMANY, SWITZERLAND or AUSTRIA, INCLUDING BY MEMBERS OF SUCH INSTITUTIONS (including but not limited to the students, tutors and teachers at those institutions), IS STRICTLY PROHIBITED.
+
+THIS DATA IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE and/or DATA, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------------------------
+
+The Copyright of the original audio is held by the respective sources.
+
+We would highly appreciate if you would let us know of your use of this data or mention us or our company if you have used this data in a succesfull project - but you don't have to :-)
+
+Have fun
