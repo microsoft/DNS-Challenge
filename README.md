@@ -1,6 +1,6 @@
 # IEEE ICASSP 2021 Deep Noise Suppression (DNS) Challenge
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://dns-challenge.azurewebsites.net/ICASSP2021. For more details on the testing framework, please visit [P.808](https://github.com/microsoft/P.808).
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://www.microsoft.com/en-us/research/dns-challenge/home. For more details on the testing framework, please visit [P.808](https://github.com/microsoft/P.808).
 
 ## Repo details:
 * The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data. It also contains the test set that participants can use during the development stages.
@@ -41,10 +41,10 @@ python noisyspeech_synthesizer_singleprocess.py
 For the datasets and the DNS challenge:<br />  
 
 ```BibTex
-@article{reddy2020interspeech,
-  title={The INTERSPEECH 2020 Deep Noise Suppression Challenge: Datasets, Subjective Testing Framework, and Challenge Results},
-  author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross and Beyrami, Ebrahim and Cheng, Roger and Dubey, Harishchandra and Matusevych, Sergiy and Aichner, Robert and Aazami, Ashkan and Braun, Sebastian and others},
-  journal={arXiv preprint arXiv:2005.13981},
+@article{reddy2020icassp,
+  title={ICASSP 2021 Deep Noise Suppression Challenge},
+  author={Reddy, Chandan KA and Dubey, Harishchandra and Gopal, Vishak and Cutler, Ross and Braun, Sebastian and Gamper, Hannes and Aichner, Robert and Srinivasan, Sriram},
+  journal={arXiv preprint arXiv:2009.06122},
   year={2020}
 }
 ```
@@ -57,6 +57,17 @@ booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics,
 Speech and Signal Processing (ICASSP)}, 
 title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
 year={2020}, volume={}, number={}, pages={871-875},}
+```
+
+```BibTex
+@misc{braun2020data,
+    title={Data augmentation and loss normalization for deep noise suppression},
+    author={Sebastian Braun and Ivan Tashev},
+    year={2020},
+    eprint={2008.06412},
+    archivePrefix={arXiv},
+    primaryClass={eess.AS}
+}
 ```
 
 The P.808 test framework:<br />
