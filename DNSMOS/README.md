@@ -1,0 +1,13 @@
+# DNSMOS: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors
+
+Human subjective evaluation is the ”gold standard” to evaluate speech quality optimized for human perception.  Perceptual objective metrics serve as a proxy for subjective scores. The conventional and widely used metrics require a reference clean speech signal, which is unavailable in real recordings. The no-reference approaches correlate poorly with human ratings and are not widely adopted in the research community. One of the biggest use cases of these perceptual objective metrics is to evaluate noise suppression algorithms. DNSMOS generalizes well in challenging test conditions with a high correlation to human ratings in stack ranking noise suppression methods. More details can be found in [DNSMOS paper](https://arxiv.org/pdf/2010.15258.pdf).
+
+## Evaluation methodology:
+We have created a web-API for you to evaluate your audio clips.
+
+For access to the API, please send us an email to [dns_challenge@microsoft.com](dns_challenge@microsoft.com) with the following details:
+Contact Name:
+Research Group/Institute/Company:
+Purpose of using DNSMOS:
+
+We will send you the **SCORING_URI** and **AUTH_KEY** that you can insert in the **dnsmos.py** script.
