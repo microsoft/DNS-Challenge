@@ -15,7 +15,7 @@ AUTH_KEY = '<Insert the key we provide in email here>'
 # Set the content type
 headers = {'Content-Type': 'application/json'}
 # If authentication is enabled, set the authorization header
-headers['Authorization'] = f'Bearer {AUTH_KEY }'
+headers['Authorization'] = f'Basic {AUTH_KEY }'
 def main(args):
     audio_clips_list = glob.glob(os.path.join(args.testset_dir, "*.wav"))
     for fpath in audio_clips_list:
