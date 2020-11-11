@@ -80,6 +80,17 @@ The P.808 test framework:<br />
 }
 ```
 
+DNSMOS API: <br />
+```BibTex
+@article{reddy2020dnsmos,
+  title={DNSMOS: A Non-Intrusive Perceptual Objective Speech Quality metric to evaluate Noise Suppressors},
+  author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
+  journal={arXiv e-prints},
+  pages={arXiv--2010},
+  year={2020}
+}
+```
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
