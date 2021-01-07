@@ -1,4 +1,4 @@
-# INTERSPEECH 2021: 3rd Deep Noise Suppression (DNS) Challenge
+# IEEE ICASSP 2021 Deep Noise Suppression (DNS) Challenge
 
 This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://www.microsoft.com/en-us/research/dns-challenge/home. For more details on the testing framework, please visit [P.808](https://github.com/microsoft/P.808).
 
