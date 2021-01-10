@@ -1,9 +1,10 @@
-# IEEE ICASSP 2021 Deep Noise Suppression (DNS) Challenge
+# INTERSPEECH 2021: 3rd Deep Noise Suppression (DNS) Challenge
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://www.microsoft.com/en-us/research/dns-challenge/home. For more details on the testing framework, please visit [P.808](https://github.com/microsoft/P.808).
+This repository contains the datasets and scripts required for the 3rd DNS challenge. For more details about the challenge, please visit https://www.microsoft.com/en-us/research/dns-challenge/home. For more details on the testing framework, please visit [P.808](https://github.com/microsoft/P.808).
 
 ## Repo details:
-* The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data. It also contains the test set that participants can use during the development stages.
+* The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data. It also contains the test set that participants can use during the development stages. We have fullband (48kHz) and wideband (16kHz) training data and testset. 
+
 * The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancement method. 
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters and provide the right paths to the datasets required to synthesize noisy speech.
