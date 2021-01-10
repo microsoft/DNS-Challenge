@@ -38,7 +38,7 @@ python noisyspeech_synthesizer_singleprocess.py
 ```
 
 ## Citation:
-For the datasets and the DNS challenge:<br />  
+If you use this dataset in a publication please cite the following paper:<br />  
 
 ```BibTex
 @article{reddy2020icassp,
