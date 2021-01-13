@@ -1,10 +1,11 @@
-# IEEE ICASSP 2021 Deep Noise Suppression (DNS) Challenge
+# Deep Noise Suppression (DNS) Challenge - INTERSPEECH 2021
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please visit https://www.microsoft.com/en-us/research/dns-challenge/home. For more details on the testing framework, please visit [P.808](https://github.com/microsoft/P.808).
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please see our [paper](https://arxiv.org/pdf/2101.01902.pdf). For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Repo details:
-* The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data. It also contains the test set that participants can use during the development stages.
-* The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancement method. 
+* The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data for wideband scenario. It also contains the test set that participants can use during the development stages.
+* The **datasets_fullband** directory contains the clean speech, noise and room impulse responses for creating training data for fullband scenario.
+* The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancement method for wideband. 
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters and provide the right paths to the datasets required to synthesize noisy speech.
 * **audiolib.py** - contains modules required to synthesize datasets.
@@ -41,11 +42,10 @@ python noisyspeech_synthesizer_singleprocess.py
 If you use this dataset in a publication please cite the following paper:<br />  
 
 ```BibTex
-@article{reddy2020icassp,
-  title={ICASSP 2021 Deep Noise Suppression Challenge},
-  author={Reddy, Chandan KA and Dubey, Harishchandra and Gopal, Vishak and Cutler, Ross and Braun, Sebastian and Gamper, Hannes and Aichner, Robert and Srinivasan, Sriram},
-  journal={arXiv preprint arXiv:2009.06122},
-  year={2020}
+@article{reddy2021interspeech,
+  title={Interspeech 2021 Deep Noise Suppression Challenge},
+  author={Reddy, Chandan KA and Dubey, Harishchandra and Koishida, Kazuhito and Nair, Arun and Gopal, Vishak and Cutler, Ross and Braun, Sebastian and Gamper, Hannes and Aichner, Robert and Srinivasan, Sriram},
+  journal={arXiv preprint arXiv:2101.01902}
 }
 ```
 
@@ -70,12 +70,12 @@ year={2020}, volume={}, number={}, pages={871-875},}
 }
 ```
 
-The P.808 test framework:<br />
+The P.835 test framework:<br />
 ```BibTex
-@article{naderi2020open,
-  title={An Open source Implementation of ITU-T Recommendation P. 808 with Validation},
+@article{naderi2020crowdsourcing,
+  title={A crowdsourcing extension of the itu-t recommendation p. 835 with validation},
   author={Naderi, Babak and Cutler, Ross},
-  journal={arXiv preprint arXiv:2005.08138},
+  journal={arXiv preprint arXiv:2010.13200},
   year={2020}
 }
 ```
