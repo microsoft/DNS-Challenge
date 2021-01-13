@@ -8,6 +8,8 @@ import pandas as pd
 import requests
 import soundfile as sf
 
+from urllib.parse import urlparse, urljoin
+
 # URL for the web service
 SCORING_URI = '<Insert the url we provide in email here>'
 # If the service is authenticated, set the key or token
@@ -28,7 +30,8 @@ def main(args):
         data = {"data": audio.tolist()}
         input_data = json.dumps(data)
         # Make the request and display the response
-        resp = requests.post(SCORING_URI, data=input_data, headers=headers)
+        u = urlparse(SCORING_URI)
+        resp = requests.post(urljoin("https://" + u.netloc, 'score'), data=input_data, headers=headers)
         score_dict = resp.json()
         score_dict['file_name'] = os.path.basename(fpath)
         scores.append(score_dict)
