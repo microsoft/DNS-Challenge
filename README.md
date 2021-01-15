@@ -1,11 +1,12 @@
 # Deep Noise Suppression (DNS) Challenge - INTERSPEECH 2021
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please see our [paper](https://arxiv.org/pdf/2101.01902.pdf). For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
+This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please see our [paper](https://arxiv.org/pdf/2101.01902.pdf) and the challenge [website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-interspeech-2021/). For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Repo details:
 * The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data for wideband scenario. It also contains the test set that participants can use during the development stages.
 * The **datasets_fullband** directory contains the clean speech, noise and room impulse responses for creating training data for fullband scenario.
 * The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancement method for wideband. 
+* **dns_challenge_data_downloader** - this is the script to download the data if you are not able to clone the entire repo or if it is too slow. Please send us an email requesting the SAS_URL to be used in the script.
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters and provide the right paths to the datasets required to synthesize noisy speech.
 * **audiolib.py** - contains modules required to synthesize datasets.
