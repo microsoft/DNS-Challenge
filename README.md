@@ -43,21 +43,22 @@ python noisyspeech_synthesizer_singleprocess.py
 If you use this dataset in a publication please cite the following paper:<br />  
 
 ```BibTex
-@article{reddy2021interspeech,
-  title={Interspeech 2021 Deep Noise Suppression Challenge},
+@inproceedings{reddy2021interspeech,
+  title={INTERSPEECH 2021 Deep Noise Suppression Challenge},
   author={Reddy, Chandan KA and Dubey, Harishchandra and Koishida, Kazuhito and Nair, Arun and Gopal, Vishak and Cutler, Ross and Braun, Sebastian and Gamper, Hannes and Aichner, Robert and Srinivasan, Sriram},
-  journal={arXiv preprint arXiv:2101.01902}
+  booktitle={INTERSPEECH},
+  year={2021}
 }
 ```
 
 The baseline NSNet noise suppression:<br />  
 ```BibTex
-@INPROCEEDINGS{9054254, 
-author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} and H. {Dubey} and R. {Cutler} and I. {Tashev}}, 
-booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, 
-Speech and Signal Processing (ICASSP)}, 
-title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
-year={2020}, volume={}, number={}, pages={871-875},}
+@inproceedings{9054254, 
+    author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} and H. {Dubey} and R. {Cutler} and I. {Tashev}}, 
+    booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, 
+    Speech and Signal Processing (ICASSP)}, 
+    title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
+    year={2020}, volume={}, number={}, pages={871-875},}
 ```
 
 ```BibTex
@@ -73,21 +74,20 @@ year={2020}, volume={}, number={}, pages={871-875},}
 
 The P.835 test framework:<br />
 ```BibTex
-@article{naderi2020crowdsourcing,
-  title={A crowdsourcing extension of the itu-t recommendation p. 835 with validation},
+@inproceedings{naderi2021crowdsourcing,
+  title={Subjective Evaluation of Noise Suppression Algorithms in Crowdsourcing},
   author={Naderi, Babak and Cutler, Ross},
-  journal={arXiv preprint arXiv:2010.13200},
-  year={2020}
+  booktitle={INTERSPEECH},
+  year={2021}
 }
 ```
 
 DNSMOS API: <br />
 ```BibTex
-@article{reddy2020dnsmos,
+@inproceedings{reddy2020dnsmos,
   title={DNSMOS: A Non-Intrusive Perceptual Objective Speech Quality metric to evaluate Noise Suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
-  journal={arXiv e-prints},
-  pages={arXiv--2010},
+  booktitle={ICASSP},
   year={2020}
 }
 ```
