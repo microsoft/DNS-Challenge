@@ -15,7 +15,8 @@ This repository contains the datasets and scripts required for the DNS challenge
 * **requirements.txt** - contains all the libraries required for synthesizing the data.
 
 ## Prerequisites
-- Python 3.0 and above
+- git lfs
+- Python 3.6 and above
 - Soundfile (pip install pysoundfile), librosa
 
 ## Usage:
