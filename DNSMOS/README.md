@@ -10,7 +10,7 @@ Contact Name:
 Research Group/Institute/Company:
 Purpose of using DNSMOS:
 
-We will send you the **SCORING_URI** and **AUTH_KEY** that you can insert in the **dnsmos.py** script.
+We will send you the **AUTH_KEY** that you can insert in the **dnsmos.py** script.
 
 ## Citation:
 If you have used the API for your research and development purpose, please cite the DNSMOS paper
