@@ -12,6 +12,8 @@ Purpose of using DNSMOS:
 
 We will send you the **AUTH_KEY** that you can insert in the **dnsmos.py** script.
 
+Example command for P.835 evaluation of test clips: python dnsmos --testset_dir <test clips directory> --method p835
+
 ## Citation:
 If you have used the API for your research and development purpose, please cite the DNSMOS paper
 ```BibTex
