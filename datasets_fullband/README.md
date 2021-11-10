@@ -64,8 +64,9 @@ The branch and the file do not exist in git history. Is that the right URL?
 * The chosen noise types are more relevant to VOIP applications.
 
 ### Room Impulse Responses (RIR)
-Please use the impulse responses in the wideband dataset, as described in the [/datasets/README.md] file.
+Please use the impulse responses in the wideband dataset, as described in the [datasets/README.md](/datasets/README.md) file.
 
 ### Acoustic Parameters
-Acoustic parameters' data is available in git at [/datasets/acoustic_params/]. Please refer to
-[/datasets/README.md] for more details.
+Acoustic parameters' data is available in git at
+<code>[/datasets/acoustic_params/](/datasets/acoustic_params/)</code>. Please refer to
+[datasets/README.md](/datasets/README.md) for more details.
