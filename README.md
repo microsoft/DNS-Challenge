@@ -31,8 +31,44 @@ For more details on the testing framework, please visit [P.835](https://github.c
 
 ## Datasets
 
+The default directory structure and the sizes of the datasets available for DNS Challenge are:
 
-## Prerequisites
+```
+datasets 229G
+├── clean 204G
+│   ├── emotional_speech 403M
+│   ├── french_data 21G
+│   ├── german_speech 66G
+│   ├── italian_speech 14G
+│   ├── mandarin_speech 21G
+│   ├── read_speech 61G
+│   ├── russian_speech 5.1G
+│   ├── singing_voice 979M
+│   └── spanish_speech 17G
+├── dev_testset 211M
+├── impulse_responses 4.3G
+│   ├── SLR26 2.1G
+│   └── SLR28 2.3G
+└── noise 20G
+```
+
+And, for the fullband data,
+```
+datasets_fullband 600G
+├── clean_fullband 542G
+│   ├── VocalSet_48kHz_mono 974M
+│   ├── emotional_speech 1.2G
+│   ├── french_data 62G
+│   ├── german_speech 194G
+│   ├── italian_speech 42G
+│   ├── read_speech 182G
+│   ├── russian_speech 12G
+│   └── spanish_speech 50G
+├── dev_testset_fullband 630M
+└── noise_fullband 58G
+```
+
+## Code prerequisites
 - Python 3.6 and above
 - Python libraries: soundfile, librosa
 
