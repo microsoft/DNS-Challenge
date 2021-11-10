@@ -1,43 +1,62 @@
 # Deep Noise Suppression (DNS) Challenge - INTERSPEECH 2021
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details about the challenge, please see our [paper](https://arxiv.org/pdf/2101.01902.pdf) and the challenge [website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-interspeech-2021/). For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
+This repository contains the datasets and scripts required for the DNS challenge. For more details
+about the challenge, please see our [paper](https://arxiv.org/pdf/2101.01902.pdf) and the challenge
+[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-interspeech-2021/).
+For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Repo details:
-* The **datasets** directory contains the clean speech, noise and room impulse responses for creating training data for wideband scenario. It also contains the test set that participants can use during the development stages.
-* The **datasets_fullband** directory contains the clean speech, noise and room impulse responses for creating training data for fullband scenario.
-* The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the baseline Speech Enhancement method for wideband. 
-* **dns_challenge_data_downloader** - this is the script to download the data if you are not able to clone the entire repo or if it is too slow. Please send us an email requesting the SAS_URL to be used in the script.
-* **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for training purposes.
-* **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are required to accurately specify different parameters and provide the right paths to the datasets required to synthesize noisy speech.
+* The **datasets** directory is a placeholder for the wideband datasets. That is, our data
+  downloader script by default will place the downloader audio data here. After the download, this
+  directory will contain clean speech, noise, and room impulse responses required for creating the
+  training data for wideband scenario. The script will also download here the test set that
+  participants can use during the development stages.
+* The **datasets_fullband** directory is a placeholder for the fullband audio data. The downloader
+  script will download here the datasets that contain clean speech, noise, and room impulse
+  responses required for creating training data for fullband scenario.
+* The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the
+  baseline Speech Enhancement method for wideband. 
+* **dns_challenge_data_downloader.py** - this is the script to download the data. By default, the
+  data will be placed into `datasets/` and `datasets_fullband/` directories. Please send us an email
+  requesting the SAS_URL to be used in the script.
+* **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
+  training purposes.
+* **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are
+  required to accurately specify different parameters and provide the right paths to the datasets
+  required to synthesize noisy speech.
 * **audiolib.py** - contains modules required to synthesize datasets.
 * **utils.py** - contains some utility functions required to synthesize the data.
 * **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data.
 * **requirements.txt** - contains all the libraries required for synthesizing the data.
 
+## Datasets
+
+
 ## Prerequisites
-- git lfs
 - Python 3.6 and above
-- Soundfile (pip install pysoundfile), librosa
+- Python libraries: soundfile, librosa
+
+**NOTE:** git LFS is *no longer required* for DNS Challenge. Please use the
+`dns_challenge_data_downloader.py` script in this repo to download the data.
 
 ## Usage:
-1. Install librosa 
+
+1. Install Python libraries
+```bash
+pip3 install soundfile librosa
 ```
-pip install librosa
+2. Clone the repository. 
+```bash
+git clone https://github.com/microsoft/DNS-Challenge
 ```
-2. Install Git Large File Storage for faster download of the datasets.
-```
-git lfs install
-git lfs track "*.wav"
-git add .gitattributes
-```
-3. Clone the repository. 
-```
-git clone https://github.com/microsoft/DNS-Challenge DNS-Challenge
-```
-4. Edit **noisyspeech_synthesizer.cfg** to specify the required parameters described in the file and include the paths to clean speech, noise and impulse response related csv files. Also, specify the paths to the destination directories and store the logs.
-5. Create dataset 
-```
-python noisyspeech_synthesizer_singleprocess.py
+
+3. Edit **noisyspeech_synthesizer.cfg** to specify the required parameters described in the file and
+   include the paths to clean speech, noise and impulse response related csv files. Also, specify
+   the paths to the destination directories and store the logs.
+
+4. Create dataset 
+```bash
+python3 noisyspeech_synthesizer_singleprocess.py
 ```
 
 ## Citation:
@@ -99,8 +118,8 @@ This project welcomes contributions and suggestions.  Most contributions require
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide a
+CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
 provided by the bot. You will only need to do this once across all repos using our CLA.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
@@ -114,10 +133,11 @@ in this repository under the [Creative Commons Attribution 4.0 International Pub
 see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
 [LICENSE-CODE](LICENSE-CODE) file.
 
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the
+documentation may be either trademarks or registered trademarks of Microsoft in the United States
+and/or other countries. The licenses for this project do not grant you rights to use any Microsoft
+names, logos, or trademarks. Microsoft's general trademark guidelines can be found at
+http://go.microsoft.com/fwlink/?LinkID=254653.
 
 Privacy information can be found at https://privacy.microsoft.com/en-us/
 
