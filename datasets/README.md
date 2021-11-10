@@ -1,7 +1,6 @@
-# Datasets
-
-This directory is the default location where the datasets will be downloaded to and stored.
-After the download, you will see the following directory structure:
+# Wideband Datasets
+This directory is the default location where the **wideband** datasets will be downloaded to and
+stored. After the download, you will see the following directory structure:
 ```
 datasets 229G
 ├── clean 204G
