@@ -202,7 +202,7 @@ def active_rms(clean, noise, fs=16000, energy_thresh=-50):
         sample_end = min(sample_start + window_samples, len(noise))
         noise_win = noise[sample_start:sample_end]
         clean_win = clean[sample_start:sample_end]
-        noise_seg_rms = 20*np.log10((noise_win**2).mean()+EPS)
+        noise_seg_rms = (noise_win**2).mean()**0.5
         # Considering frames with energy
         if noise_seg_rms > energy_thresh:
             noise_active_segs = np.append(noise_active_segs, noise_win)
