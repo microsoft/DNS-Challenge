@@ -317,7 +317,7 @@ def main_body():
     params['rir_table_csv'] = str(cfg['rir_table_csv'])
     params['clean_speech_t60_csv'] = str(cfg['clean_speech_t60_csv'])
 
-    if cfg['fileindex_start'] != 'None' and cfg['fileindex_start'] != 'None':
+    if cfg['fileindex_start'] != 'None' and cfg['fileindex_end'] != 'None':
         params['num_files'] = int(cfg['fileindex_end'])-int(cfg['fileindex_start'])
         params['fileindex_start'] = int(cfg['fileindex_start'])
         params['fileindex_end'] = int(cfg['fileindex_end'])
