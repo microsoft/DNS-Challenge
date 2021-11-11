@@ -41,6 +41,7 @@ def audioread(path, norm=False, start=0, stop=None, target_level=-25):
         audio, sample_rate = sf.read(path, start=start, stop=stop)
     except RuntimeError:  # fix for sph pcm-embedded shortened v2
         print('WARNING: Audio type not supported')
+        return (None, None)
 
     if len(audio.shape) == 1:  # mono
         if norm:
