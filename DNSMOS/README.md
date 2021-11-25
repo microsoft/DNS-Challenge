@@ -5,10 +5,7 @@ Human subjective evaluation is the ”gold standard” to evaluate speech qualit
 ## Evaluation methodology:
 We have created a web-API for you to evaluate your audio clips.
 
-For access to the API, please send us an email to [dns_challenge@microsoft.com](dns_challenge@microsoft.com) with the following details:
-Contact Name:
-Research Group/Institute/Company:
-Purpose of using DNSMOS:
+For access to the API, please complete the following form: https://forms.office.com/r/pRhyZ0mQy3
 
 We will send you the **AUTH_KEY** that you can insert in the **dnsmos.py** script.
 
