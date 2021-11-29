@@ -68,8 +68,7 @@ class NSnet2Enhancer(object):
 
     def __call__(self, sigIn, inFs):
         """Enhance a single Audio signal."""
-        if not (inFs == 16000 or inFs == 48000):
-            assert False, "Inconsistent sampling rate!"
+        assert inFs in (16000, 48000), "Inconsistent sampling rate!"
 
         if inFs == 48000:
             return self.enhance_48khz(sigIn)
