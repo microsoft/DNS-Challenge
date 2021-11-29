@@ -10,3 +10,5 @@ training_set_sept12/
 __pycache__/
 *.pyc
 *~
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json

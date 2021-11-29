@@ -14,8 +14,20 @@ def main(args):
     inPath = Path(args.input).resolve()
     assert inPath.exists()
 
+    cfg = {
+            'winlen'   : 0.02,
+            'hopfrac'  : 0.5,
+            'fs'       : args.fs,
+            'mingain'  : -80,
+            'feattype' : 'LogPow',
+            'nfft'     : 320
+        }
+
+    if args.fs == 48000:
+        cfg['nfft'] = 1024
+
     # Create the enhancer
-    enhancer = NSnet2Enhancer(modelfile=args.model)
+    enhancer = NSnet2Enhancer(modelfile=args.model, cfg=cfg)
 
     # get modelname
     modelname = Path(args.model).stem
@@ -70,9 +82,10 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-m", "--model", type=str, help="Path to ONNX model.", default='nsnet2-20ms-baseline.onnx')
+    parser.add_argument("-m", "--model", type=str, help="Path to ONNX model.", default='nsnet2-20ms-48k-baseline.onnx')
     parser.add_argument("-i", "--input", type=str, help="Path to noisy speech wav file or directory.")
     parser.add_argument("-o", "--output", type=str, help="Optional output directory.", required=False)
+    parser.add_argument("-fs", type=int, help="Sampling rate of the input audio", default=48000)
     args = parser.parse_args()
 
     main(args)
