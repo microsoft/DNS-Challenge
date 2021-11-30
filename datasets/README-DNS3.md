@@ -1,4 +1,11 @@
-# Wideband Datasets
+
+# Deep Noise Suppression (DNS) Challenge 3 - INTERSPEECH 2021
+
+**NOTE:** This README describes the **PAST** DNS Challenge!
+
+The data for it is still available, and is described below. If you are interested in the latest DNS Challenge, please refer to the main [README.md](/README.md) file.
+
+## Wideband Datasets
 This directory is the default location where the **wideband** datasets will be downloaded to and
 stored. After the download, you will see the following directory structure:
 ```
@@ -22,7 +29,7 @@ datasets 229G
 
 ## Downloading the data
 
-Datasets will be downloaded when you run the `dns_challenge_downloader.py` script. Note that the
+Datasets will be downloaded when you run the `download-dns-challenge-3.sh` script. Note that the
 data is no longer part of this git repository and git LFS is not required.
 
 ## Datasets for training

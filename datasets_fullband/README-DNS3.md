@@ -1,3 +1,10 @@
+
+# Deep Noise Suppression (DNS) Challenge 3 - INTERSPEECH 2021
+
+**NOTE:** This README describes the **PAST** DNS Challenge!
+
+The data for it is still available, and is described below. If you are interested in the latest DNS Challenge, please refer to the main [README.md](/README.md) file.
+
 # Fullband datasets
 This directory is the default location where the **fullband** datasets will be downloaded to and
 stored. After the download, you will see the following directory structure:
@@ -17,7 +24,7 @@ datasets_fullband 600G
 ```
 
 ## Downloading the data
-Datasets will be downloaded when you run the `dns_challenge_downloader.py` script. Note that the
+Datasets will be downloaded when you run the `download-dns-challenge-3.sh` script. Note that the
 data is no longer part of this git repository and git LFS is not required.
 
 ## Datasets for training
@@ -64,7 +71,7 @@ The branch and the file do not exist in git history. Is that the right URL?
 * The chosen noise types are more relevant to VOIP applications.
 
 ### Room Impulse Responses (RIR)
-Please use the impulse responses in the wideband dataset, as described in the [datasets/README.md](/datasets/README.md) file.
+Please use the impulse responses in the wideband dataset, as described in the [datasets/README-DNS3.md](/datasets/README-DNS3.md) file.
 
 ### Acoustic Parameters
 Acoustic parameters' data is available in git at
