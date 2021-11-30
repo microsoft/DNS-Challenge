@@ -33,7 +33,7 @@
 #     +-- VocalSet_48kHz_mono 1G
 #     +-- dev_testset 3G
 #     |   +-- enrollment_data 644M
-#     |   +-- noisy_testclips 2.4G
+#     |   \-- noisy_testclips 2.4G
 #     \-- noise_fullband 60G
 
 BLOB_NAMES=(
