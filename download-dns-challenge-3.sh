@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 
-# ***** Datasets for ICASSP 2021 DNS Challenge 3 *****
+# ***** Datasets for INTERSPEECH 2021 DNS Challenge 3 *****
+
+# NOTE: This data is for the *PAST* challenge!
+# Current DNS Challenge is ICASSP 2022 DNS Challenge 4, which
+# has its own download script, `download-dns-challenge-4.sh`
 
 # NOTE: Before downloading, make sure you have enough space
 # on your local storage!

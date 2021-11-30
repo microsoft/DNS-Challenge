@@ -11,11 +11,11 @@ For more details on the testing framework, please visit [P.835](https://github.c
 
 ## Details
 
-* The **datasets** directory is a placeholder for the datasets. That is, our data downloader script
-  by default will place the downloaded audio data here. After the download, this directory will
-  contain clean speech, noise, and room impulse responses required for creating the training data
-  for wideband scenario. The script will also download here the test set that participants can use
-  during the development stages.
+* The **datasets** and **datasets_fullband** directories are placeholders for the datasets. That is,
+  our data downloader script by default will place the downloaded audio data there. After the
+  download, these directories will contain clean speech, noise, and room impulse responses required
+  for creating the training data for wideband scenario. The script will also download here the test
+  set that participants can use during the development stages.
 * The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the
   baseline Speech Enhancement method for wideband. 
 * **download-dns-challenge-4.sh** - this is the script to download the data. By default, the data
@@ -37,19 +37,27 @@ For more details on the testing framework, please visit [P.835](https://github.c
 The default directory structure and the sizes of the datasets available for DNS Challenge are:
 
 ```
-datasets 600G
-├── VocalSet_48kHz_mono 974M
-├── emotional_speech 1.2G
-├── french_speech 62G
-├── german_speech 194G
-├── italian_speech 42G
-├── read_speech 182G
-├── russian_speech 12G
-├── spanish_speech 50G
-├── dev_testset 630M
-├── impulse_responses 4.3G
-└── noise 58G
+. 855G
++-- datasets 4.3G
+|   \-- impulse_responses 4.3G
+\-- datasets_fullband 850G
+    +-- emotional_speech 2.3G
+    +-- french_speech 63G
+    +-- german_speech 263G
+    +-- italian_speech 39G
+    +-- read_speech 300G
+    +-- russian_speech 12G
+    +-- spanish_speech 66G
+    +-- vctk_wav48_silence_trimmed 39G
+    +-- VocalSet_48kHz_mono 1G
+    +-- dev_testset 3G
+    |   +-- enrollment_data 644M
+    |   +-- noisy_testclips 2.4G
+    \-- noise_fullband 60G
 ```
+
+In all, you will need at least 855GB to store the UNPACKED data. Archived, the same data takes about
+510GB total.
 
 ## Code prerequisites
 - Python 3.6 and above
