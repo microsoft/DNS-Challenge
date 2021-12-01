@@ -1,24 +1,27 @@
-# Deep Noise Suppression (DNS) Challenge - INTERSPEECH 2021
 
-This repository contains the datasets and scripts required for the DNS challenge. For more details
-about the challenge, please see our [paper](https://arxiv.org/pdf/2101.01902.pdf) and the challenge
-[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-interspeech-2021/).
+# Deep Noise Suppression (DNS) Challenge 4 - ICASSP 2022
+
+## In this repository
+
+This repository contains the datasets and scripts required for ICASSP 2022 DNS Challenge, AKA
+DNS Challenge 4, or DNS4. For more details about the challenge, please see our
+[paper](https://arxiv.org/pdf/2101.01902.pdf) and the challenge
+[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/).
 For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
-## Repo details:
-* The **datasets** directory is a placeholder for the wideband datasets. That is, our data
-  downloader script by default will place the downloader audio data here. After the download, this
-  directory will contain clean speech, noise, and room impulse responses required for creating the
-  training data for wideband scenario. The script will also download here the test set that
-  participants can use during the development stages.
-* The **datasets_fullband** directory is a placeholder for the fullband audio data. The downloader
-  script will download here the datasets that contain clean speech, noise, and room impulse
-  responses required for creating training data for fullband scenario.
+## Details
+
+* The **datasets** and **datasets_fullband** folders are placeholders for the datasets. That is, our
+  data downloader script by default will place the downloaded audio data there. After the download,
+  these directories will contain clean speech, noise, and room impulse responses required for
+  creating the training data for wideband scenario. The script will also download here the test set
+  that participants can use during the development stages.
 * The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the
   baseline Speech Enhancement method for wideband. 
-* **dns_challenge_data_downloader.py** - this is the script to download the data. By default, the
-  data will be placed into `datasets/` and `datasets_fullband/` directories. Please send us an email
-  requesting the SAS_URL to be used in the script.
+* **download-dns-challenge-4.sh** - this is the script to download the data. By default, the data
+  will be placed into `./datasets/` and `./datasets_fullband/` directories. Please take a look at
+  the script and uncomment the perferred download method. Unmodified, the script performs a dry run
+  and retrieves only the HTTP headers for each archive.
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
   training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are
@@ -34,46 +37,34 @@ For more details on the testing framework, please visit [P.835](https://github.c
 The default directory structure and the sizes of the datasets available for DNS Challenge are:
 
 ```
-datasets 229G
-├── clean 204G
-│   ├── emotional_speech 403M
-│   ├── french_data 21G
-│   ├── german_speech 66G
-│   ├── italian_speech 14G
-│   ├── mandarin_speech 21G
-│   ├── read_speech 61G
-│   ├── russian_speech 5.1G
-│   ├── singing_voice 979M
-│   └── spanish_speech 17G
-├── dev_testset 211M
-├── impulse_responses 4.3G
-│   ├── SLR26 2.1G
-│   └── SLR28 2.3G
-└── noise 20G
+. 855G
++-- datasets 4.3G
+|   \-- impulse_responses 4.3G
+\-- datasets_fullband 850G
+    +-- emotional_speech 2.3G
+    +-- french_speech 63G
+    +-- german_speech 263G
+    +-- italian_speech 39G
+    +-- read_speech 300G
+    +-- russian_speech 12G
+    +-- spanish_speech 66G
+    +-- vctk_wav48_silence_trimmed 39G
+    +-- VocalSet_48kHz_mono 1G
+    +-- dev_testset 3G
+    |   +-- enrollment_data 644M
+    |   \-- noisy_testclips 2.4G
+    \-- noise_fullband 60G
 ```
 
-And, for the fullband data,
-```
-datasets_fullband 600G
-├── clean_fullband 542G
-│   ├── VocalSet_48kHz_mono 974M
-│   ├── emotional_speech 1.2G
-│   ├── french_data 62G
-│   ├── german_speech 194G
-│   ├── italian_speech 42G
-│   ├── read_speech 182G
-│   ├── russian_speech 12G
-│   └── spanish_speech 50G
-├── dev_testset_fullband 630M
-└── noise_fullband 58G
-```
+In all, you will need at least 855GB to store the UNPACKED data. Archived, the same data takes about
+510GB total.
 
 ## Code prerequisites
 - Python 3.6 and above
 - Python libraries: soundfile, librosa
 
 **NOTE:** git LFS is *no longer required* for DNS Challenge. Please use the
-`dns_challenge_data_downloader.py` script in this repo to download the data.
+`download-dns-challenge-4.sh` script in this repo to download the data.
 
 ## Usage:
 

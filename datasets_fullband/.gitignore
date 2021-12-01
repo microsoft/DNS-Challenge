@@ -1,3 +1,5 @@
 /clean_fullband/
 /dev_testset_fullband/
 /noise_fullband/
+*.tar.bz2
+*.zip
