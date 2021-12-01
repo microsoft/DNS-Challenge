@@ -6,22 +6,22 @@
 This repository contains the datasets and scripts required for ICASSP 2022 DNS Challenge, AKA
 DNS Challenge 4, or DNS4. For more details about the challenge, please see our
 [paper](https://arxiv.org/pdf/2101.01902.pdf) and the challenge
-[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-interspeech-2021/).
+[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/).
 For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Details
 
-* The **datasets** and **datasets_fullband** directories are placeholders for the datasets. That is,
-  our data downloader script by default will place the downloaded audio data there. After the
-  download, these directories will contain clean speech, noise, and room impulse responses required
-  for creating the training data for wideband scenario. The script will also download here the test
-  set that participants can use during the development stages.
+* The **datasets** and **datasets_fullband** folders are placeholders for the datasets. That is, our
+  data downloader script by default will place the downloaded audio data there. After the download,
+  these directories will contain clean speech, noise, and room impulse responses required for
+  creating the training data for wideband scenario. The script will also download here the test set
+  that participants can use during the development stages.
 * The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the
   baseline Speech Enhancement method for wideband. 
 * **download-dns-challenge-4.sh** - this is the script to download the data. By default, the data
-  will be placed into `datasets/` directory. Please take a look at the script and uncomment the
-  perferred download method. Unmodified, the script performs a dry run and retrieves only the HTTP
-  headers for each archive.
+  will be placed into `./datasets/` and `./datasets_fullband/` directories. Please take a look at
+  the script and uncomment the perferred download method. Unmodified, the script performs a dry run
+  and retrieves only the HTTP headers for each archive.
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
   training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are
