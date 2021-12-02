@@ -3,9 +3,8 @@
 
 ## In this repository
 
-This repository contains the datasets and scripts required for ICASSP 2022 DNS Challenge, AKA
-DNS Challenge 4, or DNS4. For more details about the challenge, please see our
-[paper](https://arxiv.org/pdf/2101.01902.pdf) and the challenge
+This repository contains the datasets and scripts required for ICASSP 2022 DNS Challenge, AKA DNS
+Challenge 4, or DNS4. For more details about the challenge, please see our
 [website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/).
 For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
@@ -40,24 +39,25 @@ The default directory structure and the sizes of the datasets available for DNS 
 . 855G
 +-- datasets 4.3G
 |   \-- impulse_responses 4.3G
-\-- datasets_fullband 850G
-    +-- emotional_speech 2.3G
-    +-- french_speech 63G
-    +-- german_speech 263G
-    +-- italian_speech 39G
-    +-- read_speech 300G
-    +-- russian_speech 12G
-    +-- spanish_speech 66G
-    +-- vctk_wav48_silence_trimmed 39G
-    +-- VocalSet_48kHz_mono 1G
+\-- datasets_fullband 887G
+    +-- clean_fullband 827G
+    |   +-- emotional_speech 2.3G
+    |   +-- french_speech 63G
+    |   +-- german_speech 263G
+    |   +-- italian_speech 39G
+    |   +-- read_speech 300G
+    |   +-- russian_speech 12G
+    |   +-- spanish_speech 66G
+    |   +-- vctk_wav48_silence_trimmed 39G
+    |   \-- VocalSet_48kHz_mono 1G
     +-- dev_testset 3G
     |   +-- enrollment_data 644M
     |   \-- noisy_testclips 2.4G
-    \-- noise_fullband 60G
+    \-- noise_fullband 58G
 ```
 
-In all, you will need at least 855GB to store the UNPACKED data. Archived, the same data takes about
-510GB total.
+In all, you will need about 1TB to store the UNPACKED data. Archived, the same data takes 550GB
+total.
 
 ## Code prerequisites
 - Python 3.6 and above
