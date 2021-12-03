@@ -177,7 +177,7 @@ BLOB_NAMES=(
 
     datasets_fullband/datasets_fullband.dev_testset_000.tar.bz2
 
-    datasets/datasets.impulse_responses.tar.bz2
+    datasets_fullband/datasets_fullband.impulse_responses_000.tar.bz2
 )
 
 ###############################################################
@@ -186,7 +186,7 @@ AZURE_URL="https://dns4public.blob.core.windows.net/dns4archive"
 
 OUTPUT_PATH="."
 
-mkdir -p $OUTPUT_PATH/{datasets,datasets_fullband/{clean_fullband,noise_fullband}}
+mkdir -p $OUTPUT_PATH/datasets_fullband/{clean_fullband,noise_fullband}
 
 for BLOB in ${BLOB_NAMES[@]}
 do

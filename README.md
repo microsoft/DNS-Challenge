@@ -10,17 +10,17 @@ For more details on the testing framework, please visit [P.835](https://github.c
 
 ## Details
 
-* The **datasets** and **datasets_fullband** folders are placeholders for the datasets. That is, our
-  data downloader script by default will place the downloaded audio data there. After the download,
-  these directories will contain clean speech, noise, and room impulse responses required for
-  creating the training data for wideband scenario. The script will also download here the test set
-  that participants can use during the development stages.
+* The **datasets_fullband** folder is a placeholder for the datasets. That is, our data downloader
+  script by default will place the downloaded audio data there. After the download, it will contain
+  clean speech, noise, and room impulse responses required for creating the training data for
+  wideband scenario. The script will also download here the test set that participants can use
+  during the development stages.
 * The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the
   baseline Speech Enhancement method for wideband. 
 * **download-dns-challenge-4.sh** - this is the script to download the data. By default, the data
-  will be placed into `./datasets/` and `./datasets_fullband/` directories. _Please take a look at
-  the script and **uncomment** the perferred download method._ Unmodified, the script performs a dry
-  run and retrieves only the HTTP headers for each archive.
+  will be placed into the `./datasets_fullband/` folder. _Please take a look at the script and
+  **uncomment** the perferred download method._ Unmodified, the script performs a dry run and
+  retrieves only the HTTP headers for each archive.
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
   training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are
@@ -36,22 +36,20 @@ For more details on the testing framework, please visit [P.835](https://github.c
 The default directory structure and the sizes of the datasets available for DNS Challenge are:
 
 ```
-. 891G
-+-- datasets 4.3G
-|   \-- impulse_responses 4.3G
-\-- datasets_fullband 886G
-    +-- clean_fullband 827G
-    |   +-- emotional_speech 2.4G
-    |   +-- french_speech 62G
-    |   +-- german_speech 319G
-    |   +-- italian_speech 42G
-    |   +-- read_speech 299G
-    |   +-- russian_speech 12G
-    |   +-- spanish_speech 65G
-    |   +-- vctk_wav48_silence_trimmed 27G
-    |   \-- VocalSet_48kHz_mono 974M
-    +-- dev_testset 1.7G
-    \-- noise_fullband 58G
+datasets_fullband 892G
++-- dev_testset 1.7G
++-- impulse_responses 5.9G
++-- noise_fullband 58G
+\-- clean_fullband 827G
+    +-- emotional_speech 2.4G
+    +-- french_speech 62G
+    +-- german_speech 319G
+    +-- italian_speech 42G
+    +-- read_speech 299G
+    +-- russian_speech 12G
+    +-- spanish_speech 65G
+    +-- vctk_wav48_silence_trimmed 27G
+    \-- VocalSet_48kHz_mono 974M
 ```
 
 In all, you will need about 1TB to store the _unpacked_ data. Archived, the same data takes 543GB
