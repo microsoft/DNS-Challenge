@@ -5,7 +5,7 @@
 
 This repository contains the datasets and scripts required for ICASSP 2022 DNS Challenge, AKA DNS
 Challenge 4, or DNS4. For more details about the challenge, please see our
-[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/).
+[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/) and [paper](docs/ICASSP_2022_4th_Deep_Noise_Suppression_Challenge.pdf).
 For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Details
