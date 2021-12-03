@@ -1,5 +1,8 @@
 /clean_fullband/
-/dev_testset_fullband/
 /noise_fullband/
+/dev_testset/
+/impulse_responses/
+/pdns_training_set/
 *.tar.bz2
 *.zip
+*.wav
