@@ -6,7 +6,7 @@
 # on your local storage!
 
 # In all, you will need about 1TB to store the UNPACKED data.
-# Archived, the same data takes 550GB total.
+# Archived, the same data takes about 550GB total.
 
 # Please comment out the files you don't need before launching
 # the script.
@@ -18,24 +18,20 @@
 # -------------------------------------------------------------
 # The directory structure of the unpacked data is:
 
-# . 855G
-# +-- datasets 4.3G
-# |   \-- impulse_responses 4.3G
-# \-- datasets_fullband 887G
-#     +-- clean_fullband 827G
-#     |   +-- emotional_speech 2.3G
-#     |   +-- french_speech 63G
-#     |   +-- german_speech 263G
-#     |   +-- italian_speech 39G
-#     |   +-- read_speech 300G
-#     |   +-- russian_speech 12G
-#     |   +-- spanish_speech 66G
-#     |   +-- vctk_wav48_silence_trimmed 39G
-#     |   \-- VocalSet_48kHz_mono 1G
-#     +-- dev_testset 3G
-#     |   +-- enrollment_data 644M
-#     |   \-- noisy_testclips 2.4G
-#     \-- noise_fullband 58G
+# datasets_fullband 892G
+# +-- dev_testset 1.7G
+# +-- impulse_responses 5.9G
+# +-- noise_fullband 58G
+# \-- clean_fullband 827G
+#     +-- emotional_speech 2.4G
+#     +-- french_speech 62G
+#     +-- german_speech 319G
+#     +-- italian_speech 42G
+#     +-- read_speech 299G
+#     +-- russian_speech 12G
+#     +-- spanish_speech 65G
+#     +-- vctk_wav48_silence_trimmed 27G
+#     \-- VocalSet_48kHz_mono 974M
 
 BLOB_NAMES=(
 

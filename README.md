@@ -52,8 +52,8 @@ datasets_fullband 892G
     \-- VocalSet_48kHz_mono 974M
 ```
 
-In all, you will need about 1TB to store the _unpacked_ data. Archived, the same data takes 543GB
-total.
+In all, you will need about 1TB to store the _unpacked_ data. Archived, the same data takes about
+550GB total.
 
 ## Code prerequisites
 - Python 3.6 and above
