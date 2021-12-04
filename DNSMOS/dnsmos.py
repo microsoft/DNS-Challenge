@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import requests
 import soundfile as sf
+import librosa
 
 from urllib.parse import urlparse, urljoin
 
@@ -28,6 +29,7 @@ def main(args):
         audio, fs = sf.read(fpath)
         if fs != 16000:
             print('Only sampling rate of 16000 is supported as of now')
+            audio = librosa.core.resample(audio, fs, 16000)
         data = {"data": audio.tolist(), "filename": os.path.basename(fpath)}
         input_data = json.dumps(data)
         # Make the request and display the response
