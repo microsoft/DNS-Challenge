@@ -44,14 +44,33 @@ BLOB_NAMES=(
     pdns_training_set/raw/pdns_training_set.raw.clean.english_006.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.english_007.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.english_008.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_009.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_010.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_011.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_012.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_013.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_014.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_015.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_016.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_017.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_018.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_019.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.english_020.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.french_000.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.german_000.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.german_001.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.german_002.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.german_003.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.german_004.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.german_005.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.german_006.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.german_007.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.german_008.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.italian_000.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.russian_000.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.spanish_000.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.spanish_001.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.spanish_002.tar.bz2
 
     pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_000.tar.bz2
     pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_001.tar.bz2
