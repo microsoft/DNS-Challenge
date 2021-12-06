@@ -67,6 +67,8 @@ BLOB_NAMES=(
     pdns_training_set/raw/pdns_training_set.raw.clean.german_007.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.german_008.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.italian_000.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.italian_001.tar.bz2
+    pdns_training_set/raw/pdns_training_set.raw.clean.italian_002.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.russian_000.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.spanish_000.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.spanish_001.tar.bz2
