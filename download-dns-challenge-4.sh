@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# ***** Datasets for ICASSP 2022 DNS Challenge 4 *****
+# ***** Datasets for ICASSP 2022 DNS Challenge 4 - Main (Real-Time) Track *****
 
 # NOTE: Before downloading, make sure you have enough space
 # on your local storage!

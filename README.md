@@ -16,7 +16,7 @@ For more details on the testing framework, please visit [P.835](https://github.c
   wideband scenario. The script will also download here the test set that participants can use
   during the development stages.
 * The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the
-  baseline Speech Enhancement method for wideband. 
+  baseline Speech Enhancement method for wideband.
 * **download-dns-challenge-4.sh** - this is the script to download the data. By default, the data
   will be placed into the `./datasets_fullband/` folder. _Please take a look at the script and
   **uncomment** the perferred download method._ Unmodified, the script performs a dry run and
@@ -33,7 +33,10 @@ For more details on the testing framework, please visit [P.835](https://github.c
 
 ## Datasets
 
-The default directory structure and the sizes of the datasets available for DNS Challenge are:
+### Real-time track
+
+The default directory structure and the sizes of the datasets available for main track of the DNS
+Challenge are:
 
 ```
 datasets_fullband 892G
@@ -55,6 +58,32 @@ datasets_fullband 892G
 In all, you will need about 1TB to store the _unpacked_ data. Archived, the same data takes about
 550GB total.
 
+### Personalized track
+
+Personalized track shares the noise and IR data with the main track, and the dataset has the
+following structure:
+
+```
+. 362G
++-- datasets_fullband 64G
+|   +-- impulse_responses 5.9G
+|   \-- noise_fullband 58G
++-- pdns_training_set 294G
+|   +-- enrollment_embeddings 115M
+|   +-- enrollment_wav 42G
+|   +-- raw/clean 252G
+|       +-- english 168G
+|       +-- french 2.1G
+|       +-- german 53G
+|       +-- italian 17G
+|       +-- russian 6.8G
+|       \-- spanish 5.4G
+\-- personalized_dev_testset 3.3G
+```
+
+In all, you will need at least 380GB to store the _unpacked_ data. Archived, the same data takes
+about 200GB total.
+
 ## Code prerequisites
 - Python 3.6 and above
 - Python libraries: soundfile, librosa
@@ -68,7 +97,7 @@ In all, you will need about 1TB to store the _unpacked_ data. Archived, the same
 ```bash
 pip3 install soundfile librosa
 ```
-2. Clone the repository. 
+2. Clone the repository.
 ```bash
 git clone https://github.com/microsoft/DNS-Challenge
 ```
@@ -77,13 +106,13 @@ git clone https://github.com/microsoft/DNS-Challenge
    include the paths to clean speech, noise and impulse response related csv files. Also, specify
    the paths to the destination directories and store the logs.
 
-4. Create dataset 
+4. Create dataset
 ```bash
 python3 noisyspeech_synthesizer_singleprocess.py
 ```
 
 ## Citation:
-If you use this dataset in a publication please cite the following paper:<br />  
+If you use this dataset in a publication please cite the following paper:<br />
 
 ```BibTex
 @inproceedings{reddy2021interspeech,
@@ -94,13 +123,13 @@ If you use this dataset in a publication please cite the following paper:<br />
 }
 ```
 
-The baseline NSNet noise suppression:<br />  
+The baseline NSNet noise suppression:<br />
 ```BibTex
-@inproceedings{9054254, 
-    author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} and H. {Dubey} and R. {Cutler} and I. {Tashev}}, 
-    booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, 
-    Speech and Signal Processing (ICASSP)}, 
-    title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement}, 
+@inproceedings{9054254,
+    author={Y. {Xia} and S. {Braun} and C. K. A. {Reddy} and H. {Dubey} and R. {Cutler} and I. {Tashev}},
+    booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics,
+    Speech and Signal Processing (ICASSP)},
+    title={Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement},
     year={2020}, volume={}, number={}, pages={871-875},}
 ```
 
@@ -174,17 +203,17 @@ MICROSOFT PROVIDES THE DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTI
 The datasets are provided under the original terms that Microsoft received such datasets. See below for more information about each dataset.
 
 The datasets used in this project are licensed as follows:
-1. Clean speech: 
+1. Clean speech:
 * https://librivox.org/; License: https://librivox.org/pages/public-domain/
-* PTDB-TUG: Pitch Tracking Database from Graz University of Technology https://www.spsc.tugraz.at/databases-and-tools/ptdb-tug-pitch-tracking-database-from-graz-university-of-technology.html; License: http://opendatacommons.org/licenses/odbl/1.0/ 
-* Edinburgh 56 speaker dataset: https://datashare.is.ed.ac.uk/handle/10283/2791; License: https://datashare.is.ed.ac.uk/bitstream/handle/10283/2791/license_text?sequence=11&isAllowed=y 
+* PTDB-TUG: Pitch Tracking Database from Graz University of Technology https://www.spsc.tugraz.at/databases-and-tools/ptdb-tug-pitch-tracking-database-from-graz-university-of-technology.html; License: http://opendatacommons.org/licenses/odbl/1.0/
+* Edinburgh 56 speaker dataset: https://datashare.is.ed.ac.uk/handle/10283/2791; License: https://datashare.is.ed.ac.uk/bitstream/handle/10283/2791/license_text?sequence=11&isAllowed=y
 * VocalSet: A Singing Voice Dataset https://zenodo.org/record/1193957#.X1hkxYtlCHs; License: Creative Commons Attribution 4.0 International
 * Emotion data corpus: CREMA-D (Crowd-sourced Emotional Multimodal Actors Dataset)
 https://github.com/CheyneyComputerScience/CREMA-D; License: http://opendatacommons.org/licenses/dbcl/1.0/
 * The VoxCeleb2 Dataset http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html; License: http://www.robots.ox.ac.uk/~vgg/data/voxceleb/
-The VoxCeleb dataset is available to download for commercial/research purposes under a Creative Commons Attribution 4.0 International License. The copyright remains with the original owners of the video. A complete version of the license can be found here. 
+The VoxCeleb dataset is available to download for commercial/research purposes under a Creative Commons Attribution 4.0 International License. The copyright remains with the original owners of the video. A complete version of the license can be found here.
 * VCTK Dataset: https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html; License: This corpus is licensed under Open Data Commons Attribution License (ODC-By) v1.0.
-http://opendatacommons.org/licenses/by/1.0/ 
+http://opendatacommons.org/licenses/by/1.0/
 
 2. Noise:
 * Audioset: https://research.google.com/audioset/index.html; License: https://creativecommons.org/licenses/by/4.0/
