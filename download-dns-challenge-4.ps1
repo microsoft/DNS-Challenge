@@ -181,13 +181,13 @@ $AZURE_URL="https://dns4public.blob.core.windows.net/dns4archive/datasets_fullba
 
 $OUTPUT_PATH="./datasets_fullband"
 
-mkdir -Force $OUTPUT_PATH/clean_fullband
-mkdir -Force $OUTPUT_PATH/noise_fullband
+mkdir -Force $OUTPUT_PATH/clean_fullband 2> $null
+mkdir -Force $OUTPUT_PATH/noise_fullband 2> $null
 
 foreach ($BLOB in $BLOB_NAMES) {
 
     $URL="$AZURE_URL/$BLOB"
-    echo "Download: $BLOB"
+    Write-Output "Download: $BLOB"
 
     # DRY RUN: print HTTP response and Content-Length
     # WITHOUT downloading the files
