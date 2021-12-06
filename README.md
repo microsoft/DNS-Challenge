@@ -64,23 +64,24 @@ Personalized track shares the noise and IR data with the main track, and the dat
 following structure:
 
 ```
-. 358G
+. 362G
 +-- datasets_fullband 64G
 |   +-- impulse_responses 5.9G
 |   \-- noise_fullband 58G
-\-- pdns_training_set 294G
-    +-- enrollment_embeddings 115M
-    +-- enrollment_wav 42G
-    +-- raw/clean 252G
-        +-- english 168G
-        +-- french 2.1G
-        +-- german 53G
-        +-- italian 17G
-        +-- russian 6.8G
-        \-- spanish 5.4G
++-- pdns_training_set 294G
+|   +-- enrollment_embeddings 115M
+|   +-- enrollment_wav 42G
+|   +-- raw/clean 252G
+|       +-- english 168G
+|       +-- french 2.1G
+|       +-- german 53G
+|       +-- italian 17G
+|       +-- russian 6.8G
+|       \-- spanish 5.4G
+\-- personalized_dev_testset 3.3G
 ```
 
-In all, you will need at least 360GB to store the _unpacked_ data. Archived, the same data takes
+In all, you will need at least 380GB to store the _unpacked_ data. Archived, the same data takes
 about 200GB total.
 
 ## Code prerequisites

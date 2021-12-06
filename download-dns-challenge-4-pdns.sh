@@ -5,7 +5,7 @@
 # NOTE: Before downloading, make sure you have enough space
 # on your local storage!
 
-# In all, you will need about 360TB to store the UNPACKED data.
+# In all, you will need about 380TB to store the UNPACKED data.
 # Archived, the same data takes about 200GB total.
 
 # Please comment out the files you don't need before launching
@@ -18,20 +18,21 @@
 # -------------------------------------------------------------
 # The directory structure of the unpacked data is:
 
-# . 358G
+# . 362G
 # +-- datasets_fullband 64G
 # |   +-- impulse_responses 5.9G
 # |   \-- noise_fullband 58G
-# \-- pdns_training_set 294G
-#     +-- enrollment_embeddings 115M
-#     +-- enrollment_wav 42G
-#     +-- raw/clean 252G
-#         +-- english 168G
-#         +-- french 2.1G
-#         +-- german 53G
-#         +-- italian 17G
-#         +-- russian 6.8G
-#         \-- spanish 5.4G
+# +-- pdns_training_set 294G
+# |   +-- enrollment_embeddings 115M
+# |   +-- enrollment_wav 42G
+# |   +-- raw/clean 252G
+# |       +-- english 168G
+# |       +-- french 2.1G
+# |       +-- german 53G
+# |       +-- italian 17G
+# |       +-- russian 6.8G
+# |       \-- spanish 5.4G
+# \-- personalized_dev_testset 3.3G
 
 BLOB_NAMES=(
 
@@ -100,6 +101,8 @@ BLOB_NAMES=(
     datasets_fullband/noise_fullband/datasets_fullband.noise_fullband.freesound_001.tar.bz2
 
     datasets_fullband/datasets_fullband.impulse_responses_000.tar.bz2
+
+    personalized_dev_testset/personalized_dev_testset.tar.bz2
 )
 
 ###############################################################
