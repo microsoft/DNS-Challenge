@@ -4,9 +4,10 @@
 ## In this repository
 
 This repository contains the datasets and scripts required for ICASSP 2022 DNS Challenge, AKA DNS
-Challenge 4, or DNS4. For more details about the challenge, please see our
-[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/) and [paper](docs/ICASSP_2022_4th_Deep_Noise_Suppression_Challenge.pdf).
-For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
+Challenge 4, or simply **DNS4**. For more details about the challenge, please see our
+[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/)
+and [paper](docs/ICASSP_2022_4th_Deep_Noise_Suppression_Challenge.pdf). For more details on the
+testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Details
 
@@ -21,6 +22,8 @@ For more details on the testing framework, please visit [P.835](https://github.c
   will be placed into the `./datasets_fullband/` folder. _Please take a look at the script and
   **uncomment** the perferred download method._ Unmodified, the script performs a dry run and
   retrieves only the HTTP headers for each archive.
+* **download-dns-challenge-4-pdns.sh** - Same as above, but for the Personalized DNS Challenge
+  track.
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
   training purposes.
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are
@@ -33,7 +36,7 @@ For more details on the testing framework, please visit [P.835](https://github.c
 
 ## Datasets
 
-### Real-time track
+### Real-time DNS track
 
 The default directory structure and the sizes of the datasets available for main track of the DNS
 Challenge are:
@@ -58,7 +61,7 @@ datasets_fullband 892G
 In all, you will need about 1TB to store the _unpacked_ data. Archived, the same data takes about
 550GB total.
 
-### Personalized track
+### Personalized DNS track
 
 Personalized track shares the noise and IR data with the main track, and the dataset has the
 following structure:
