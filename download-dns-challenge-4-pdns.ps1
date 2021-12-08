@@ -102,7 +102,8 @@ $BLOB_NAMES=@(
 
     "datasets_fullband/datasets_fullband.impulse_responses_000.tar.bz2",
 
-    "personalized_dev_testset/personalized_dev_testset.tar.bz2"
+    "personalized_dev_testset/personalized_dev_testset.enrollment.tar.bz2",
+    "personalized_dev_testset/personalized_dev_testset.noisy_testclips.tar.bz2"
 )
 
 ###############################################################
