@@ -87,6 +87,18 @@ following structure:
 In all, you will need at least 380GB to store the _unpacked_ data. Archived, the same data takes
 about 200GB total.
 
+### Data checksums
+
+A CSV file containing file sizes and SHA1 checksums for audio clips in both Real-time *and*
+Personalized DNS datasets is available at:
+[dns4-datasets-files-sha1.csv.bz2](https://dns4public.blob.core.windows.net/dns4archive/dns4-datasets-files-sha1.csv.bz2).
+The archive is 41.3MB in size and can be read in Python like this:
+```python
+import pandas as pd
+
+sha1sums = pd.read_csv("dns4-datasets-files-sha1.csv.bz2", names=["size", "sha1", "path"])
+```
+
 ## Code prerequisites
 - Python 3.6 and above
 - Python libraries: soundfile, librosa
