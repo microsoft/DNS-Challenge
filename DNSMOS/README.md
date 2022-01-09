@@ -12,14 +12,25 @@ We will send you the **AUTH_KEY** that you can insert in the **dnsmos.py** scrip
 Example command for P.835 evaluation of test clips: python dnsmos --testset_dir <test clips directory> --method p835
 
 ## Citation:
-If you have used the API for your research and development purpose, please cite the DNSMOS paper
+If you have used the API for your research and development purpose, please cite the DNSMOS paper:
 ```BibTex
-@article{reddy2020dnsmos,
-  title={DNSMOS: A Non-Intrusive Perceptual Objective Speech Quality metric to evaluate Noise Suppressors},
+@inproceedings{reddy2021dnsmos,
+  title={Dnsmos: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
-  journal={arXiv e-prints},
-  pages={arXiv--2010},
-  year={2020}
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6493--6497},
+  year={2021},
+  organization={IEEE}
 }
 ```
 
+If you used DNSMOS P.835 please cite this paper:
+  
+```BibTex
+@article{reddy2021dnsmos,
+  title={DNSMOS P. 835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
+  author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
+  journal={arXiv preprint arXiv:2110.01763},
+  year={2021}
+}
+ ```
