@@ -35,9 +35,11 @@ testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 * **requirements.txt** - contains all the libraries required for synthesizing the data.
 
 ## Datasets
+DEV Testset:
+BLIND testset: 
 
 ## Baseline Enhanced clips
-Baseline Personalized DEV enhanced clips:
+Baseline Personalized DEV enhanced clips: https://dns4public.blob.core.windows.net/dns4archive/Baseline_personalized_dev_testset.zip
 Baseline DEV enhanced clips:
 
 Baseline Personalized BLIND enhanced clips: 
