@@ -36,6 +36,17 @@ testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Datasets
 
+## Baseline Enhanced clips
+Baseline Personalized DEV enhanced clips:
+Baseline DEV enhanced clips:
+
+Baseline Personalized BLIND enhanced clips: 
+Baseline BLIND ehanced clips:
+
+## Wacc transcript
+Dev testset: https://github.com/microsoft/DNS-Challenge/blob/master/dev_testset_transcript.xlsx
+Blind testset: 
+
 ### Real-time DNS track
 
 The default directory structure and the sizes of the datasets available for main track of the DNS
