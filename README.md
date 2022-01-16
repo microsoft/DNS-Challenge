@@ -40,14 +40,16 @@ BLIND testset:
 
 ## Baseline Enhanced clips
 Baseline Personalized DEV enhanced clips: https://dns4public.blob.core.windows.net/dns4archive/Baseline_personalized_dev_testset.zip
-Baseline DEV enhanced clips:
+Non-personalized Baseline model: https://github.com/microsoft/DNS-Challenge/tree/master/NSNet2-baseline
 
-Baseline Personalized BLIND enhanced clips: 
-Baseline BLIND ehanced clips:
+Baseline Personalized BLIND enhanced clips: TBD
+
+## WAcc script
+https://github.com/microsoft/DNS-Challenge/tree/master/WAcc
 
 ## Wacc transcript
-Dev testset: https://github.com/microsoft/DNS-Challenge/blob/master/dev_testset_transcript.xlsx
-Blind testset: 
+Dev testset: https://github.com/microsoft/DNS-Challenge/blob/master/WAcc/DNSChallenge4_devtest.tsv 
+Blind testset: TBD
 
 ### Real-time DNS track
 
