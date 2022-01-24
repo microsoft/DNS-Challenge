@@ -60,19 +60,24 @@ def main(args):
             outdir = Path(args.output).resolve()
         else:
             outdir = inPath.parent.joinpath(modelname).resolve()
+
         outdir.mkdir(parents=True, exist_ok=True)
         print('Writing output to:', str(outdir))
 
         fpaths = list(inPath.glob('*.wav'))
+
         for ii, path in enumerate(fpaths):
             print(f"Processing file [{ii+1}/{len(fpaths)}]")
-            sigIn, fs = sf.read(path)
+            print(path)
+
+            sigIn, fs = sf.read(str(path))
+
             if len(sigIn.shape) > 1:
                 sigIn = sigIn[:,0]
 
             outSig = enhancer(sigIn, fs)
             outpath = outdir / path.name
-
+            outpath = str(outpath)
             sf.write(outpath, outSig, fs)
 
     else:
