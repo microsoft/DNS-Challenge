@@ -35,8 +35,9 @@ testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 * **requirements.txt** - contains all the libraries required for synthesizing the data.
 
 ## Datasets
-DEV Testset:
-BLIND testset: 
+**DEV Testset**:
+**BLIND testset**: released at https://dns4public.blob.core.windows.net/dns4archive/blind_testset_bothtracks.zip
+It has two folders, enrollment_speech (178 clips) and testclips (859 clips). It consists of 638 mobile testclips and rest are desktop/laptop testclips. Each testclips is 10s duration. Both tracks have same testclips. For Track-1 non-personalized DNS, you do not need the enrollment_speech. 
 
 ## Baseline Enhanced clips
 Baseline Personalized DEV enhanced clips: https://dns4public.blob.core.windows.net/dns4archive/Baseline_personalized_dev_testset.zip
