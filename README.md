@@ -197,7 +197,7 @@ The P.835 test framework:<br />
 
 DNSMOS API: <br />
 ```BibTex
-@inproceedings{reddy2020dnsmos,
+@inproceedings{reddy2021dnsmos,
   title={DNSMOS: A Non-Intrusive Perceptual Objective Speech Quality metric to evaluate Noise Suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
   booktitle={ICASSP},
@@ -206,7 +206,7 @@ DNSMOS API: <br />
 ```
 
 ```BibTex
-@inproceedings{reddy2021dnsmos,
+@inproceedings{reddy2022dnsmos,
   title={DNSMOS P. 835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
   booktitle={ICASSP},
