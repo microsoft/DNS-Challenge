@@ -205,12 +205,14 @@ DNSMOS API: <br />
 }
 ```
 
+```BibTex
 @inproceedings{reddy2021dnsmos,
   title={DNSMOS P. 835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
   booktitle={ICASSP},
   year={2021}
 }
+```
 
 # Contributing
 
