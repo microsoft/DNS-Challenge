@@ -153,6 +153,16 @@ If you use this dataset in a publication please cite the following paper:<br />
   year={2021}
 }
 ```
+The current challenge:
+
+```BibTex
+@inproceedings{dubey2022icassp,
+  title={INTERSPEECH 2021 Deep Noise Suppression Challenge},
+  author={Dubey, Harishchandra and Gopal, Vishak and Cutler, Ross and Matusevych, Sergiy and Braun, Sebastian and Eskimez, Emre Sefik and Thakker, Manthan and Yoshioka, Takuya and Gamper, Hannes and Aichner, Robert},
+  booktitle={ICASSP},
+  year={2022}
+}
+```
 
 The baseline NSNet noise suppression:<br />
 ```BibTex
@@ -194,6 +204,13 @@ DNSMOS API: <br />
   year={2020}
 }
 ```
+
+@inproceedings{reddy2021dnsmos,
+  title={DNSMOS P. 835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
+  author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
+  booktitle={ICASSP},
+  year={2021}
+}
 
 # Contributing
 
