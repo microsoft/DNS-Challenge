@@ -201,7 +201,7 @@ DNSMOS API: <br />
   title={DNSMOS: A Non-Intrusive Perceptual Objective Speech Quality metric to evaluate Noise Suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
   booktitle={ICASSP},
-  year={2020}
+  year={2021}
 }
 ```
 
@@ -210,7 +210,7 @@ DNSMOS API: <br />
   title={DNSMOS P. 835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
   booktitle={ICASSP},
-  year={2021}
+  year={2022}
 }
 ```
 
