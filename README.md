@@ -146,6 +146,16 @@ python3 noisyspeech_synthesizer_singleprocess.py
 If you use this dataset in a publication please cite the following paper:<br />
 
 ```BibTex
+@inproceedings{dubey2022icassp,
+  title={ICASSP 2022 Deep Noise Suppression Challenge},
+  author={Dubey, Harishchandra and Gopal, Vishak and Cutler, Ross and Matusevych, Sergiy and Braun, Sebastian and Eskimez, Emre Sefik and Thakker, Manthan and Yoshioka, Takuya and Gamper, Hannes and Aichner, Robert},
+  booktitle={ICASSP},
+  year={2022}
+}
+```
+
+The previous challenges were: 
+```BibTex
 @inproceedings{reddy2021interspeech,
   title={INTERSPEECH 2021 Deep Noise Suppression Challenge},
   author={Reddy, Chandan KA and Dubey, Harishchandra and Koishida, Kazuhito and Nair, Arun and Gopal, Vishak and Cutler, Ross and Braun, Sebastian and Gamper, Hannes and Aichner, Robert and Srinivasan, Sriram},
@@ -153,14 +163,20 @@ If you use this dataset in a publication please cite the following paper:<br />
   year={2021}
 }
 ```
-The current challenge:
-
 ```BibTex
-@inproceedings{dubey2022icassp,
-  title={INTERSPEECH 2021 Deep Noise Suppression Challenge},
-  author={Dubey, Harishchandra and Gopal, Vishak and Cutler, Ross and Matusevych, Sergiy and Braun, Sebastian and Eskimez, Emre Sefik and Thakker, Manthan and Yoshioka, Takuya and Gamper, Hannes and Aichner, Robert},
+@inproceedings{reddy2021icassp,
+  title={ICASSP 2021 deep noise suppression challenge},
+  author={Reddy, Chandan KA and Dubey, Harishchandra and Gopal, Vishak and Cutler, Ross and Braun, Sebastian and Gamper, Hannes and Aichner, Robert and Srinivasan, Sriram},
   booktitle={ICASSP},
-  year={2022}
+  year={2021},
+}
+```
+```BibTex
+@inproceedings{reddy2020interspeech,
+  title={The INTERSPEECH 2020 deep noise suppression challenge: Datasets, subjective testing framework, and challenge results},
+  author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross and Beyrami, Ebrahim and Cheng, Roger and Dubey, Harishchandra and Matusevych, Sergiy and Aichner, Robert and Aazami, Ashkan and Braun, Sebastian and others},
+  booktitle={INTERSPEECH},
+  year={2020}
 }
 ```
 
