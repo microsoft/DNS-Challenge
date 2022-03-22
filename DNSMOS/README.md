@@ -21,7 +21,7 @@ If you have used the API for your research and development purpose, please cite 
 @inproceedings{reddy2021dnsmos,
   title={Dnsmos: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
-  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  booktitle={ICASSP 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   pages={6493--6497},
   year={2021},
   organization={IEEE}
@@ -31,10 +31,11 @@ If you have used the API for your research and development purpose, please cite 
 If you used DNSMOS P.835 please cite this paper:
   
 ```BibTex
-@article{reddy2021dnsmos,
+@inproceedings{reddy2022dnsmos,
   title={DNSMOS P. 835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
-  journal={arXiv preprint arXiv:2110.01763},
-  year={2021}
+  booktitle={ICASSP 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2022},
+  organization={IEEE}
 }
  ```
