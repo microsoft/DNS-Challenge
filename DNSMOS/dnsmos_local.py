@@ -19,28 +19,9 @@ from tqdm import tqdm
 SAMPLING_RATE = 16000
 INPUT_LENGTH = 9.01
 
-def init_session(model_path):
-    sess = ort.InferenceSession(model_path)
-    return sess
-
-class PickableInferenceSession: # This is a wrapper to make the current InferenceSession class pickable.
-    def __init__(self, model_path):
-        self.model_path = model_path
-        self.sess = init_session(self.model_path)
-
-    def run(self, *args):
-        return self.sess.run(*args)
-
-    def __getstate__(self):
-        return {'model_path': self.model_path}
-
-    def __setstate__(self, values):
-        self.model_path = values['model_path']
-        self.sess = init_session(self.model_path)
-
 class ComputeScore:
     def __init__(self, primary_model_path) -> None:
-        self.onnx_sess = PickableInferenceSession(primary_model_path)
+        self.onnx_sess = ort.InferenceSession(primary_model_path)
 
     def get_polyfit_val(self, sig, bak, ovr, is_personalized_MOS):
         if is_personalized_MOS:
@@ -116,11 +97,6 @@ def main(args):
 
     compute_score = ComputeScore(primary_model_path)
 
-    if args.csv_path:
-        csv_path = args.csv_path
-    else:
-        csv_path = args.run_name+'.csv'
-
     rows = []
     clips = []
     clips = glob.glob(os.path.join(args.testset_dir, "*.wav"))
@@ -136,7 +112,7 @@ def main(args):
             max_recursion_depth -= 1
         clips.extend(audio_clips_list)
 
-    with concurrent.futures.ProcessPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor() as executor:
         future_to_url = {executor.submit(compute_score, clip, desired_fs, is_personalized_eval): clip for clip in clips}
         for future in tqdm(concurrent.futures.as_completed(future_to_url)):
             clip = future_to_url[future]
@@ -148,7 +124,11 @@ def main(args):
                 rows.append(data)            
 
     df = pd.DataFrame(rows)
-    df.to_csv(csv_path)
+    if args.csv_path:
+        csv_path = args.csv_path
+        df.to_csv(csv_path)
+    else:
+        print(df.describe())
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
