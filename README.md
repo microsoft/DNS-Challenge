@@ -1,58 +1,75 @@
+# 5th Deep Noise Suppression (DNS) Challenge at ICASSP 2023
+Website: https://aka.ms/5th-dns-challenge
+Git Repo: https://github.com/microsoft/DNS-Challenge
+Challenge Paper: <TBD> 
 
-# Deep Noise Suppression (DNS) Challenge 4 - ICASSP 2022
+## Important features of this challenge
+1. Along with noise suppression, it includes de-reverberation and suppression of interfering talkers for headset and speakerphone scenarios.
+2. The challenge has two tracks: (i) Headset (wired/wireless headphone, earbuds such as airpods etc.) speech enhancement; (ii) Non-headset (speakerphone, built-in mic in laptop/desktop/mobile phone/other meeting devices etc.) speech enhancement. 
+3. This challenge adopts the ITU-T P.835 subjective test framework to measure speech quality (SIG), background noise quality (BAK), and overall audio quality (OVRL). We modified the ITU-T P.835 to make it reliable for test clips with interfering (undesired neighboring) talkers. Along with P.835 scores, Word Accuracy (WAcc) is used to measure the performance of models.
+4. Please NOTE that the intellectual property (IP) is not transferred to the challenge organizers, i.e., if code is shared/submitted, the participants remain the owners of their code (when the code is made publicly available, an appropriate license should be added).
+5. There are new requirements for model related latency. Please check all requirements listed at https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2023/
+
+## Baseline Speaker Embeddings
+This challenge adopted pretrained ECAPA-TDNN model available in SpeechBrain as baseline speaker embeddings models, available at https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb. Participants can use any other publically available speaker embeddings model or develop their own speaker embedding extractor. Participants are encourage to explore RawNet3 models available at https://github.com/jungjee/RawNet
+
+Previous DNS Challenge used RawNet2 speaker embeddings. So far, impact of different speaker embeddings for personalized speech enhancements is not studied in sufficient depth. 
+
+# Install SpeechBrain with below command:
+pip install speechbrain
+
+#Compute Speaker Embeddings for your wav file with below command:
+
+import torchaudio
+from speechbrain.pretrained import EncoderClassifier
+classifier = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb")
+signal, fs =torchaudio.load('tests/samples/ASR/spk1_snt1.wav')
+embeddings = classifier.encode_batch(signal)
 
 ## In this repository
 
-This repository contains the datasets and scripts required for ICASSP 2022 DNS Challenge, AKA DNS
-Challenge 4, or simply **DNS4**. For more details about the challenge, please see our
-[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2022/)
-and [paper](docs/ICASSP_2022_4th_Deep_Noise_Suppression_Challenge.pdf). For more details on the
-testing framework, please visit [P.835](https://github.com/microsoft/P.808).
+This repository contains the datasets and scripts required for 5th DNS Challenge at ICASSP 2023, aka DNS
+Challenge 5, or simply **DNS5**. For more details about the challenge, please see our
+[website](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2023/) and [paper](docs/ICASSP2023_5th_DNS_Challenge.pdf). For more details on the testing framework, please visit [P.835](https://github.com/microsoft/P.808).
 
 ## Details
 
 * The **datasets_fullband** folder is a placeholder for the datasets. That is, our data downloader
   script by default will place the downloaded audio data there. After the download, it will contain
-  clean speech, noise, and room impulse responses required for creating the training data for
-  wideband scenario. The script will also download here the test set that participants can use
-  during the development stages.
-* The **NSNet2-baseline** directory contains the inference scripts and the ONNX model for the
-  baseline Speech Enhancement method for wideband.
-* **download-dns-challenge-4.sh** - this is the script to download the data. By default, the data
-  will be placed into the `./datasets_fullband/` folder. _Please take a look at the script and
-  **uncomment** the perferred download method._ Unmodified, the script performs a dry run and
-  retrieves only the HTTP headers for each archive.
-* **download-dns-challenge-4-pdns.sh** - Same as above, but for the Personalized DNS Challenge
-  track.
+  clean speech, noise, and room impulse responses required for creating the training data.
+  
+* The **Baseline** directory contains the enhanced clips for both tracks. These enhanced clips will be corresponding to dev testset. 
+
+* **download-dns-challenge-5-headset.sh** - this is the script to download the data for headset (Track 1). By default, the data will be placed into the `./datasets_fullband/` folder. Please take a look at the script and **uncomment** the perferred download method._ Unmodified, the script performs a dry run and retrieves only the HTTP headers for each archive.
+
+* **download-dns-challenge-5-speakerphone.sh** - this is the script to download the data for speakerphone (Track 2).
+
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
   training purposes.
+
 * **noisyspeech_synthesizer.cfg** - is the configuration file used to synthesize the data. Users are
-  required to accurately specify different parameters and provide the right paths to the datasets
-  required to synthesize noisy speech.
+required to accurately specify different parameters and provide the right paths to the datasets required to synthesize noisy speech.
+
 * **audiolib.py** - contains modules required to synthesize datasets.
 * **utils.py** - contains some utility functions required to synthesize the data.
 * **unit_tests_synthesizer.py** - contains the unit tests to ensure sanity of the data.
 * **requirements.txt** - contains all the libraries required for synthesizing the data.
 
 ## Datasets
-**DEV Testset**:
-**BLIND testset**: released at https://dns4public.blob.core.windows.net/dns4archive/blind_testset_bothtracks.zip
-It has two folders, enrollment_speech (178 clips) and testclips (859 clips). It consists of 638 mobile testclips and rest are desktop/laptop testclips. Each testclips is 10s duration. Both tracks have same testclips. For Track-1 non-personalized DNS, you do not need the enrollment_speech. 
+**V5_dev_testset**: directory containing dev testsets for both tracks. Each testclip has 10s duration and the corresponding enrollment clips with 30s duration. 
 
-## Baseline Enhanced clips
-Baseline Personalized DEV enhanced clips: https://dns4public.blob.core.windows.net/dns4archive/Baseline_personalized_dev_testset.zip
-Non-personalized Baseline model: https://github.com/microsoft/DNS-Challenge/tree/master/NSNet2-baseline
+**BLIND testset**: <TBD>
 
-Baseline Personalized BLIND enhanced clips: TBD
+https://dnschallengepublic.blob.core.windows.net/dns5archive/V
 
 ## WAcc script
 https://github.com/microsoft/DNS-Challenge/tree/master/WAcc
 
-## Wacc transcript
-Dev testset: https://github.com/microsoft/DNS-Challenge/blob/master/WAcc/DNSChallenge4_devtest.tsv 
-Blind testset: TBD
+## Wacc ground-truth transcript
+Dev testset: available only for speakerphone track. For headset track, we are providing ASR output and list of prompts read during recording of testclips. Participants can help in correcting ASR output to generate the ground-truth transcripts.
+Blind testset: <TBD>
 
-### Real-time DNS track
+### Data info
 
 The default directory structure and the sizes of the datasets available for main track of the DNS
 Challenge are:
@@ -77,7 +94,7 @@ datasets_fullband 892G
 In all, you will need about 1TB to store the _unpacked_ data. Archived, the same data takes about
 550GB total.
 
-### Personalized DNS track
+### Headset DNS track
 
 Personalized track shares the noise and IR data with the main track, and the dataset has the
 following structure:
@@ -107,12 +124,12 @@ about 200GB total.
 
 A CSV file containing file sizes and SHA1 checksums for audio clips in both Real-time *and*
 Personalized DNS datasets is available at:
-[dns4-datasets-files-sha1.csv.bz2](https://dns4public.blob.core.windows.net/dns4archive/dns4-datasets-files-sha1.csv.bz2).
+[dns5-datasets-files-sha1.csv.bz2](https://dns4public.blob.core.windows.net/dns4archive/dns5-datasets-files-sha1.csv.bz2).
 The archive is 41.3MB in size and can be read in Python like this:
 ```python
 import pandas as pd
 
-sha1sums = pd.read_csv("dns4-datasets-files-sha1.csv.bz2", names=["size", "sha1", "path"])
+sha1sums = pd.read_csv("dns5-datasets-files-sha1.csv.bz2", names=["size", "sha1", "path"])
 ```
 
 ## Code prerequisites
@@ -120,7 +137,7 @@ sha1sums = pd.read_csv("dns4-datasets-files-sha1.csv.bz2", names=["size", "sha1"
 - Python libraries: soundfile, librosa
 
 **NOTE:** git LFS is *no longer required* for DNS Challenge. Please use the
-`download-dns-challenge-4.sh` script in this repo to download the data.
+`download-dns-challenge-5.sh` script in this repo to download the data.
 
 ## Usage:
 
@@ -146,16 +163,24 @@ python3 noisyspeech_synthesizer_singleprocess.py
 If you use this dataset in a publication please cite the following paper:<br />
 
 ```BibTex
+@inproceedings{dubey2023icassp,
+  title={Deep Speech Enhancement Challenge at ICASSP 2023},
+  author={
+ Dubey, Harishchandra and Aazami, Ashkan and Gopal, Vishak and Naderi, Babak and Braun, Sebastian and  Cutler, Ross and Gamper, Hannes and Golestaneh, Mehrsa and Aichner, Robert},
+  booktitle={ICASSP},
+  year={2023}
+}
+```
+
+The previous challenges were: 
+```BibTex
 @inproceedings{dubey2022icassp,
   title={ICASSP 2022 Deep Noise Suppression Challenge},
   author={Dubey, Harishchandra and Gopal, Vishak and Cutler, Ross and Matusevych, Sergiy and Braun, Sebastian and Eskimez, Emre Sefik and Thakker, Manthan and Yoshioka, Takuya and Gamper, Hannes and Aichner, Robert},
   booktitle={ICASSP},
   year={2022}
 }
-```
 
-The previous challenges were: 
-```BibTex
 @inproceedings{reddy2021interspeech,
   title={INTERSPEECH 2021 Deep Noise Suppression Challenge},
   author={Reddy, Chandan KA and Dubey, Harishchandra and Koishida, Kazuhito and Nair, Arun and Gopal, Vishak and Cutler, Ross and Braun, Sebastian and Gamper, Hannes and Aichner, Robert and Srinivasan, Sriram},
