@@ -98,5 +98,3 @@ do
     # Actually download the files: UNCOMMENT when ready to download
     # curl "$URL" -o "$OUTPUT_PATH/$BLOB"
 done
-
-# 
