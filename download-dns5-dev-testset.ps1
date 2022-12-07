@@ -15,11 +15,7 @@
 # |   +-- Track1_Headset ---> (enrol, noisy)
 # |   +-- Track2_Speakerphone ---> (enrol, noisy)
 
-$AZURE_URL="https://dns4public.blob.core.windows.net/dns4archive"
-
-$OUTPUT_PATH="."
-
-URL="https://dnschallengepublic.blob.core.windows.net/dns5archive/V5_dev_testset.zip"
+$URL="https://dnschallengepublic.blob.core.windows.net/dns5archive/V5_dev_testset.zip"
 
 Write-Output "Download: $URL"
 
