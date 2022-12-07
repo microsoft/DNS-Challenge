@@ -10,6 +10,22 @@ Challenge Paper: <TBD>
 4. Please NOTE that the intellectual property (IP) is not transferred to the challenge organizers, i.e., if code is shared/submitted, the participants remain the owners of their code (when the code is made publicly available, an appropriate license should be added).
 5. There are new requirements for model related latency. Please check all requirements listed at https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2023/
 
+## Baseline Speaker Embeddings
+This challenge adopted pretrained ECAPA-TDNN model available in SpeechBrain as baseline speaker embeddings models, available at https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb. Participants can use any other publically available speaker embeddings model or develop their own speaker embedding extractor. Participants are encourage to explore RawNet3 models available at https://github.com/jungjee/RawNet
+
+Previous DNS Challenge used RawNet2 speaker embeddings. So far, impact of different speaker embeddings for personalized speech enhancements is not studied in sufficient depth. 
+
+# Install SpeechBrain with below command:
+pip install speechbrain
+
+#Compute Speaker Embeddings for your wav file with below command:
+
+import torchaudio
+from speechbrain.pretrained import EncoderClassifier
+classifier = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb")
+signal, fs =torchaudio.load('tests/samples/ASR/spk1_snt1.wav')
+embeddings = classifier.encode_batch(signal)
+
 ## In this repository
 
 This repository contains the datasets and scripts required for 5th DNS Challenge at ICASSP 2023, aka DNS
