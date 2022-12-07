@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# ***** Datasets for ICASSP 2022 DNS Challenge 4 - Personalized DNS Track *****
+# ***** Datasets for ICASSP 2023 DNS Challenge 5 - Speakerphone DNS Track *****
 
 # NOTE: Before downloading, make sure you have enough space
 # on your local storage!
