@@ -40,9 +40,9 @@ Challenge 5, or simply **DNS5**. For more details about the challenge, please se
   
 * The **Baseline** directory contains the enhanced clips for both tracks. These enhanced clips will be corresponding to dev testset. 
 
-* **download-dns-challenge-5-headset.sh** - this is the script to download the data for headset (Track 1). By default, the data will be placed into the `./datasets_fullband/` folder. Please take a look at the script and **uncomment** the perferred download method._ Unmodified, the script performs a dry run and retrieves only the HTTP headers for each archive.
+* **download-dns-challenge-5-headset-training.sh** - this is the script to download the data for headset (Track 1). By default, the data will be placed into the `./datasets_fullband/` folder. Please take a look at the script and **uncomment** the perferred download method._ Unmodified, the script performs a dry run and retrieves only the HTTP headers for each archive.
 
-* **download-dns-challenge-5-speakerphone.sh** - this is the script to download the data for speakerphone (Track 2).
+* **download-dns-challenge-5-speakerphone-training.sh** - this is the script to download the data for speakerphone (Track 2).
 
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
   training purposes.
