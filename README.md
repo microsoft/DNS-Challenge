@@ -38,11 +38,11 @@ Challenge 5, or simply **DNS5**. For more details about the challenge, please se
   script by default will place the downloaded audio data there. After the download, it will contain
   clean speech, noise, and room impulse responses required for creating the training data.
   
-* The **Baseline** directory contains the enhanced clips for both tracks. These enhanced clips will be corresponding to dev testset. 
+* The **Baseline** directory contains the enhanced clips from dev testset for both tracks. 
 
-* **download-dns-challenge-5-headset.sh** - this is the script to download the data for headset (Track 1). By default, the data will be placed into the `./datasets_fullband/` folder. Please take a look at the script and **uncomment** the perferred download method._ Unmodified, the script performs a dry run and retrieves only the HTTP headers for each archive.
+* **download-dns-challenge-5-headset-training.sh** - this is the script to download the data for headset (Track 1). By default, the data will be placed into the `./datasets_fullband/` folder. Please take a look at the script and **uncomment** the perferred download method._ Unmodified, the script performs a dry run and retrieves only the HTTP headers for each archive.
 
-* **download-dns-challenge-5-speakerphone.sh** - this is the script to download the data for speakerphone (Track 2).
+* **download-dns-challenge-5-speakerphone-training.sh** - this is the script to download the data for speakerphone (Track 2).
 
 * **noisyspeech_synthesizer_singleprocess.py** - is used to synthesize noisy-clean speech pairs for
   training purposes.
@@ -60,23 +60,21 @@ required to accurately specify different parameters and provide the right paths 
 
 **BLIND testset**: <TBD>
 
-https://dnschallengepublic.blob.core.windows.net/dns5archive/V
-
 ## WAcc script
 https://github.com/microsoft/DNS-Challenge/tree/master/WAcc
 
 ## Wacc ground-truth transcript
-Dev testset: available only for speakerphone track. For headset track, we are providing ASR output and list of prompts read during recording of testclips. Participants can help in correcting ASR output to generate the ground-truth transcripts.
+Dev testset: available only for speakerphone track, see v5_dev_testset directory. For headset track, we are providing ASR output and list of prompts read during recording of testclips. Participants can help in correcting ASR output to generate the ground-truth transcripts.
 Blind testset: <TBD>
 
 ### Data info
 
-The default directory structure and the sizes of the datasets available for main track of the DNS
+The default directory structure and the sizes of the datasets of the 5th DNS
 Challenge are:
 
 ```
-datasets_fullband 892G
-+-- dev_testset 1.7G
+datasets_fullband 
++-- dev_testset 
 +-- impulse_responses 5.9G
 +-- noise_fullband 58G
 \-- clean_fullband 827G
@@ -95,31 +93,6 @@ In all, you will need about 1TB to store the _unpacked_ data. Archived, the same
 550GB total.
 
 ### Headset DNS track
-
-Personalized track shares the noise and IR data with the main track, and the dataset has the
-following structure:
-
-```
-. 362G
-+-- datasets_fullband 64G
-|   +-- impulse_responses 5.9G
-|   \-- noise_fullband 58G
-+-- pdns_training_set 294G
-|   +-- enrollment_embeddings 115M
-|   +-- enrollment_wav 42G
-|   +-- raw/clean 252G
-|       +-- english 168G
-|       +-- french 2.1G
-|       +-- german 53G
-|       +-- italian 17G
-|       +-- russian 6.8G
-|       \-- spanish 5.4G
-\-- personalized_dev_testset 3.3G
-```
-
-In all, you will need at least 380GB to store the _unpacked_ data. Archived, the same data takes
-about 200GB total.
-
 ### Data checksums
 
 A CSV file containing file sizes and SHA1 checksums for audio clips in both Real-time *and*
@@ -137,7 +110,7 @@ sha1sums = pd.read_csv("dns5-datasets-files-sha1.csv.bz2", names=["size", "sha1"
 - Python libraries: soundfile, librosa
 
 **NOTE:** git LFS is *no longer required* for DNS Challenge. Please use the
-`download-dns-challenge-5.sh` script in this repo to download the data.
+`download-dns-challenge-5*.sh` scripts in this repo to download the data.
 
 ## Usage:
 
