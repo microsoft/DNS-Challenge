@@ -20,7 +20,7 @@ Ex: python dnsmos_local.py -t C:\temp\SampleClips -o sample.csv -p
 Ex: python dnsmos_local.py -t C:\temp\SampleClips -o sample.csv
 
 ## Citation:
-If you have used the API for your research and development purpose, please cite the DNSMOS paper:
+If you have used the API for your research and development purpose, please cite the [DNSMOS paper](https://arxiv.org/pdf/2010.15258.pdf):
 ```BibTex
 @inproceedings{reddy2021dnsmos,
   title={Dnsmos: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
@@ -32,11 +32,11 @@ If you have used the API for your research and development purpose, please cite 
 }
 ```
 
-If you used DNSMOS P.835 please cite this paper:
+If you used DNSMOS P.835 please cite the [DNSMOS P.835](https://arxiv.org/pdf/2110.01763.pdf) paper:
   
 ```BibTex
 @inproceedings{reddy2022dnsmos,
-  title={DNSMOS P. 835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
+  title={DNSMOS P.835: A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors},
   author={Reddy, Chandan KA and Gopal, Vishak and Cutler, Ross},
   booktitle={ICASSP 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   year={2022},
