@@ -20,8 +20,15 @@ SAMPLING_RATE = 16000
 INPUT_LENGTH = 9.01
 
 class ComputeScore:
-    def __init__(self, primary_model_path) -> None:
+    def __init__(self, primary_model_path, p808_model_path) -> None:
         self.onnx_sess = ort.InferenceSession(primary_model_path)
+        self.p808_onnx_sess = ort.InferenceSession(p808_model_path)
+        
+    def audio_melspec(self, audio, n_mels=120, frame_size=320, hop_length=160, sr=16000, to_db=True):
+        mel_spec = librosa.feature.melspectrogram(y=audio, sr=sr, n_fft=frame_size+1, hop_length=hop_length, n_mels=n_mels)
+        if to_db:
+            mel_spec = (librosa.power_to_db(mel_spec, ref=np.max)+40)/40
+        return mel_spec.T
 
     def get_polyfit_val(self, sig, bak, ovr, is_personalized_MOS):
         if is_personalized_MOS:
@@ -59,6 +66,7 @@ class ComputeScore:
         predicted_mos_sig_seg = []
         predicted_mos_bak_seg = []
         predicted_mos_ovr_seg = []
+        predicted_p808_mos = []
 
         for idx in range(num_hops):
             audio_seg = audio[int(idx*hop_len_samples) : int((idx+INPUT_LENGTH)*hop_len_samples)]
@@ -66,7 +74,10 @@ class ComputeScore:
                 continue
 
             input_features = np.array(audio_seg).astype('float32')[np.newaxis,:]
+            p808_input_features = np.array(self.audio_melspec(audio=audio_seg)).astype('float32')[np.newaxis, :, :]
             oi = {'input_1': input_features}
+            p808_oi = {'input_1': p808_input_features}
+            p808_mos = self.p808_onnx_sess.run(None, p808_oi)[0][0][0]
             mos_sig_raw,mos_bak_raw,mos_ovr_raw = self.onnx_sess.run(None, oi)[0][0]
             mos_sig,mos_bak,mos_ovr = self.get_polyfit_val(mos_sig_raw,mos_bak_raw,mos_ovr_raw,is_personalized_MOS)
             predicted_mos_sig_seg_raw.append(mos_sig_raw)
@@ -75,6 +86,7 @@ class ComputeScore:
             predicted_mos_sig_seg.append(mos_sig)
             predicted_mos_bak_seg.append(mos_bak)
             predicted_mos_ovr_seg.append(mos_ovr)
+            predicted_p808_mos.append(p808_mos)
 
         clip_dict = {'filename': fpath, 'len_in_sec': actual_audio_len/fs, 'sr':fs}
         clip_dict['num_hops'] = num_hops
@@ -84,18 +96,20 @@ class ComputeScore:
         clip_dict['OVRL'] = np.mean(predicted_mos_ovr_seg)
         clip_dict['SIG'] = np.mean(predicted_mos_sig_seg)
         clip_dict['BAK'] = np.mean(predicted_mos_bak_seg)
+        clip_dict['P808_MOS'] = np.mean(predicted_p808_mos)
         return clip_dict
 
 def main(args):
     models = glob.glob(os.path.join(args.testset_dir, "*"))
     audio_clips_list = []
+    p808_model_path = os.path.join('DNSMOS', 'model_v8.onnx')
 
     if args.personalized_MOS:
         primary_model_path = os.path.join('pDNSMOS', 'sig_bak_ovr.onnx')
     else:
         primary_model_path = os.path.join('DNSMOS', 'sig_bak_ovr.onnx')
 
-    compute_score = ComputeScore(primary_model_path)
+    compute_score = ComputeScore(primary_model_path, p808_model_path)
 
     rows = []
     clips = []
