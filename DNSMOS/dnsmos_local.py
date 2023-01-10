@@ -74,7 +74,7 @@ class ComputeScore:
                 continue
 
             input_features = np.array(audio_seg).astype('float32')[np.newaxis,:]
-            p808_input_features = np.array(self.audio_melspec(audio=audio_seg)).astype('float32')[np.newaxis, :, :]
+            p808_input_features = np.array(self.audio_melspec(audio=audio_seg[:-160])).astype('float32')[np.newaxis, :, :]
             oi = {'input_1': input_features}
             p808_oi = {'input_1': p808_input_features}
             p808_mos = self.p808_onnx_sess.run(None, p808_oi)[0][0][0]
