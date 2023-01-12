@@ -1,10 +1,7 @@
 numpy==1.22.4
 soundfile==0.9.0
 librosa==0.8.1
-tempfile
-random
-argparse
-ast
+argparse==1.1
 configparser
 itertools
 multiprocessing
