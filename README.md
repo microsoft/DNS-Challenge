@@ -1,5 +1,5 @@
-# 5th Deep Noise Suppression (DNS) Challenge at ICASSP 2023
-Website: https://aka.ms/5th-dns-challenge
+# ICASSP 2023 Deep Noise Suppression Challenge
+Website: https://aka.ms/dns-challenge
 Git Repo: https://github.com/microsoft/DNS-Challenge
 Challenge Paper: <TBD> 
 
@@ -137,7 +137,7 @@ If you use this dataset in a publication please cite the following paper:<br />
 
 ```BibTex
 @inproceedings{dubey2023icassp,
-  title={Deep Speech Enhancement Challenge at ICASSP 2023},
+  title={ICASSP 2023 Deep Noise Suppression Challenge},
   author={
  Dubey, Harishchandra and Aazami, Ashkan and Gopal, Vishak and Naderi, Babak and Braun, Sebastian and  Cutler, Ross and Gamper, Hannes and Golestaneh, Mehrsa and Aichner, Robert},
   booktitle={ICASSP},
