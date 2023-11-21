@@ -129,5 +129,5 @@ do
     # wget "$URL" -O "$OUTPUT_PATH/$BLOB"
 
     # Same, + unpack files on the fly
-    # curl "$URL" | tar -C "$OUTPUT_PATH" -f - -x -j
+    # curl "$URL" | tar -C "$OUTPUT_PATH" -f - -x -z
 done
