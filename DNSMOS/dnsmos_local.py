@@ -102,12 +102,13 @@ class ComputeScore:
 def main(args):
     models = glob.glob(os.path.join(args.testset_dir, "*"))
     audio_clips_list = []
-    p808_model_path = os.path.join('DNSMOS', 'model_v8.onnx')
+    dnsmos_abs_path = os.path.dirname(os.path.abspath(__file__))
+    p808_model_path = os.path.join(dnsmos_abs_path, 'DNSMOS', 'model_v8.onnx')
 
     if args.personalized_MOS:
-        primary_model_path = os.path.join('pDNSMOS', 'sig_bak_ovr.onnx')
+        primary_model_path = os.path.join(dnsmos_abs_path, 'pDNSMOS', 'sig_bak_ovr.onnx')
     else:
-        primary_model_path = os.path.join('DNSMOS', 'sig_bak_ovr.onnx')
+        primary_model_path = os.path.join(dnsmos_abs_path, 'DNSMOS', 'sig_bak_ovr.onnx')
 
     compute_score = ComputeScore(primary_model_path, p808_model_path)
 
