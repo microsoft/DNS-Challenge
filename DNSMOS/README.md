@@ -3,16 +3,6 @@
 Human subjective evaluation is the ”gold standard” to evaluate speech quality optimized for human perception.  Perceptual objective metrics serve as a proxy for subjective scores. The conventional and widely used metrics require a reference clean speech signal, which is unavailable in real recordings. The no-reference approaches correlate poorly with human ratings and are not widely adopted in the research community. One of the biggest use cases of these perceptual objective metrics is to evaluate noise suppression algorithms. DNSMOS generalizes well in challenging test conditions with a high correlation to human ratings in stack ranking noise suppression methods. More details can be found in [DNSMOS paper](https://arxiv.org/pdf/2010.15258.pdf).
 
 ## Evaluation methodology:
-There are two ways to use DNSMOS:
-1. Using the Web-API. The benefit here is that computation happens on the cloud and will always have the latest models.
-2. Local evaluation using the models uploaded locally to this GitHub repo. We will try to keep this model in sync with the cloud but there are no guarantees.
-
-### To use the Web-API:
-Please complete the following form: https://forms.office.com/r/pRhyZ0mQy3
-We will send you the **AUTH_KEY** that you can insert in the **dnsmos.py** script.
-Example command for P.835 evaluation of test clips: python dnsmos --testset_dir <test clips directory> --method p835
-
-### To use the local evaluation method:
 Use the **dnsmos_local.py** script.
 1. To compute a personalized MOS score (where interfering speaker is penalized) provide the '-p' argument
 Ex: python dnsmos_local.py -t C:\temp\SampleClips -o sample.csv -p
