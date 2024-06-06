@@ -570,11 +570,6 @@ def main_body():
 
     if cfg['rir_dir'] != 'None':
         rir_dir = cfg['rir_dir']
-
-    if cfg['noise_dir'] != 'None':
-        noise_dir = cfg['noise_dir']
-    if not os.path.exists(noise_dir):
-        assert False, ('Noise dir is required')
         
     print(clean_dir)
     print(clean_dir2)
