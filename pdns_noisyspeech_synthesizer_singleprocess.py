@@ -574,7 +574,7 @@ def main_body():
     if cfg['noise_dir'] != 'None':
         noise_dir = cfg['noise_dir']
     if not os.path.exists(noise_dir):
-        assert False, ('Clean speech data is required')
+        assert False, ('Noise dir is required')
         
     print(clean_dir)
     print(clean_dir2)
