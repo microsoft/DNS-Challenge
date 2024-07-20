@@ -573,20 +573,15 @@ def main_body():
 
     if cfg['noise_dir'] != 'None':
         noise_dir = cfg['noise_dir']
-    if not os.path.exists(noise_dir):
-        assert False, ('Clean speech data is required')
-        
+    if not os.path.exists:
+        assert False, ('Noise data is required')
+
     print(clean_dir)
     print(clean_dir2)
     print(noise_dir)
     print(spkid_csv)
     print(rir_dir)
-
-    if cfg['noise_dir'] != 'None':
-        noise_dir = cfg['noise_dir']
-    if not os.path.exists:
-        assert False, ('Noise data is required')
-
+    
     params['fs'] = int(cfg['sampling_rate'])
     params['audioformat'] = cfg['audioformat']
     params['audio_length'] = float(cfg['audio_length'])
