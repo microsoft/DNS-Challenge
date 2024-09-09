@@ -18,7 +18,7 @@ Previous DNS Challenge used RawNet2 speaker embeddings. So far, impact of differ
 # Install SpeechBrain with below command:
 pip install speechbrain
 
-#Compute Speaker Embeddings for your wav file with below command:
+# Compute Speaker Embeddings for your wav file with below command:
 
 import torchaudio
 from speechbrain.pretrained import EncoderClassifier
