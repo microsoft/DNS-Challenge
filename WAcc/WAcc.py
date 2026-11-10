@@ -9,11 +9,14 @@ import pandas as pd
 import requests
 import soundfile as sf
 
-WACC_SERVICE_URL = 'https://wacc.azurewebsites.net/api/TriggerEvaluation?code=K2XN7ouruRN/2k1HNyS79ET39rEMZ9jOOCnFtodPDj42WJFjG9LWXg=='
+WACC_SERVICE_URL = os.environ.get('WACC_SERVICE_URL')
 SUPPORTED_SAMPLING_RATE = 16000
 TRANSCRIPTIONS_FILE = 'DNSChallenge4_devtest.tsv'
 
 def main(args):
+    if not WACC_SERVICE_URL:
+        raise ValueError('Set WACC_SERVICE_URL to the authorized WAcc service URL.')
+
     audio_clips_list = glob.glob(os.path.join(args.testset_dir, "*.wav"))
     transcriptions_df = pd.read_csv(TRANSCRIPTIONS_FILE, sep="\t")
     scores = []
@@ -23,7 +26,10 @@ def main(args):
         original_audio, fs = sf.read(fpath)
         if fs != SUPPORTED_SAMPLING_RATE:
             print('Only sampling rate of 16000 is supported as of now so resampling audio')
-            audio = librosa.core.resample(original_audio, fs, SUPPORTED_SAMPLING_RATE)
+            audio = librosa.core.resample(
+                original_audio, orig_sr=fs, target_sr=SUPPORTED_SAMPLING_RATE,
+                res_type='kaiser_best'
+            )
             sf.write(fpath, audio, SUPPORTED_SAMPLING_RATE)
 
         try:
@@ -45,7 +51,7 @@ def main(args):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--testset_dir", required=True, 
+    parser.add_argument("--testset_dir", required=True,
                         help='Path to the dir containing audio clips to be evaluated')
     parser.add_argument('--score_file', help='If you want the scores in a CSV file provide the full path')
 
