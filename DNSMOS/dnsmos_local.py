@@ -25,7 +25,15 @@ class ComputeScore:
         self.p808_onnx_sess = ort.InferenceSession(p808_model_path)
         
     def audio_melspec(self, audio, n_mels=120, frame_size=320, hop_length=160, sr=16000, to_db=True):
-        mel_spec = librosa.feature.melspectrogram(y=audio, sr=sr, n_fft=frame_size+1, hop_length=hop_length, n_mels=n_mels)
+        n_fft = frame_size + 1
+        spectrum = librosa.stft(
+            audio, n_fft=n_fft, hop_length=hop_length, pad_mode='reflect'
+        )
+        # librosa 0.8 used an even frequency grid for odd-sized FFTs too.
+        mel_filters = librosa.filters.mel(
+            sr=sr, n_fft=2 * (n_fft // 2), n_mels=n_mels
+        )
+        mel_spec = np.dot(mel_filters, np.abs(spectrum) ** 2)
         if to_db:
             mel_spec = (librosa.power_to_db(mel_spec, ref=np.max)+40)/40
         return mel_spec.T
@@ -50,7 +58,9 @@ class ComputeScore:
         aud, input_fs = sf.read(fpath)
         fs = sampling_rate
         if input_fs != fs:
-            audio = librosa.resample(aud, input_fs, fs)
+            audio = librosa.resample(
+                aud, orig_sr=input_fs, target_sr=fs, res_type='kaiser_best'
+            )
         else:
             audio = aud
         actual_audio_len = len(audio)

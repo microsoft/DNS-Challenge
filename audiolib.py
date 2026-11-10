@@ -266,7 +266,9 @@ def resampler(input_dir, target_sr=16000, ext='*.wav'):
         print(pathname)
         try:
             audio, fs = audioread(pathname)
-            audio_resampled = librosa.core.resample(audio, fs, target_sr)
+            audio_resampled = librosa.core.resample(
+                audio, orig_sr=fs, target_sr=target_sr, res_type='kaiser_best'
+            )
             audiowrite(pathname, audio_resampled, target_sr)
         except:
             continue
