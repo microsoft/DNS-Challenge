@@ -36,56 +36,56 @@
 
 BLOB_NAMES=(
 
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_000.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_001.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_002.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_003.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_004.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_005.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_006.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_007.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_008.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_009.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_010.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_011.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_012.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_013.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_014.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_015.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_016.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_017.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_018.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_019.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.english_020.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.french_000.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_000.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_001.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_002.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_003.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_004.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_005.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_006.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_007.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.german_008.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_000.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_001.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_002.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_003.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_004.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_005.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_006.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_007.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_008.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_009.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_010.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_011.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_012.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_013.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_014.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_015.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_016.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_017.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_018.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_019.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.english_020.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.french_000.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_000.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_001.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_002.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_003.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_004.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_005.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_006.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_007.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.german_008.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.italian_000.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.italian_001.tar.bz2
     pdns_training_set/raw/pdns_training_set.raw.clean.italian_002.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.russian_000.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.spanish_000.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.spanish_001.tar.bz2
-    pdns_training_set/raw/pdns_training_set.raw.clean.spanish_002.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.russian_000.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.spanish_000.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.spanish_001.tar.bz2
+    # pdns_training_set/raw/pdns_training_set.raw.clean.spanish_002.tar.bz2
 
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_000.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_001.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_002.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_003.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_004.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.french_000.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.german_000.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.german_001.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_000.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_001.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_002.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_003.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.english_004.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.french_000.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.german_000.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.german_001.tar.bz2
     pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.italian_000.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.russian_000.tar.bz2
-    pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.spanish_000.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.russian_000.tar.bz2
+    # pdns_training_set/enrollment_wav/pdns_training_set.enrollment_wav.spanish_000.tar.bz2
 
     pdns_training_set/pdns_training_set.enrollment_embeddings_000.tar.bz2
 
@@ -100,7 +100,7 @@ BLOB_NAMES=(
     datasets_fullband/noise_fullband/datasets_fullband.noise_fullband.freesound_000.tar.bz2
     datasets_fullband/noise_fullband/datasets_fullband.noise_fullband.freesound_001.tar.bz2
 
-    datasets_fullband/datasets_fullband.impulse_responses_000.tar.bz2
+    # datasets_fullband/datasets_fullband.impulse_responses_000.tar.bz2
 
     personalized_dev_testset/personalized_dev_testset.enrollment.tar.bz2
     personalized_dev_testset/personalized_dev_testset.noisy_testclips.tar.bz2
@@ -130,5 +130,5 @@ do
     # wget "$URL" -O "$OUTPUT_PATH/$BLOB"
 
     # Same, + unpack files on the fly
-    # curl "$URL" | tar -C "$OUTPUT_PATH" -f - -x -j
+    curl "$URL" | tar -C "$OUTPUT_PATH" -f - -x -j
 done
