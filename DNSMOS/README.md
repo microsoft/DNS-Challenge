@@ -2,6 +2,16 @@
 
 Human subjective evaluation is the ”gold standard” to evaluate speech quality optimized for human perception.  Perceptual objective metrics serve as a proxy for subjective scores. The conventional and widely used metrics require a reference clean speech signal, which is unavailable in real recordings. The no-reference approaches correlate poorly with human ratings and are not widely adopted in the research community. One of the biggest use cases of these perceptual objective metrics is to evaluate noise suppression algorithms. DNSMOS generalizes well in challenging test conditions with a high correlation to human ratings in stack ranking noise suppression methods. More details can be found in [DNSMOS paper](https://arxiv.org/pdf/2010.15258.pdf).
 
+## Set-up instructions (Tested for MAC only, adapt for Windows)
+1. Create the virtual environment. You can create anywhere you want, but for the simplicity purpose, create one inside _DNS-Channelge_ directory. 
+2. `python -m venv dns`, this will create a virtual environment _dns_ by creating a _dns_ directory inside _DNS-Challenge_.
+3. Enter the virtual environment: `source dns/bin/activate`
+4. Check the version of _pip_ inside the virtual environment and update if necessary. `python -m pip --version`, if needed update pip version: `python -m pip install --upgrade pip`. At the time of writing this, it was pip 24.3.1. 
+
+5. Go to DNSMOS directory: `cd DNSMOS`
+6. run: `python install-reqs.py`. This will scan the requirements.txt file and then try to insall all the requirements. If all the requirements are installed successfully, it will print _all packages installed successfully_, otherwise it will print the list of packages failed to install.
+7. If everything installed successfully, follow the next steps.
+
 ## Evaluation methodology:
 Use the **dnsmos_local.py** script.
 1. To compute a personalized MOS score (where interfering speaker is penalized) provide the '-p' argument
